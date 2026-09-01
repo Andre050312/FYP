@@ -1,0 +1,1478 @@
+[
+  {
+    "sheet": "心理疾病数据集",
+    "rows": 22,
+    "cols": 9,
+    "data": [
+      [
+        "Year",
+        "Author(s)-",
+        "Dataset",
+        "Modality",
+        "Disorder Type",
+        "Label Annotation",
+        "Distribution",
+        "Reference",
+        "Other Information"
+      ],
+      [
+        "2026",
+        "Bagherzadeh et al.",
+        "ASEEG – Atieh Schizophrenia EEG",
+        "Scalp EEG",
+        "Schizophrenia",
+        "DSM-5 clinical diagnosis",
+        "51 SZ + 50 HC = 101 subjects; 198 recordings",
+        "Atieh Schizophrenia EEG, a novel high-quality dataset designed to advance biomarker and machine learning research, Scientific Data (2026) Nature",
+        "19 ch; 500 Hz; 5-min EO + 5-min EC resting EEG"
+      ],
+      [
+        "2026",
+        "Maté et al.",
+        "BALLADEER ADHD Dataset",
+        "EEG + Eye Tracking + EDA + HR",
+        "ADHD",
+        "Clinical ADHD diagnosis; subtype information",
+        "ADHD children/adolescents + neurotypical controls",
+        "A Multimodal Dataset for Neurophysiological and AI Applications, Scientific Data 13, 436 (2026) Nature",
+        "New multimodal ADHD dataset; cognitive tasks assess attention, response inhibition and cognitive flexibility"
+      ],
+      [
+        "2025",
+        "Melinda et al.",
+        "ASD EEG Dataset",
+        "Scalp EEG",
+        "Autism Spectrum Disorder",
+        "Clinical ASD / neurotypical labels",
+        "ASD + neurotypical participants",
+        "A comprehensive EEG dataset and performance assessment for Autism Spectrum Disorder, Scientific Reports 15, 34981 (2025) Nature",
+        "Designed specifically for EEG-based ASD analysis/classification"
+      ],
+      [
+        "2025",
+        "Paulo et al.",
+        "Move4AS",
+        "EEG + 3D Motion Capture",
+        "Autism Spectrum Disorder",
+        "Clinical ASD + IQ + autism scores",
+        "14 ASD + 20 HC = 34",
+        "A Multimodal Dataset Addressing Motor Function in Autism, Scientific Data 12, 959 (2025) Nature",
+        "16-ch wireless EEG; dancing/walking imitation tasks; social/emotional motor processing"
+      ],
+      [
+        "2025",
+        "ATTLAPSE investigators",
+        "ATTLAPSE",
+        "EEG + Behavioral",
+        "ADHD",
+        "ADHD diagnosis + neurotypical control",
+        "ADHD patients + neurotypical controls",
+        "ATTLAPSE: Behavioral and EEG dataset of ADHD patients and neurotypical controls during a Go/No-Go task with embedded thought-probes, Zenodo (2025) Zenodo",
+        "64 EEG channels + EOG/EMG; SART/Go-No-Go task; thought probes; BIDS"
+      ],
+      [
+        "2025",
+        "Shalamberidze et al.",
+        "Resting-State EEG and Trait Anxiety / ds007609",
+        "High-density EEG",
+        "Trait Anxiety",
+        "STAI + personality measures",
+        "51 participants",
+        "Rhythmic activity in resting-state EEG predicts trait anxiety, Imaging Neuroscience (2025)",
+        "256 ch; 500 Hz; EO/EC; dimensional anxiety rather than diagnosed anxiety disorder"
+      ],
+      [
+        "2025",
+        "Socioeconomic-context EEG study",
+        "Cognitive Electrophysiology in Socioeconomic Context",
+        "Scalp EEG + questionnaires",
+        "ADHD symptoms",
+        "WHO Adult ADHD Self-Report Scale (ASRS-V1.1)",
+        "Young adult sample",
+        "Cognitive Electrophysiology in Socioeconomic Context in Adulthood, Scientific Data (2025) Nature",
+        "Multiple ERP CORE tasks; symptom scores, not clinically diagnosed ADHD"
+      ],
+      [
+        "2022",
+        "van Dijk et al.",
+        "TDBRAIN",
+        "Scalp EEG",
+        "MDD, ADHD, OCD, insomnia + other clinical conditions",
+        "Clinical diagnoses + BDI, ADHDRS, Y-BOCS etc.",
+        "1,274 participants; 1,346 sessions; MDD 426; ADHD 271; OCD 75; SMC 119",
+        "The two decades brainclinics research archive for insights in neurophysiology (TDBRAIN) database, Scientific Data 9, 333 (2022) Nature",
+        "26 ch; 500 Hz; EO/EC resting EEG; major transdiagnostic psychiatric EEG resource"
+      ],
+      [
+        "2022",
+        "Cai/Li et al.",
+        "MODMA",
+        "EEG + Audio",
+        "MDD",
+        "Professional psychiatrist diagnosis + psychological assessments",
+        "128-ch: 24 MDD + 29 HC; 3-ch: 26 MDD + 29 HC; speech: 23 MDD + 29 HC",
+        "A multi-modal open dataset for mental-disorder analysis, Scientific Data 9, 178 (2022) Nature",
+        "128-ch resting + ERP; 3-ch resting EEG; speech; EULA required"
+      ],
+      [
+        "2022",
+        "Salisbury, Seebold & Coffman",
+        "OpenNeuro ds003944",
+        "Scalp EEG",
+        "First-Episode Psychosis / Schizophrenia spectrum",
+        "Clinical diagnosis",
+        "82 subjects",
+        "EEG: First Episode Psychosis vs. Control Resting Task 1, OpenNeuro dataset release",
+        "~64 ch; ~1000 Hz; resting EEG; BIDS"
+      ],
+      [
+        "2022",
+        "Salisbury, Seebold & Coffman",
+        "OpenNeuro ds003947",
+        "Scalp EEG",
+        "First-Episode Psychosis / Schizophrenia spectrum",
+        "Clinical diagnosis + phenotypic assessments",
+        "Independent FEP + HC sample",
+        "EEG: First Episode Psychosis vs. Control Resting Task 2, OpenNeuro dataset release",
+        "~61 ch; ~5-min resting EEG; second independent FEP sample"
+      ],
+      [
+        "2022",
+        "Padée et al.",
+        "OpenNeuro ds004000 – Fribourg Ultimatum Game",
+        "High-density EEG",
+        "Psychosis / Schizophrenia spectrum",
+        "Clinical patient/control labels",
+        "19 psychosis + 24 HC = 43",
+        "Fribourg Ultimatum Game in Schizophrenia Study, OpenNeuro dataset release (2022)",
+        "~128 ch; task EEG; social cognition and decision-making"
+      ],
+      [
+        "2020",
+        "Simões et al.",
+        "BCIAUT-P300",
+        "Scalp EEG",
+        "Autism Spectrum Disorder",
+        "Clinical ASD group",
+        "15 ASD participants",
+        "BCIAUT-P300: A Multi-Session and Multi-Subject Benchmark Dataset on Autism for P300-Based Brain-Computer-Interfaces, Frontiers in Neuroscience 14:568104 (2020)",
+        "8 ch; 250 Hz; 7 sessions; P300 visual attention; no HC"
+      ],
+      [
+        "2020",
+        "Motie Nasrabadi et al.",
+        "EEG Data for ADHD / Control Children",
+        "Scalp EEG",
+        "ADHD",
+        "Psychiatrist diagnosis, DSM-IV",
+        "61 ADHD + 60 HC = 121",
+        "EEG data for ADHD / Control children, IEEE DataPort (2020)",
+        "Children 7–12; 19 ch; 128 Hz; visual-attention/counting task"
+      ],
+      [
+        "2017",
+        "Olejarczyk & Jernajczyk",
+        "RepOD EEG in Schizophrenia",
+        "Scalp EEG",
+        "Paranoid Schizophrenia",
+        "ICD-10 clinical diagnosis",
+        "14 SZ + 14 HC = 28",
+        "Graph-based analysis of brain connectivity in schizophrenia, PLOS ONE 12:e0188629 (2017)",
+        "19 ch; 250 Hz; eyes-closed resting EEG; EDF; CC0"
+      ],
+      [
+        "2017",
+        "Cavanagh, Napolitano, Wu & Mueen",
+        "PRED+CT",
+        "EEG",
+        "Multiple psychiatric/neurological conditions; depression data included",
+        "BDI + clinical information, depending on dataset",
+        "Multiple patient datasets",
+        "The Patient Repository for EEG Data + Computational Tools (PRED+CT), Frontiers in Neuroinformatics 11:67 (2017)",
+        "Patient EEG repository rather than a single homogeneous MDD dataset"
+      ],
+      [
+        "2017",
+        "Alexander et al.",
+        "Healthy Brain Network (HBN)",
+        "EEG + MRI + Eye Tracking + Behavioral/Phenotypic",
+        "ADHD, Anxiety, Depression, ASD, learning disorders, etc.",
+        "Structured clinical/phenotypic assessments",
+        "Thousands of children/adolescents across full project",
+        "An open resource for transdiagnostic research in pediatric mental health and learning disorders, Scientific Data 4:170181 (2017) Nature",
+        "High-density EEG; ages ~5–21; extremely useful transdiagnostic resource; first release included 701 participants"
+      ],
+      [
+        "2017",
+        "Mumtaz et al.",
+        "Mumtaz MDD EEG",
+        "Scalp EEG",
+        "MDD",
+        "Psychiatrist/clinical diagnosis",
+        "33 MDD + 30 HC = 63",
+        "Electroencephalogram (EEG)-based computer-aided technique to diagnose major depressive disorder (MDD), Biomedical Signal Processing and Control 31, 108–115 (2017)",
+        "5-min EO + 5-min EC resting EEG; dataset deposited on Figshare in 2016"
+      ],
+      [
+        "2016",
+        "Poldrack et al.",
+        "MyConnectome / Phenome-wide dataset",
+        "EEG + MRI + behavioral/phenotypic",
+        "Schizophrenia, Bipolar Disorder, ADHD + HC",
+        "Structured clinical diagnosis",
+        "Imaging cohort: 50 SZ + 49 bipolar + 43 ADHD + 130 HC",
+        "A phenome-wide examination of neural and cognitive function, Scientific Data 3, 160110 (2016) Nature",
+        "Important transdiagnostic resource; verify EEG availability per participant before using it as an EEG case-control benchmark"
+      ],
+      [
+        "2016",
+        "Obeid & Picone",
+        "TUH EEG Corpus (TUEG)",
+        "Clinical scalp EEG + clinical reports",
+        "Mixed clinical / psychiatric / neurological",
+        "Clinician EEG reports + medical information",
+        "Tens of thousands of recordings",
+        "The Temple University Hospital EEG Data Corpus, Frontiers in Neuroscience 10:196 (2016)",
+        "Very large clinical EEG resource; excellent for pretraining but not a clean psychiatric case-control dataset"
+      ],
+      [
+        "1999",
+        "Begleiter et al.",
+        "UCI EEG Database",
+        "Scalp EEG",
+        "Alcoholism / Alcohol Use Disorder-related",
+        "Alcoholic vs control",
+        "122 subjects",
+        "UCI EEG Database public release (1999); no dedicated data-descriptor article verified",
+        "64 ch; 256 Hz; visual object stimuli; classic ML EEG dataset"
+      ]
+    ]
+  },
+  {
+    "sheet": "识别方法总结",
+    "rows": 12,
+    "cols": 22,
+    "data": [
+      [
+        "年份",
+        "期刊",
+        "论文名称",
+        "摘要",
+        "所用数据集",
+        "模态",
+        "标注方法",
+        "是否开源",
+        "开源地址",
+        "作者信息或其他补充信息",
+        "疾病名称",
+        "识别区域",
+        "方法名称",
+        "数据采集与预处理",
+        "实验描述",
+        "示意图",
+        "其他解释",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2026",
+        "Biomedical Signal Processing and Control",
+        "Cross-subject EEG depression detection via a golden subject style \ntransfer-based multi-band attention network",
+        "",
+        "Mumtaz",
+        "",
+        "精神科医生标注",
+        "否",
+        "",
+        "",
+        "MDD",
+        "全脑（19导联EEG信号）",
+        "MBANet + GSSTN",
+        "使用一个公开数据集，包含34名MDD患者和30名健康对照者的EEG数据。数据在睁眼（EO）、闭眼（EC）和P300任务（TASK）三种条件下采集（19导联，256 Hz）。采用4秒滑动窗口分割数据，并进行Z-score标准化。最终确定了58名被试的数据用于分析。",
+        "1.MBANet构建：设计了一个端到端的深度学习网络作为基础分类器。\n\n2.GSSTN构建与应用：为解决跨受试者中\"BCI文盲\"（即分类效果差的受试者）问题，引入了黄金受试者风格迁移。",
+        "",
+        "核心发现：所提出的MBANet-GSST框架在所有三个实验条件下均优于六种SOTA方法，取得了最高准确率（TASK条件下达到96.55%）。\n\nGSST的有效性：可视化分析（特征图差异和t-SNE）表明，GSST能成功将BCI文盲受试者的特征风格向其真实类别（而非错误类别）的黄金受试者风格进行迁移，从而有效提升分类准确率。这为解决BCI文盲问题提供了一个创新且有效的方案。\n\nMBANet有效性：消融实验表明，多频带结构、混合注意力机制和时频分析分支都对最终性能有积极贡献，其中多频带结构贡献最大。",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2026",
+        "ESWA",
+        "CenterIR: An imbalance-aware deep regression framework for EEG-based\ndepression severity estimation in older adults",
+        "",
+        "104 older adults under eyes-open (EO) and eyes-closed (EC) conditions",
+        "Resting-state EEG",
+        "",
+        "是",
+        "https://github.com/conicuk/CenterIR-EEG-Depression",
+        "",
+        "Depression",
+        "全脑（19导联EEG信号）",
+        "1. CNN + Bi-LSTM \n2. CenterIR损失函数\n3. SHAP可解释性分析",
+        "在睁眼（EO）和闭眼（EC）两种静息态条件下采集19导联EEG数据（采样率500 Hz）。经过滤波、重参考、ICA去伪影后，分割成5秒的无重叠片段。",
+        "1.模型构建：提出了一个端到端的深度学习框架，核心是CNN-Bi-LSTM架构。CNN模块提取局部时空特征，Bi-LSTM模块捕获长时程时间依赖关系。\n\n2。CenterIR损失函数：为解决目标分数分布不平衡的问题，提出了CenterIR损失函数。它将连续的分数值划分为多个区间（边界），并将这些边界分组为簇。该损失函数通过最小化每个簇内样本特征与其簇中心的距离，并对样本数少的簇（代表严重抑郁）赋予更高权重，从而强制模型学习更紧凑、连续且平衡的特征表示。最终的总损失是MSE损失和CenterIR损失的加权和。",
+        "",
+        "核心发现：提出的CNN-Bi-LSTM+CenterIR框架在抑郁严重程度估计上表现优异（EO条件：MSE 0.151, R² 0.990），显著优于所有基线模型和损失函数。\n\nEO vs. EC：统计分析表明，在EO条件下模型的性能显著优于EC条件（p < 0.01），说明EO静息态EEG可能为老年人抑郁严重程度提供了更丰富、更具辨别力的神经表征。\n\nCenterIR有效性：t-SNE可视化表明，CenterIR能使学到的特征嵌入随抑郁严重程度呈平滑过渡，且相同严重程度的样本聚类更紧密。消融研究证明了CenterIR、CNN和Bi-LSTM三个组件的必要性。",
+        "",
+        "",
+        "",
+        "",
+        " "
+      ],
+      [
+        "2026",
+        "Brain Research Bulletin",
+        "Toward convenient depression detection using two non-hair-bearing frontal\nEEG channels",
+        "",
+        "Two non-hair-bearing (NHB) frontal channels (Fp1 and Fp2) from 80 participants (controls/patients = 38/42)",
+        "",
+        "",
+        "否",
+        "",
+        "",
+        "Depression",
+        "前额叶皮层\n（Fp1, Fp2电极位置对应的脑区）",
+        "1.多尺度粗颗粒分析\n2.能量矩特征融合\n3.多种机器学习与深度学习分类器\n4.树形结构帕尔岑估计器（TPE）超参数优化\n",
+        "对原始信号进行4-30 Hz带通滤波。然后将连续数据分割成多个不重叠的时间窗口，窗口长度从2秒到20秒不等（步长2秒），以评估窗口长度的影响。",
+        "多尺度粗粒化：为了在不同时间尺度上分析信号，采用了三种粗粒化策略来构建原始信号的多尺度表示：非重叠粗粒化（non-OL）、逐点移动窗口重叠粗粒化（OLMP）、以及保留前一个窗口最后一个点的重叠粗粒化（OLROP）。\n特征提取与融合：从每个尺度下的粗粒化序列中提取三类特征：相对功率（RP）、模糊熵（FE）和互信息（MI）。然后，通过计算能量矩（EM）将这些多尺度特征融合成一个紧凑的全局特征向量。\n模型训练与评估：将融合后的特征输入到六个不同的分类模型中进行训练和评估，并使用TPE算法对每个模型的超参数进行优化。采用五折交叉验证评估性能。",
+        "",
+        "核心发现：仅使用两个前额叶通道即可实现>88%的抑郁症分类准确率。当窗口长度为12秒时，多数模型能达到稳定且较好的性能。在所有粗粒化策略中，OLMP方法表现最优。\n\n关键结论：在空间信息极度受限（仅两个通道）的情况下，多尺度时间表征不仅是一个可选的增强手段，而是一个必要的表征策略。它能有效补偿空间信息的缺失，通过提取丰富的时域动态信息来实现可靠的抑郁症检测。\n\n",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2026",
+        "Brain Research Bulletin",
+        "Research on the syntax of EEG microstates: A comprehensive analysis of epilepsy and psychosis of epilepsy",
+        "",
+        "22 patients with epilepsy (EP) and 22 patients\nwith psychosis of epilepsy (POE)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "EP and POE",
+        "大规模脑网络（默认模式网络DMN、中央执行网络CEN、视觉网络VN）。\n\n具体脑区（内侧前额叶皮层mPFC、后扣带回PCC、双侧视觉/枕叶皮层、背外侧前额叶皮层dlPFC、后顶叶皮层）",
+        "EEG微状态分析（Microstate Analysis）\n\n“微状态词”（Microstate Word）框架\n\n聚类度（Clustering Degree）分析",
+        "EEG记录与预处理：在静息态（闭眼）下采集19通道的EEG数据。经过滤波、重参考和独立成分分析（ICA）去除伪迹后，使用Cartool软件进行微状态分析。",
+        "1.微状态序列提取：通过识别全局场强（GFP）峰值，提取地形图并进行聚类（T-AAHC算法），最终为每组获得4个经典的微状态模板（A, B, C, D）。然后将模板回贴到个体EEG数据上，生成微状态序列。\n2.“微状态词”分析：将预处理后的微状态序列视为“句子”，将固定长度的连续微状态序列（长度为3、4、5）定义为“词”。计算每个词在序列中出现的概率，比较EP和POE组之间词概率的差异。\n3.聚类度分析：引入一个新的指标“聚类度”，用于量化特定的“微状态词”在时间轴上是否倾向于聚集出现（短时爆发），从而验证微状态词的“高内聚”特性。\n4.相关性分析：计算“微状态词”的出现概率与POE患者的PANSS量表评分（阳性因子、阴性因子、总分）之间的皮尔逊相关系数。",
+        "",
+        "核心发现：与EP组相比，POE组中微状态B与C之间的转换显著增加，而C与D之间的转换减少。这表明POE的病理机制可能与DMN（微状态C）和CEN（微状态D）之间的交互受阻有关。\n\n症状关联：特定高阶微状态词的概率与POE症状严重程度相关。例如，包含（B,D）、（A,D）组合和微状态C的频繁转换与更严重的阴性症状相关；而包含（B,C）、（C,D）组合和微状态A的转换减少则与精神病症状加重有关。\n\n内在特性：验证了“二元循环词”（如ABAB）和“镜像词对”（如ABC和CBA）在脑微状态序列中是稳定存在的固有特性，且来源于一阶转移概率。",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2026",
+        "Behavioural Brain Research",
+        "Brain activation induced by pressure pain of healthy individuals versus amputees",
+        "",
+        "Fourteen healthy volunteers aged 18–25 years and fourteen volun­ teers aged 30–43 years with lower limb amputations ",
+        "EEG + fMRI",
+        "",
+        "否",
+        "",
+        "Based on pressure pain",
+        "Pain",
+        "大脑皮层（前额叶皮层PFC、岛叶IC、前扣带回ACC、初级/次级躯体感觉皮层SI/SII、丘脑Th）。\n\n脊髓背角。\n\n皮肤内的伤害性感受器。",
+        "数学建模（改良Hodgkin-Huxley模型 + 门控理论GCT）。\n\n功能磁共振成像（fMRI）。\n\n脑电图（EEG）。\n\n动态因果模型（DCM）。\n\nEEG源定位（sLORETA算法）。",
+        "刺激设计：通过一个直径25mm的压头向右腿胫骨外侧（LT）施加不同强度的压力，诱发“无痛”、“轻度疼痛”和“中度疼痛”三种状态，并记录对应的负荷力。",
+        "1.数学建模：利用改良H-H模型模拟皮肤伤害性感受器将机械刺激转化为电信号（膜电位）的过程。利用门控理论模型模拟脊髓背角对疼痛信号的调节，计算最终传递到大脑的T细胞输出电位。\n2.fMRI实验：采用组块设计（30秒刺激，30秒休息），在3.0T MRI扫描仪上采集数据。使用SPM12进行预处理和统计分析，识别不同疼痛状态下的脑区激活情况，并计算感兴趣区域（ROIs）的百分比信号变化（PSC）。\n3.EEG实验：使用32导联EEG系统记录连续脑电数据。实验流程包括基线记录、压力刺激和休息。对EEG数据进行预处理后，提取了α和β节律的百分比功率谱密度（PSD）作为特征。\nDCM分析：基于fMRI结果，选取丘脑（Th）、前额叶皮层（PFC）和初级躯体感觉皮层（SI）作为节点，构建动态因果模型，分析不同脑区之间的有效连接强度。\nEEG源定位：使用sLORETA算法对EEG信号进行源定位，识别产生α和β节律变化的皮层区域。",
+        "",
+        "核心发现：疼痛感知与T细胞输出电位超过临界值有关。PFC是处理压力痛的核心脑区。疼痛状态下，α节律PSD显著下降，β节律PSD显著上升，这两个特征的组合能有效区分疼痛状态（健康个体准确率94.3%，截肢者91.1%）。\n\n组间差异：与健康人相比，截肢者对压力刺激的敏感性更低（需要更大的压力才能达到相同疼痛等级），其大脑的激活区域和激活强度更小，且脑区间的有效连接强度存在差异（如丘脑到SI的兴奋性连接减弱，SI到PFC的抑制性连接增强）。这表明截肢后的神经通路发生了适应性改变，导致疼痛感知减弱。",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2026",
+        "Brain Research Bulletin",
+        "Examining clinical symptoms in schizophrenia based on visual-spatial working memory and resting-state EEG",
+        "",
+        "Seventeen patients with SZ (female: 6; age: 18–50) + Sixteen right-handed healthy controls (HCs)",
+        "EEG + PANSS",
+        "精神科医生标注",
+        "否",
+        "",
+        "",
+        "精神分裂症（SZ）",
+        "全脑皮层网络，重点关注额叶-顶叶网络（Frontal-Parietal Network）",
+        "静息态EEG记录与脑网络分析。\n\n视觉空间工作记忆（Visual-Spatial WM）任务。\n\n相位锁定值（Phase-Locking Value, PLV）功能连接构建。\n\n图论网络属性分析（聚类系数Clu、局部效率Le、全局效率Ge、特征路径长度Cpl）。\n\n多元线性回归模型（Multivariable Linear Regression Model）",
+        "视觉空间工作记忆任务：参与者需要记忆并判断先后呈现的两组图形（每组两个形状）是否匹配，记录其反应时和反应准确性。\nEEG数据采集与预处理：采集5分钟的闭眼静息态64导联EEG数据。经过重参考（REST）、带通滤波（0.1-30 Hz）后，将数据分割为四个频段（delta, theta, alpha, beta），并进行伪迹去除。\n",
+        "静息态脑网络构建与分析：选取21个电极，利用相位锁定值（PLV）计算各电极对之间的功能连接，构建加权邻接矩阵。随后计算每个网络的四个图论属性：聚类系数（Clu）、全局效率（Ge）、局部效率（Le）和特征路径长度（Cpl）。\n统计分析与预测模型：比较SZ组和HC组在工作记忆行为表现和脑网络属性上的差异。在SZ组内，分析PANSS评分与网络属性的相关性。最后，以具有显著差异的静息态网络属性（Clu, Ge）和行为指标（准确率、反应时）为特征，构建多元线性回归模型，并使用留一法交叉验证（LOOCV）来预测个体的PANSS总分。",
+        "",
+        "核心发现：与HC组相比，SZ组在视觉空间工作记忆任务中的反应准确性显著更低，且在静息态α和β频段表现出更强的额叶-顶叶连接。SZ组的PANSS评分与网络属性显著相关（PANSS越高，Clu、Ge、Le越高，Cpl越短）。\n\n预测模型：基于静息态网络属性和行为指标构建的回归模型能较为准确地预测SZ患者的PANSS总分（预测值与实际值的相关系数r = 0.83）。\n\n病理机制解释：SZ患者α频段网络效率（Ge, Le）的提高和Cpl的缩短，可能反映了一种异常的神经资源分配策略——即过度将资源投入到任务前的“准备”状态，而非有效的任务执行，这反而导致了工作记忆表现的下降。这种频段特异性的网络改变可能是SZ认知功能缺陷的基础。",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2025",
+        "Diagnostics",
+        "A Machine-Learning-Based Analysis of Resting State Electroencephalogram Signals to Identify Latent Schizotypal and Bipolar Development in Healthy University Students",
+        "",
+        "https://huggingface.co/datasets/nagyadam97/EEG_records_raw_schizophrenia_bipolar",
+        "rsEEG",
+        "",
+        "部分开源",
+        "https://github.com/bilickiv/milabwp4/tree/akti_eeg_kodok/eeg",
+        "",
+        "Latent Schizotypal\nand Bipolar Development",
+        "全脑皮层电极，重点关注以下电极及其对应的Brodmann分区（BA）：\nCP5 (左BA39, 角回)\nFC5 (左BA6, 辅助运动区)\nFp1 (左BA10)、AF3/AF4 (BA9)、CP1/CP2 (BA7)\nPO4 (右BA19)\n其他涉及区域：BA45 (语言)、BA4/BA1 (感觉运动)、BA21 (听觉联想) 等。\n\n主要频率范围：Gamma频段（30-64 Hz） 是最关键的区分频带，同时涉及Delta、Theta、Alpha和Beta频段。",
+        "自适应混合特征选择（Adaptive Hybrid Feature Selection, AHFS）\n\n团簇形成特征选择（Clique Forming Feature Selection, CFFS）\n\n传统机器学习分类器：逻辑回归（LR）、随机森林（RF）、人工神经网络（ANN）。\n\nEEG频域分析：提取功率谱密度（PSD）、Lempel-Ziv复杂度（LZC）、样本熵（SampEn）、Hjorth参数等特征。\n\nEEG微状态分析：识别四种经典微状态（A, B, C, D）及其时间动态参数。",
+        "参与者筛选：从710名健康大学生中，通过一系列心理量表（TEMPS-A、O-LIFE、PDI、MDQ等）筛选出三组：\n阳性分裂型特质组（PSF, N=20）：高O-LIFE和PDI得分，但TEMPS-A环性气质得分正常，代表有精神分裂症潜质。\n环性气质组（CTF, N=17）：高TEMPS-A环性气质得分，但O-LIFE和PDI得分较低，代表有双相障碍潜质。\n对照组（N=21）：所有量表得分均在正常范围，无任何潜质。\nEEG数据采集与预处理：在闭眼静息态下使用32导联BioSemi系统记录EEG（采样率8192 Hz，后降采样至128 Hz）。经过滤波（0.5-60 Hz）、去噪（ICA）、坏导插补等预处理步骤。",
+        "特征提取：\n频域特征：使用EEGlib库提取PSD（0-64 Hz，步长2 Hz）、LZC、SampEn、DFA、HFD、Hjorth参数等，并对每个特征的时间序列计算均值、标准差、上下四分位数作为最终特征。\n微状态特征：使用标准流程（GFP峰值、K-means聚类）提取四种微状态的转换矩阵、持续时间、出现概率等参数。\n机器学习建模：\n使用AHFS算法进行特征选择和模型训练（3折交叉验证，20次运行），选出最优特征子集。\n使用CFFS算法，基于AHFS预筛选的特征（PSF组35个，CTF组35个），构建低相关特征团簇，训练LR、RF、ANN模型，并聚合Shapley值解释特征重要性。\n进行了三个二分类任务：对照组 vs. PSF、对照组 vs. CTF、PSF vs. CTF。\n模型评估：主要评估指标为准确率，使用交叉验证，并利用Shapley值进行特征重要性排序和可视化。",
+        "",
+        "核心发现：基于AHFS的模型在区分PSF和对照组时达到92%准确率，CTF和对照组达到89%准确率，PSF和CTF之间达到91%准确率（使用ANN）。这些结果表明，利用静息态EEG和机器学习方法可以在症状出现前（前驱期之前）有效识别出具有精神疾病潜质的个体。\n\n关键特征：\n\nGamma频带功率谱密度是最重要的特征，主要位于CP5电极（左角回），提示该区域在早期风险状态中可能已经出现功能异常。\n\nLempel-Ziv复杂度在CTF组中（特别是FC5电极）起到重要作用，可能反映了神经适应性或信息处理效率的改变。\n\n区分PSF和CTF时，PO4电极（右BA19） 的Gamma特征和复杂度特征最为关键，这可能与两种疾病在认知和视觉处理上的差异有关。\n\n微状态分析效果有限：仅使用微状态特征时，模型准确率降至70-75%，低于全特征集模型，提示在该前驱阶段，频域特征可能比微状态更敏感。\n\n研究意义：本研究首次在完全无症状的健康人群中，利用机器学习识别出与精神分裂症和双相障碍相关的潜在神经电生理标志物，为早期预防和干预提供了新的工具和思路。\n\n局限：样本量较小（每组约20人）；EEG空间分辨率有限，无法深入探究皮层下结构；预处理包含人工步骤，可能引入主观性。",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2025",
+        "Neural Networks",
+        "Major depressive disorder detection via temporal-frequency-spatial transformer with sub-domain knowledge alignment using EEG",
+        "",
+        "1.MODMA\n2.PRED+CT",
+        "EEG",
+        "",
+        "否",
+        "",
+        "",
+        "MDD",
+        "全脑皮层区域，基于128导联（MODMA数据集）和67导联（PRED+CT数据集）EEG信号。",
+        "TFST + FA + SDKA + 端到端深度学习框架",
+        "数据集与预处理：\nMODMA数据集：53名受试者（24 MDD，29 HC），128导联，采样率250 Hz。\nPRED+CT数据集：73名受试者（28 MDD，45 HC），67导联，采样率500 Hz（实际实验中数据存在类别不平衡）。\n预处理：带通滤波（0.1-40 Hz）、陷波滤波（49-51 Hz）、ICA去伪迹。",
+        "1.模型架构：\nTFST通用特征提取器：以EEG-Conformer为基线，在时域卷积后嵌入FA机制，将EEG特征图通过DCT分解为49个频率分量，通过两阶段选择策略（先评估各分量贡献，再组合Top-M分量）提取多频带特征。随后通过自注意力机制建模时-频-空特征间的内在关联。\nSDKA模块：在特征提取后，将源域和目标域中属于同一类别的受试者划分为同一个子域，使用SMMD损失函数（带类别权重的MMD）对子域间的特征分布进行精细对齐，捕获类内细粒度的域不变特征。\n分类器：单头自注意力 + 单层前馈网络（针对低语义EEG信号优化，防止过拟合）。\n2.训练与评估：采用交叉受试者（cross-subject）评估策略，源域为训练集受试者，目标域为测试集受试者。优化目标为交叉熵损失 + α × SMMD损失。使用准确率、F1-Score、Kappa系数和PAM（多边形面积度量）作为评估指标。\n3.对比方法：与多种SOTA方法对比，包括Transformer、MCTD、ResNet-3、ATCNet、DeFormer、GANSER、EEG-Conformer，以及领域自适应方法（DAN、DANN）和基于图网络的方法（AMGCN-L、SPA-GCN等）。",
+        "",
+        "核心发现：提出的TFST-SDKA模型在两个数据集上均取得最优性能。在MODMA数据集上准确率达92.45%，超越SOTA方法1.42%；在PRED+CT数据集上准确率达93.16%，超越SOTA方法1.16%。模型在MDD类别上的误分类率从基线模型的20.83%（MODMA）和35.71%（PRED+CT）显著降至12.50%和10.71%。\n\nFA机制有效性：对49个频率分量的逐一分析表明，低频分量（对应α、θ、δ）对MDD检测贡献最大，但部分中高频分量（对应β、γ）也有不可忽视的作用。组合Top-16频率分量可获得最优性能，而传统GAP仅利用最低频分量会丢失重要信息。这验证了多频带特征对MDD检测的必要性。\n\nSDKA有效性：与全局域适应（DAN、DANN、Model B）相比，子域对齐能更有效地捕获类内细粒度特征分布差异，在类别不平衡场景下（PRED+CT数据集）表现尤为突出。与对抗学习方法（SPA-GCN）相比，准确率提升达9.99%，且训练更简单（仅需两个损失函数）。\n\n参数敏感性：SMMD损失权重α需根据目标域样本量调节——样本少时（MODMA）取较小值（0.01-0.1）防止过拟合，样本多时（PRED+CT）取较大值（1）强制模型学习目标域分布。\n\n局限性：FA机制依赖预定义的频带分量，难以自适应大规模数据中的个体差异；标签依赖临床主观诊断且标注成本高。未来将探索自适应频率选择和无监督域适应方法。",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2025",
+        "IEEE JTEHM",
+        "Electroencephalography-Based Recognition of Low Mental Resilience Using Multi-Condition Decision-Level Fusion Approach",
+        "",
+        "A total of sixty-eight healthy adults took part in this trial.",
+        "",
+        "",
+        "否",
+        "",
+        "Based on Low Mental Resilience",
+        "",
+        "前额叶皮层（额叶区域，左右侧均有）、中央顶叶区域（顶叶皮层）、\n左侧颞顶联合区（TPJ）（T7/TP7电极对应区）、枕叶视觉皮层（枕叶区）",
+        "EEG信号经1–45Hz带通滤波，使用小波去噪和ICA去除伪迹，再经球面拉普拉斯（CSD）变换消除容积传导。\n提取三类特征：频谱（Welch法）、功能连接（PLV）和有效连接（PSI）。\n采用逐步回归筛选特征，SVM分类，最后用Bagging集成学习融合多条件决策。",
+        "68名健康成人参与，采集31导EEG。依次记录闭眼（CE）、睁眼（EO1）、VR任务（Task1/2）、睁眼（EO2）共五段数据。每段取前2分钟分析。信号经滤波、坏道插补、小波去噪、ICA去伪迹和CSD变换。\n",
+        "参与者佩戴Oculus Quest VR头显坐在安静室内。虚拟场景为一间幼儿园教室，里面有多个虚拟儿童角色。任务过程中，这些儿童会随机出现哭闹等发脾气行为（用红圈标示，数量越多代表压力刺激越强），参与者被要求用自己的心理想象策略去“安抚”这些孩子（不做出实际肢体动作）。任务重复两次，期间不拆除头显，两次任务间有2分钟静坐休息。整个过程旨在模拟早教工作者实际面对的高压互动场景。",
+        "",
+        "有效连接（PSI）预测韧性表现最佳（调整后R²>0.5，RMSE最低），因为它能捕捉脑区间因果性的信息流向，且抗容积传导干扰。关键发现：低韧性组更多向外传递信息（如右侧额叶、左顶叶），高韧性组则更多接收信息，且视觉皮层对外部刺激的处理输出更强。单条件SVM准确率66%~84%（Task2最佳83.64%），融合闭眼、睁眼、任务三个模型的决策分数后，准确率提升至88.5%（LOOCV）和85.7%（测试集），敏感性/特异性均>87%。该技术已开发为RASMi软件并达到TRL 5级（真实工作环境验证），但局限在于样本量有限且当前为静态连接分析，未来需引入动态特征和源空间定位以提升精度。\n\n",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2025",
+        "Bioengineering",
+        "TSF-MDD: A Deep Learning Approach for Electroencephalography-Based Diagnosis of Major Depressive Disorder with Temporal-Spatial-Frequency Feature Fusion",
+        "",
+        "Mumtaz2016",
+        "Scalp EEG",
+        "精神科医生依据DSM-IV标准进行临床诊断",
+        "否",
+        "",
+        "",
+        "MDD",
+        "全脑（19导联EEG，\n基于10-20系统：Fp1, F3, C3, P3, O1, F7, T3, T5, Fz, Fp2, F4, C4, P4, O2, F8, T4, T6, Cz, Pz；\n映射至5×5二维空间布局）",
+        "TSF-MDD",
+        "1. 数据源自Mumtaz2016，19通道，采样256 Hz，闭眼静息态5分钟。\n2. 预处理：0.5–70 Hz带通滤波，50 Hz陷波滤波；ICA去除眼电、肌电、心电伪迹；数据分为5秒无重叠片段（1280点）；剔除幅值>100 μV的噪声段；重参考至平均参考；Z-score标准化。\n3. 进一步将信号经FIR带通滤波（Hanning窗）分为五个频带：δ（0.1–4 Hz）、θ（4–8 Hz）、α（8–13 Hz）、β（13–30 Hz）、γ（30–100 Hz）。\n4. 将19通道按空间位置映射为5×5矩阵（空缺补零），结合频带与时间维度，构建4D张量（H×W×C×T，H=W=5, C=5, T=1280）。",
+        "1. 模型架构：\n- ConvBlock：3D卷积层（32个滤波器，核大小(512,3,3)，步长(16,1,1)）+ BN + ReLU，再经2D卷积（512个1×1核）降维。\n- CapsNet：PrimaryCaps（并行2D卷积生成128个8维胶囊向量）和EEGCaps（动态路由生成2个16维分类胶囊，对应MDD/HC）。\n- 损失函数：Margin Loss（m⁺=0.9, m⁻=0.1, λ=0.5）。\n2. 训练策略：subject-independent 5折交叉验证，确保同一受试者样本仅出现在训练或测试集中；Adam优化器，学习率1e-4，early stopping，batch size=32。\n3. 对比实验：\n- 输入类型对比：仅时域（EEGNet）、时-空（TS-MDD）、时-空-频（TSF-MDD）；\n- 与现有方法对比：SVM, EEGNet, DepNet, 1D-CNN-LSTM, InceptionNet, Self-attention-CNN。\n4. 消融实验：移除CapsNet（使用Conv-FC替代）以验证CapsNet贡献。\n5. 超参数敏感性分析：3D-CNN滤波器数量（4,8,16,32,64）、时间核大小（(16,3,3)至(1024,3,3)）、PrimaryCaps和EEGCaps胶囊维度。",
+        "",
+        "- 性能：模型在Acc (92.1%)、Rec (94.9%)、F1 (92.4%)上均优于所有对比方法，Pre为90.0%。\n- 消融结果：移除CapsNet后Acc下降约1%，Rec下降>2%，表明CapsNet有助于提取更具判别力的空间特征。\n- 输入格式对比：仅时域（85.0%）→ 时-空（88.3%）→ 时-空-频（92.1%），证明多频带融合的必要性。\n- 特征可视化：t-SNE显示原始特征受试者间分散、类别混杂；ConvBlock后受试者间重叠增加但仍有个体差异；最终模型输出特征在类别上形成清晰分界，且不受受试者身份影响，证明模型提取了subject-independent特征。\n- 局限性：样本量较小（仅58人），仅使用静息态EEG，特征仍有少量重叠导致误分类；未考虑任务态或跨数据集验证。\n- 未来方向：引入域泛化技术提升跨群体适应性，探索MEG信号获得更高空间分辨率，并推进临床部署（需解决设备、人员、数据安全等障碍）。",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        " ",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "sheet": "常见内容汇总",
+    "rows": 96,
+    "cols": 5,
+    "data": [
+      [
+        "脑区/电极配置与含义",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "脑区/电极",
+        "含义/功能",
+        "相关疾病",
+        "文献来源",
+        ""
+      ],
+      [
+        "前额叶皮层 (PFC)",
+        "情绪调节、疼痛控制、认知控制的核心脑区；压力疼痛激活的核心区域",
+        "抑郁症、疼痛感知",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "背外侧前额叶 (dlPFC)",
+        "α和β节律变化最显著的脑区，疼痛感知的核心激活区域",
+        "抑郁症、疼痛",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "内侧前额叶 (mPFC)",
+        "默认模式网络(DMN)的重要组成部分",
+        "精神分裂症、抑郁症",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "额叶-顶叶网络",
+        "工作记忆、注意力、执行功能的关键网络；SZ患者该网络连接增强与较低的任务准确率相关",
+        "精神分裂症",
+        "Si et al., 2026",
+        ""
+      ],
+      [
+        "Fp1/Fp2（非发区额叶通道）",
+        "双额叶非发区电极配置，便携式抑郁检测",
+        "抑郁症",
+        "Wei et al., 2026",
+        ""
+      ],
+      [
+        "CP5（左BA39，角回）",
+        "面部识别、阅读、视觉运动定向；PSF组和CTF组中最重要的电极",
+        "潜性精神分裂倾向、潜性双相倾向",
+        "Gubics et al., 2025",
+        ""
+      ],
+      [
+        "FC5（左BA6，辅助运动区）",
+        "运动控制、认知规划、决策；CTF组LZC复杂度特征关键电极",
+        "潜性双相倾向",
+        "Gubics et al., 2025",
+        ""
+      ],
+      [
+        "PO4（右BA19）",
+        "物体和面部识别；区分PSF和CTF组的关键电极",
+        "潜性精神分裂/双相鉴别",
+        "Gubics et al., 2025",
+        ""
+      ],
+      [
+        "丘脑 (Th)",
+        "疼痛信号向大脑皮层投射的中继核团",
+        "疼痛感知",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "初级/次级躯体感觉皮层(SI/SII)",
+        "疼痛强度和感觉处理",
+        "疼痛感知",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "前扣带回皮层(ACC)",
+        "疼痛的情感-动机维度处理",
+        "疼痛感知",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "岛叶皮层(IC)",
+        "疼痛感知的内感受处理",
+        "疼痛感知",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "全脑19导联",
+        "映射为5×5二维空间矩阵（空缺补零），保留电极空间拓扑关系，用于CNN卷积操作",
+        "MDD",
+        "Gan et al., 2025 (TSF-MDD)",
+        ""
+      ],
+      [
+        "疾病特异性EEG特征",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "疾病",
+        "EEG特征/标志",
+        "文献来源",
+        "",
+        ""
+      ],
+      [
+        "抑郁症 (MDD/DD)",
+        "α频带功率异常、额叶α不对称性（右侧α活动相对升高）；β频带能量差异显著",
+        "Wei et al., 2026; Kim et al., 2026",
+        "",
+        ""
+      ],
+      [
+        "重度抑郁症 (MDD)",
+        "多频带特征：θ(4-8Hz)、α(8-13Hz)、β(13-30Hz)均有贡献，γ(30-40Hz)贡献较小",
+        "Xu et al., 2026",
+        "",
+        ""
+      ],
+      [
+        "重度抑郁症 (MDD)",
+        "MDD相关EEG信号特征主要分布在0-15Hz、20-25Hz和35-40Hz多个频带",
+        "Xu et al., 2026",
+        "",
+        ""
+      ],
+      [
+        "重度抑郁症 (MDD)",
+        "五个频带（δ/θ/α/β/γ）均包含判别信息，组合多频带特征优于单一频带；CapsNet捕获高阶空间特征可提升分类性能",
+        "Gan et al., 2025 (TSF-MDD)",
+        "",
+        ""
+      ],
+      [
+        "精神分裂症 (SZ)",
+        "静息态α和β频带额叶-顶叶连接增强；聚类系数、全局效率、局部效率增高，特征路径长度缩短",
+        "Si et al., 2026",
+        "",
+        ""
+      ],
+      [
+        "癫痫精神病 (POE)",
+        "微状态B与{C,D}组合频繁切换；微状态A很少与{B,D}直接切换；高阶微状态句法异常",
+        "Shi et al., 2026",
+        "",
+        ""
+      ],
+      [
+        "潜性精神分裂倾向(PSF)",
+        "γ频带(52-64Hz)PSD异常，主要在CP5电极；δ频带在Fp1电极异常",
+        "Gubics et al., 2025",
+        "",
+        ""
+      ],
+      [
+        "潜性双相倾向(CTF)",
+        "γ频带(30-56Hz)PSD异常；FC5和T7电极LZC复杂度降低",
+        "Gubics et al., 2025",
+        "",
+        ""
+      ],
+      [
+        "压力疼痛",
+        "疼痛时α节律百分比功率谱密度(Dα)显著降低，β节律(Dβ)显著升高",
+        "Zhang et al., 2026",
+        "",
+        ""
+      ],
+      [
+        "截肢者疼痛感知",
+        "脑激活面积和激活强度低于健康人；神经通路发生适应性改变导致疼痛感知减弱",
+        "Zhang et al., 2026",
+        "",
+        ""
+      ],
+      [
+        "频域特征(Frequency Domain Features)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "特征名称",
+        "描述",
+        "疾病应用",
+        "文献来源",
+        ""
+      ],
+      [
+        "功率谱密度(PSD)",
+        "信号功率随频率的分布，反映各频段能量强弱",
+        "抑郁症、精神分裂症、疼痛",
+        "Zhang et al., 2026; Gubics et al., 2025",
+        ""
+      ],
+      [
+        "百分比功率谱密度(Dα/Dβ)",
+        "特定节律功率占总功率的百分比；Dα在疼痛时显著降低，Dβ显著升高",
+        "疼痛感知（准确率94.3%/91.1%）",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "相对功率(RP)",
+        "特定频带功率占总功率的百分比（0.5-30Hz）",
+        "抑郁症（双额叶NHB配置）",
+        "Wei et al., 2026",
+        ""
+      ],
+      [
+        "α频带(8-13Hz)",
+        "反映静息态唤醒、注意力需求；SZ患者额叶-顶叶连接增强与低准确率相关",
+        "精神分裂症、抑郁症",
+        "Si et al., 2026",
+        ""
+      ],
+      [
+        "β频带(13-30Hz)",
+        "反映警觉性、认知加工；疼痛时Dβ显著增加；SZ患者连接异常",
+        "精神分裂症、疼痛",
+        "Zhang et al., 2026; Si et al., 2026",
+        ""
+      ],
+      [
+        "δ频带(0.5-4Hz)",
+        "慢波活动，与深度睡眠、脑抑制相关；PSF组Fp1通道δ波重要",
+        "潜性精神分裂倾向",
+        "Gubics et al., 2025",
+        ""
+      ],
+      [
+        "θ频带(4-8Hz)",
+        "与注意力、工作记忆相关",
+        "精神分裂症、抑郁症",
+        "Si et al., 2026",
+        ""
+      ],
+      [
+        "γ频带(30-60Hz)",
+        "高级认知整合；PSF组(52-64Hz)和CTF组(30-56Hz)均有重要贡献",
+        "潜性精神分裂/双相",
+        "Gubics et al., 2025",
+        ""
+      ],
+      [
+        "能量矩(EM)",
+        "跨尺度特征融合的统计描述符，聚合多尺度粗粒化序列信息",
+        "抑郁症（双额叶NHB配置）",
+        "Wei et al., 2026",
+        ""
+      ],
+      [
+        "五频带带通滤波信号",
+        "将原始信号经FIR滤波分离为δ (0.1–4 Hz)、θ (4–8 Hz)、α (8–13 Hz)、β (13–30 Hz)、γ (30–100 Hz) 五个分量，作为独立通道输入模型",
+        "抑郁症（MDD）",
+        "Gan et al., 2025 (TSF-MDD)",
+        ""
+      ],
+      [
+        "多频带组合特征",
+        "将时域、空间域和五个频带信息融合为4D张量（5×5×5×1280），充分利用频域信息",
+        "抑郁症（MDD）",
+        "Gan et al., 2025 (TSF-MDD)",
+        ""
+      ],
+      [
+        "功能连接特征 (Functional Connectivity Features)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "特征名称",
+        "描述",
+        "疾病应用",
+        "文献来源",
+        ""
+      ],
+      [
+        "相位锁定值(PLV)",
+        "度量两通道间相位同步的稳定性，范围0~1",
+        "精神分裂症（静息态网络构建）",
+        "Si et al., 2026",
+        ""
+      ],
+      [
+        "互信息(MI)",
+        "度量两通道间的信息共享量，评估功能连接",
+        "抑郁症（双额叶NHB配置）",
+        "Wei et al., 2026",
+        ""
+      ],
+      [
+        "有效连接(DCM)",
+        "基于贝叶斯推断的因果连接分析，揭示脑区间信息流向",
+        "疼痛感知（Th→PFC→SI）",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "微状态分析 (Microstate Analysis)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "特征名称",
+        "描述",
+        "疾病应用",
+        "文献来源",
+        ""
+      ],
+      [
+        "微状态A/B/C/D",
+        "四种经典全脑电场拓扑模式（80-150ms准稳态）",
+        "癫痫精神病(POE)",
+        "Shi et al., 2026",
+        ""
+      ],
+      [
+        "微状态B",
+        "与视觉网络相关，源自双侧视觉皮层和枕叶皮层",
+        "POE（频繁作为C/D间过渡态）",
+        "Shi et al., 2026",
+        ""
+      ],
+      [
+        "微状态C",
+        "与默认模式静息态网络相关（内侧前额叶、顶叶、颞叶皮层）",
+        "POE（与阳性症状相关）",
+        "Shi et al., 2026",
+        ""
+      ],
+      [
+        "微状态D",
+        "与中央执行静息态网络相关（背外侧前额叶、后顶叶皮层）",
+        "POE",
+        "Shi et al., 2026",
+        ""
+      ],
+      [
+        "微状态词(高阶句法)",
+        "将微状态序列视为“句子”，由“词”（>2状态的高阶子序列）组成",
+        "POE（区别EP与POE）",
+        "Shi et al., 2026",
+        ""
+      ],
+      [
+        "二进制循环词",
+        "由两个交替微状态组成的词（如[ABA]、[ABAB]）",
+        "EP和POE均存在",
+        "Shi et al., 2026",
+        ""
+      ],
+      [
+        "镜像词对",
+        "正反序词对（如[ABCD]与[DCBA]）概率相似",
+        "EP和POE均存在",
+        "Shi et al., 2026",
+        ""
+      ],
+      [
+        "聚类度(Clustering Degree)",
+        "度量微状态词在短时间内成簇出现的倾向",
+        "POE（验证“高内聚、低耦合”）",
+        "Shi et al., 2026",
+        ""
+      ],
+      [
+        "GFP峰值提取",
+        "全局场功率峰值时刻提取拓扑图，确保高信噪比",
+        "POE、EP",
+        "Shi et al., 2026",
+        ""
+      ],
+      [
+        "预处理与伪迹去除 (Preprocessing & Artifact Removal)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "方法名称",
+        "描述",
+        "疾病应用",
+        "文献来源",
+        ""
+      ],
+      [
+        "带通滤波(0.5-30Hz/0.1-40Hz)",
+        "保留特定频段，去除低频漂移和高频噪声",
+        "所有疾病",
+        "所有文献",
+        ""
+      ],
+      [
+        "陷波滤波(48-52Hz/49-51Hz)",
+        "去除50/60Hz工频干扰",
+        "所有疾病",
+        "所有文献",
+        ""
+      ],
+      [
+        "独立成分分析(ICA)",
+        "分解多通道信号，去除眼电、肌电伪迹",
+        "所有疾病",
+        "Zhang et al., 2026; Si et al., 2026; Shi et al., 2026",
+        ""
+      ],
+      [
+        "重采样(至125/128/250Hz)",
+        "降低采样率提升计算效率",
+        "所有疾病",
+        "Gubics et al., 2025",
+        ""
+      ],
+      [
+        "分段(Epoching)",
+        "将连续EEG切分为等长片段（2s、5s、30s）",
+        "抑郁症、精神分裂症",
+        "Wei et al., 2026; Kim et al., 2026，Gan et al., 2025 (TSF-MDD)",
+        ""
+      ],
+      [
+        "坏导插值",
+        "识别并插值修复损坏通道",
+        "POE、潜性精神分裂/双相",
+        "Shi et al., 2026; Gubics et al., 2025",
+        ""
+      ],
+      [
+        "REST参考",
+        "参考电极标准化技术，消除共模噪声",
+        "精神分裂症",
+        "Si et al., 2026",
+        ""
+      ],
+      [
+        "平均参考",
+        "全通道平均作为参考",
+        "POE、抑郁症",
+        "Shi et al., 2026; Kim et al., 2026，Gan et al., 2025 (TSF-MDD)",
+        ""
+      ],
+      [
+        "ICA去伪迹",
+        "独立成分分析去除眼电、肌电和心电伪迹",
+        "抑郁症",
+        "Gan et al., 2025 (TSF-MDD)",
+        ""
+      ],
+      [
+        "平均参考",
+        "所有电极信号平均值作为重参考",
+        "抑郁症（MDD）",
+        "Gan et al., 2025 (TSF-MDD)",
+        ""
+      ],
+      [
+        "Z-score标准化",
+        "使信号均值为0、标准差为1，保证数据量纲一致",
+        "抑郁症（MDD）",
+        "Gan et al., 2025 (TSF-MDD)",
+        ""
+      ],
+      [
+        "采集范式与实验设计 (Recording Paradigms)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "范式名称",
+        "描述",
+        "疾病应用",
+        "文献来源",
+        ""
+      ],
+      [
+        "静息态-闭眼(EC)",
+        "受试者闭眼放松，自发脑电；最常用范式",
+        "精神分裂症、抑郁症、潜性精神分裂/双相",
+        "Si et al., 2026; Kim et al., 2026，Gan et al., 2025 (TSF-MDD)",
+        ""
+      ],
+      [
+        "静息态-睁眼(EO)",
+        "受试者注视固定点，保持清醒警觉；老年抑郁中EO更有效",
+        "抑郁症（老年人群）",
+        "Kim et al., 2026",
+        ""
+      ],
+      [
+        "视觉空间工作记忆任务",
+        "呈现两幅含两个形状的图像，判断是否匹配",
+        "精神分裂症（工作记忆缺陷）",
+        "Si et al., 2026",
+        ""
+      ],
+      [
+        "压力疼痛刺激",
+        "对胫骨外侧施加不同强度的法向载荷（无痛/轻痛/中痛）",
+        "疼痛感知（健康人vs截肢者）",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "P300任务",
+        "事件相关电位范式",
+        "抑郁症（MBANet-GSST中准确率96.55%）",
+        "Wang et al., 2026",
+        ""
+      ],
+      [
+        "fMRI-EEG同步采集",
+        "block设计：30s静息+30s刺激，3个session",
+        "疼痛感知（fMRI定位+EEG时域）",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "非发区(NHB)额叶双通道",
+        "仅Fp1和Fp2两通道，便携式配置",
+        "抑郁症（社区筛查）",
+        "Wei et al., 2026",
+        ""
+      ],
+      [
+        "高级建模与分析方法 (Advanced Modeling & AI Methods)\n",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "方法名称",
+        "描述",
+        "疾病应用",
+        "文献来源",
+        ""
+      ],
+      [
+        "动态因果模型(DCM)",
+        "基于贝叶斯推断的脑区有效连接分析，揭示信息流向和连接强度（兴奋/抑制）",
+        "疼痛感知（Th→PFC→SI连接）",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "源定位(sLORETA)",
+        "将头皮EEG信号反推到皮层电流源",
+        "疼痛感知（与fMRI结果一致验证PFC）",
+        "Zhang et al., 2026",
+        ""
+      ],
+      [
+        "子域知识对齐(SDKA)",
+        "基于类别标签划分子域，对齐同类被试的EEG特征分布",
+        "抑郁症（跨被试检测）",
+        "Xu et al., 2026",
+        ""
+      ],
+      [
+        "子域MMD(SMMD)",
+        "在SDKA中度量同类子域间特征分布差异",
+        "抑郁症（跨被试检测）",
+        "Xu et al., 2026",
+        ""
+      ],
+      [
+        "时-频-空Transformer(TFST)",
+        "提取时域、频域、空域特征，用自注意力捕捉三者的内在相关性",
+        "抑郁症（MODMA/PRED+CT）",
+        "Xu et al., 2026",
+        ""
+      ],
+      [
+        "黄金被试风格迁移(GSST)",
+        "将BCI文盲被试的特征风格迁移至黄金被试风格",
+        "抑郁症（跨被试检测）",
+        "Wang et al., 2026",
+        ""
+      ],
+      [
+        "多频带注意力网络(MBANet)",
+        "多分支结构提取δ/θ/α/β四个频带特征，混合注意力（SE+MHA）加权",
+        "抑郁症（Mumtaz数据集）",
+        "Wang et al., 2026",
+        ""
+      ],
+      [
+        "CenterIR损失",
+        "聚类感知的连续回归正则化，处理严重程度评分分布不平衡",
+        "抑郁症（老年人群严重程度回归）",
+        "Kim et al., 2026",
+        ""
+      ],
+      [
+        "多尺度粗粒化",
+        "非重叠/OLMP/OLROP三种策略构建尺度相关时序表示",
+        "抑郁症（双额叶NHB配置）",
+        "Wei et al., 2026",
+        ""
+      ],
+      [
+        "自适应混合特征选择(AHFS)",
+        "结合相关性和信息论方法动态探索特征空间",
+        "潜性精神分裂/双相",
+        "Gubics et al., 2025",
+        ""
+      ],
+      [
+        "团簇形成特征选择(CFFS)",
+        "基于Shapley值聚合多模型特征重要性，降低特征间相关性",
+        "潜性精神分裂/双相",
+        "Gubics et al., 2025",
+        ""
+      ],
+      [
+        "CNN-BiLSTM",
+        "CNN提取局部时空特征，BiLSTM建模长程时序依赖",
+        "抑郁症（老年人群）",
+        "Kim et al., 2026",
+        ""
+      ],
+      [
+        "EEG-Conformer",
+        "CNN提取时-空特征，单头自注意力捕获高层语义",
+        "抑郁症（基线网络）",
+        "Xu et al., 2026",
+        ""
+      ],
+      [
+        "TSF-MDD",
+        "时-空-频融合的3D-CNN+CapsNet模型",
+        "抑郁症",
+        "Gan et al., 2025",
+        ""
+      ],
+      [
+        "动态路由",
+        "胶囊间迭代加权耦合机制",
+        "抑郁症",
+        "Gan et al., 2025",
+        ""
+      ],
+      [
+        "Margin Loss",
+        "胶囊网络分类边界损失函数",
+        "抑郁症",
+        "Gan et al., 2025",
+        ""
+      ]
+    ]
+  },
+  {
+    "sheet": "特定疾病内容",
+    "rows": 41,
+    "cols": 4,
+    "data": [
+      [
+        "时频特征 (Time-Frequency Features)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "特征名称",
+        "描述",
+        "疾病应用",
+        "文献来源"
+      ],
+      [
+        "短时傅里叶变换(STFT)",
+        "将信号转换为时频谱图，同时显示时间和频率信息",
+        "抑郁症（MBANet的TFAB分支）",
+        "Wang et al., 2026"
+      ],
+      [
+        "离散余弦变换(DCT)",
+        "将时域特征映射到频域，提取多频率分量",
+        "抑郁症（频率注意力FA机制）",
+        "Xu et al., 2026"
+      ],
+      [
+        "频率注意力(FA)",
+        "基于DCT提取多频带成分，采用两步选择法组合关键频率分量",
+        "抑郁症（MODMA/PRED+CT）",
+        "Xu et al., 2026"
+      ],
+      [
+        "脑网络拓扑属性 (Brain Network Topology)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "特征名称",
+        "描述",
+        "疾病应用",
+        "文献来源"
+      ],
+      [
+        "聚类系数(Clustering Coefficient)",
+        "节点邻居间连接密度，反映局部信息处理效率；SZ组增高",
+        "精神分裂症",
+        "Si et al., 2026"
+      ],
+      [
+        "特征路径长度(Characteristic Path Length)",
+        "网络中最短路径的平均长度；SZ组缩短",
+        "精神分裂症",
+        "Si et al., 2026"
+      ],
+      [
+        "全局效率(Global Efficiency)",
+        "衡量网络整体并行信息传输能力；SZ组增高",
+        "精神分裂症",
+        "Si et al., 2026"
+      ],
+      [
+        "局部效率(Local Efficiency)",
+        "衡量网络局部子图的容错和信息传输能力；SZ组增高",
+        "精神分裂症",
+        "Si et al., 2026"
+      ],
+      [
+        "心理韧性 EEG 分析方法汇总表",
+        "",
+        "",
+        ""
+      ],
+      [
+        "方法/特征名称",
+        "描述",
+        "疾病应用",
+        ""
+      ],
+      [
+        "脑区/电极配置",
+        "中央顶叶区",
+        "中央执行网络（CEN）核心节点，调控自上而下注意控制和目标导向行为",
+        "心理韧性评估（低韧性者此区域向外信息流更强，反映抑制控制降低）"
+      ],
+      [
+        "脑区/电极配置",
+        "左颞顶联合区（T7/TP7，左BA39/40）",
+        "“心理理论”（Theory of Mind），感知自我与他人信念、意图的差异，促进情境更新",
+        "心理韧性评估（高韧性者此区域向外信息流更强）"
+      ],
+      [
+        "脑区/电极配置",
+        "右前额叶",
+        "与积极适应、韧性相关的脑区",
+        "心理韧性评估（低韧性者右前额叶接收信息较少）"
+      ],
+      [
+        "脑区/电极配置",
+        "视觉皮层（枕叶）",
+        "处理外部视觉刺激信息，应激检测与情绪反应的起点",
+        "心理韧性评估（高韧性者睁眼/任务条件下视觉皮层向外信息流更强）"
+      ],
+      [
+        "脑区/电极配置",
+        "前额叶皮层（PFC）",
+        "情绪调节、认知控制、目标导向行为",
+        "心理韧性评估（低韧性者前额叶树突萎缩、功能连接降低）"
+      ],
+      [
+        "疾病特异性特征",
+        "低韧性（LR）标志",
+        "节点向外信息流更强（更多节点作为信息发送者）；信息流更具偏侧性；右前额叶和左顶叶向外流更强",
+        "心理韧性评估（反映抑制控制降低、过度监控）"
+      ],
+      [
+        "疾病特异性特征",
+        "高韧性（HR）标志",
+        "节点向内信息流更强（更多节点作为信息接收者）；信息流更双侧化；视觉皮层向外流更强",
+        "心理韧性评估（反映更好脑区募集和认知表现）"
+      ],
+      [
+        "有效连接（EC）",
+        "相位斜率指数（PSI）",
+        "基于相干性虚部提取有向连接的因果信息流；Ψ_ij = Im(∑ C*_ij(f)·C_ij(f+δf))；只保留真正相位滞后连接，去除容积传导带来的零相位差；对信噪比下降鲁棒",
+        "心理韧性评估（最佳预测特征：adj R²>0.5，显著优于PSD和PLV）"
+      ],
+      [
+        "有效连接（EC）",
+        "EC vs FC vs 频谱性能对比",
+        "EC（adj R²>0.5, RMSE最低）> FC（adj R²中等）> 频谱（adj R²最低）",
+        "心理韧性评估（因果信息流最能反映韧性机制）"
+      ],
+      [
+        "功能连接（FC）",
+        "向内强度（s_in）",
+        "指向某节点的连接强度之和，反映该区域接收信息的能力",
+        "心理韧性评估（高韧性组s_in更强）"
+      ],
+      [
+        "功能连接（FC）",
+        "向外强度（s_out）",
+        "从某节点发出的连接强度之和，反映该区域发送信息的能力",
+        "心理韧性评估（低韧性组s_out更强）"
+      ],
+      [
+        "功能连接（FC）",
+        "信息流偏侧性",
+        "左右半球信息流不对称程度",
+        "心理韧性评估（低韧性组更偏侧化；高韧性组更双侧化）"
+      ],
+      [
+        "功能连接（FC）",
+        "相位锁定值（PLV）",
+        "度量两通道间相位同步稳定性，对幅度波动鲁棒",
+        "心理韧性评估（本研究中PLV回归性能次于EC）"
+      ],
+      [
+        "预处理方法",
+        "小波阈值去噪",
+        "bior4.4双正交小波（分解层数=9），贝叶斯去噪，硬阈值规则，层依赖噪声估计",
+        "心理韧性评估（去除伪迹不减少时间点，对低密度EEG连接计算至关重要）"
+      ],
+      [
+        "预处理方法",
+        "表面拉普拉斯/电流源密度（CSD）",
+        "球形拉普拉斯方法（m=4, λ=1e-5），将EEG信号转换为硬脑膜层电流源/汇估计",
+        "心理韧性评估（提高空间分辨率，减轻容积传导效应；所有FC/EC特征在CSD转换后提取）"
+      ],
+      [
+        "预处理方法",
+        "坏导剔除标准",
+        "功率谱大于31通道平均功率谱3个标准差的通道标记为坏导",
+        "心理韧性评估"
+      ],
+      [
+        "预处理方法",
+        "独立成分分析（ICA）",
+        "使用extended Infomax算法，ICLabel将成分分为7类（脑/心/眼/肌/线噪/通道噪/不定），仅保留脑成分",
+        "心理韧性评估"
+      ],
+      [
+        "频域特征",
+        "相对功率",
+        "特定频带绝对功率与宽带总功率（1-45Hz）之比",
+        "心理韧性评估（按δ/θ/α1/α2/β1/β2/β3/γ共8个频带提取）"
+      ],
+      [
+        "频域特征",
+        "Welch功率谱密度",
+        "4秒汉明窗，50%重叠，计算1-45Hz功率谱",
+        "心理韧性评估（31通道×8频带=248个频谱特征）"
+      ],
+      [
+        "采集范式",
+        "静息态-闭眼（CE）",
+        "受试者闭眼放松2分钟",
+        "心理韧性评估（CE模型准确率75.41%，被选入多条件融合）"
+      ],
+      [
+        "采集范式",
+        "静息态-睁眼（EO1/EO2）",
+        "受试者睁眼放松2分钟；开头（EO1）和结尾（EO2）各一次",
+        "心理韧性评估（EO2准确率81.03%被选入融合；EO1仅73.77%）"
+      ],
+      [
+        "采集范式",
+        "VR沉浸式心理意象任务",
+        "Oculus Quest VR头显呈现虚拟教室，儿童角色随机哭闹（红圈标示），受试者用心理策略“安抚”；每段4分钟×2次",
+        "心理韧性评估（Task2准确率83.64%，融合中贡献最大）"
+      ],
+      [
+        "采集范式",
+        "多条件决策级融合",
+        "CE + EO2 + Task2三个条件的SVM决策距离分数经集成分类器融合",
+        "心理韧性评估（融合后准确率88.52%，敏感度88.56%，F1=85.71%）"
+      ],
+      [
+        "建模方法",
+        "步进线性回归",
+        "逐次加入/剔除预测变量，选择最优拟合模型，比较PSD/PLV/PSI的R²和RMSE",
+        "心理韧性评估（验证EC为最佳特征类型）"
+      ],
+      [
+        "建模方法",
+        "线性SVM",
+        "核尺度与盒约束通过贝叶斯期望改进采集函数优化；LOOCV嵌套交叉验证",
+        "心理韧性评估（每条件独立分类，准确率73.77%-83.64%）"
+      ],
+      [
+        "建模方法",
+        "集成分类器（Ensemble+Bagging）",
+        "决策树为弱学习器 + Bagging聚合；融合三个条件的SVM决策距离分数",
+        "心理韧性评估（融合后准确率提升至88.52%）"
+      ],
+      [
+        "建模方法",
+        "决策距离分数",
+        "SVM输出的带符号距离，度量观察值与决策边界的距离；正分数表示预测为该类",
+        "心理韧性评估（作为融合模型输入特征；LR与HR类间差异显著 p<0.05）"
+      ],
+      [
+        "建模方法",
+        "预测变量重要性估计",
+        "每个变量对融合模型的重要性 = 其在决策树中分裂导致的节点杂质变化之和/总分支节点数",
+        "心理韧性评估（任务条件贡献最大，与LOOCV性能一致）"
+      ]
+    ]
+  }
+]
