@@ -1,0 +1,395 @@
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"基于 LEADv2 的","textShapes":5}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"text":"基于 LEADv2 的\n多疾病 EEG 关键因素筛选","textPreview":"基于 LEADv2 的 | 多疾病 EEG 关键因素筛选","textChars":26,"textLines":2,"bbox":[78,120,760,180]}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"text":"电极 × 频段 × 特征的稳定分类贡献","textPreview":"电极 × 频段 × 特征的稳定分类贡献","textChars":19,"textLines":1,"bbox":[82,322,720,50]}
+{"kind":"shape","id":"sh/k3yl0zql","slide":1,"bbox":[900,105,5,430]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"text":"研究核心","textPreview":"研究核心","textChars":4,"textLines":1,"bbox":[945,140,220,34]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"text":"相同时段\n只是统一输入\n\n关键结论来自\n跨被试消融与\n稳定性验证","textPreview":"相同时段 | 只是统一输入 |  | 关键结论来自 | 跨被试消融与 | 稳定性验证","textChars":32,"textLines":6,"bbox":[945,188,245,260]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"text":"基于 EEG文章筛选.xlsx 与本地代码审查","textPreview":"基于 EEG文章筛选.xlsx 与本地代码审查","textChars":23,"textLines":1,"bbox":[82,620,560,25]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"来源：用户提供 EEG文章筛选.xlsx；C:/Users/ROG/Desktop/LEAD 本地代码。"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"研究起点","textShapes":8}
+{"kind":"textbox","id":"sh/ahwrqhgj","slide":2,"text":"研究起点","textPreview":"研究起点","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"text":"论文中的共性现象","textPreview":"论文中的共性现象","textChars":8,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/ozy1ofad","slide":2,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"text":"多篇论文反复选择相似的 EEG 时段","textPreview":"多篇论文反复选择相似的 EEG 时段","textChars":18,"textLines":1,"bbox":[100,180,1080,48]}
+{"kind":"shape","id":"sh/a10jqpsj","slide":2,"bbox":[180,275,260,52]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"text":"静息态 EO / EC","textPreview":"静息态 EO / EC","textChars":11,"textLines":1,"bbox":[195,279,230,42]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"bbox":[500,298,520,5]}
+{"kind":"shape","id":"sh/r65knqtk","slide":2,"bbox":[180,365,260,52]}
+{"kind":"textbox","id":"sh/q5wjelsz","slide":2,"text":"2–12 s 切窗","textPreview":"2–12 s 切窗","textChars":9,"textLines":1,"bbox":[195,369,230,42]}
+{"kind":"shape","id":"sh/ove9o7yd","slide":2,"bbox":[500,388,520,5]}
+{"kind":"shape","id":"sh/9wnqhczy","slide":2,"bbox":[180,455,260,52]}
+{"kind":"textbox","id":"sh/mtwrmxg7","slide":2,"text":"19 / 31 / 32 / 64 导联","textPreview":"19 / 31 / 32 / 64 导联","textChars":20,"textLines":1,"bbox":[195,459,230,42]}
+{"kind":"shape","id":"sh/nu58f2hs","slide":2,"bbox":[500,478,520,5]}
+{"kind":"textbox","id":"sh/wjy9sry9","slide":2,"text":"这些共性便于比较，但它们并不能直接证明哪个因素决定分类。","textPreview":"这些共性便于比较，但它们并不能直接证明哪个因素决定分类。","textChars":28,"textLines":1,"bbox":[150,575,980,44]}
+{"kind":"textbox","id":"sh/xk7qlczu","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"来源：EEG文章筛选.xlsx，“识别方法总结”和“特定疾病内容”。"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"核心问题","textShapes":10}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"text":"核心问题","textPreview":"核心问题","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"text":"从“重复使用”到“不可替代贡献”","textPreview":"从“重复使用”到“不可替代贡献”","textChars":16,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"text":"电极","textPreview":"电极","textChars":2,"textLines":1,"bbox":[80,205,300,46]}
+{"kind":"shape","id":"sh/3ah8rqlg","slide":3,"bbox":[115,270,230,4]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"text":"遮挡单电极\n对称电极对和脑区","textPreview":"遮挡单电极 | 对称电极对和脑区","textChars":14,"textLines":2,"bbox":[80,302,300,112]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"text":"频段","textPreview":"频段","textChars":2,"textLines":1,"bbox":[490,205,300,46]}
+{"kind":"shape","id":"sh/m5cra54z","slide":3,"bbox":[525,270,230,4]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"text":"单频段性能\n删除频段后性能下降","textPreview":"单频段性能 | 删除频段后性能下降","textChars":15,"textLines":2,"bbox":[490,302,300,112]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"text":"特征","textPreview":"特征","textChars":2,"textLines":1,"bbox":[900,205,300,46]}
+{"kind":"shape","id":"sh/m1c3mlsn","slide":3,"bbox":[935,270,230,4]}
+{"kind":"textbox","id":"sh/943mhgre","slide":3,"text":"embedding 与频谱\n连接与复杂度","textPreview":"embedding 与频谱 | 连接与复杂度","textChars":20,"textLines":2,"bbox":[900,302,300,112]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"text":"只有在不同被试折、随机种子和独立数据集上重现，才称为稳定关键因素。","textPreview":"只有在不同被试折、随机种子和独立数据集上重现，才称为稳定关键因素。","textChars":33,"textLines":1,"bbox":[120,530,1040,70]}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":""}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"预训练模型对比","textShapes":4}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"text":"预训练模型对比","textPreview":"预训练模型对比","textChars":7,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"text":"LEADv2 与 LaBraM 的任务适配","textPreview":"LEADv2 与 LaBraM 的任务适配","textChars":21,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"text":"选择 LEADv2 完成主实验，LaBraM 用于检查频段和电极排名是否依赖特定模型。","textPreview":"选择 LEADv2 完成主实验，LaBraM 用于检查频段和电极排名是否依赖特定模型。","textChars":43,"textLines":1,"bbox":[100,575,1080,50]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"table","id":"tb/uxcbq1c3","slide":4,"name":"","rows":7,"cols":3,"preview":"维度 | LEADv2 | LaBraM","bbox":[70,165,1140,385]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"来源：LEAD 论文 https://arxiv.org/abs/2502.01678 与代码 https://github.com/DL4mHealth/LEAD；LaBraM 论文 https://openreview.net/forum?id=QzTpTRVtrP。"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"主模型","textShapes":5}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"text":"主模型","textPreview":"主模型","textChars":3,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"text":"选择 LEADv2 的技术依据","textPreview":"选择 LEADv2 的技术依据","textChars":15,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"text":"•  头皮 EEG 预训练域与项目一致\n•  支持不同通道拓扑和采样率\n•  生成电极级表示，便于遮挡\n•  受试者级学习符合诊断单位","textPreview":"•  头皮 EEG 预训练域与项目一致 | •  支持不同通道拓扑和采样率 | •  生成电极级表示，便于遮挡 | •  受试者级学习符合诊断单位","textChars":67,"textLines":4,"bbox":[830,205,370,260]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"text":"现有加载器已覆盖 AD、FTD、SZ 和 Depression 数据。","textPreview":"现有加载器已覆盖 AD、FTD、SZ 和 Depression 数据。","textChars":35,"textLines":1,"bbox":[830,505,370,68]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"image","id":"im/bqxsjm9g","slide":5,"name":"","bbox":[70,234.96,720,290.07]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"图片来源：C:/Users/ROG/Desktop/LEAD/figs/lead_pipeline.png。技术依据：LEAD/README.md。"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"模型定位","textShapes":7}
+{"kind":"textbox","id":"sh/h4bupgn6","slide":6,"text":"模型定位","textPreview":"模型定位","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"text":"LEADv2 与本任务的结合点","textPreview":"LEADv2 与本任务的结合点","textChars":15,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/98rqt4r6","slide":6,"text":"原模型","textPreview":"原模型","textChars":3,"textLines":1,"bbox":[885,190,250,35]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"text":"时间与通道联合编码\n受试者级分类","textPreview":"时间与通道联合编码 | 受试者级分类","textChars":16,"textLines":2,"bbox":[885,232,300,72]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"text":"本项目新增","textPreview":"本项目新增","textChars":5,"textLines":1,"bbox":[885,350,250,35]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"text":"频段分支与 band embedding\n频段门控与删除消融\n电极和特征稳定性排名","textPreview":"频段分支与 band embedding | 频段门控与删除消融 | 电极和特征稳定性排名","textChars":41,"textLines":3,"bbox":[885,392,310,120]}
+{"kind":"textbox","id":"sh/pc76hkr2","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"image","id":"im/7ylcjetk","slide":6,"name":"","bbox":[70,177.3,770,415.39]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"图片来源：C:/Users/ROG/Desktop/LEAD/figs/lead_details.png。"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"数据设计","textShapes":4}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"text":"数据设计","textPreview":"数据设计","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"text":"多疾病任务的合理范围","textPreview":"多疾病任务的合理范围","textChars":10,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"text":"跨数据集首版采用共享 encoder + 疾病独立头，降低设备和中心差异的混杂。","textPreview":"跨数据集首版采用共享 encoder + 疾病独立头，降低设备和中心差异的混杂。","textChars":40,"textLines":1,"bbox":[120,555,1040,62]}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"table","id":"tb/bm98jid4","slide":7,"name":"","rows":6,"cols":3,"preview":"疾病任务 | 首选数据 | 使用方式","bbox":[100,180,1080,320]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"数据集候选来源：EEG文章筛选.xlsx；LEAD-main/README.md。"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"方法控制","textShapes":13}
+{"kind":"textbox","id":"sh/tw7e9gnq","slide":8,"text":"方法控制","textPreview":"方法控制","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"text":"统一输入和预处理边界","textPreview":"统一输入和预处理边界","textChars":10,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"bbox":[72,142,92,5]}
+{"kind":"shape","id":"sh/ri9g7uhw","slide":8,"bbox":[55,250,200,78]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"text":"按被试划分","textPreview":"按被试划分","textChars":5,"textLines":1,"bbox":[65,260,180,58]}
+{"kind":"textbox","id":"sh/tkby9kzm","slide":8,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[260,263,35,45]}
+{"kind":"shape","id":"sh/sjix0zy1","slide":8,"bbox":[297,250,200,78]}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"text":"连续信号滤波","textPreview":"连续信号滤波","textChars":6,"textLines":1,"bbox":[307,260,180,58]}
+{"kind":"textbox","id":"sh/id0fu50z","slide":8,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[502,263,35,45]}
+{"kind":"shape","id":"sh/o7ydoret","slide":8,"bbox":[539,250,200,78]}
+{"kind":"textbox","id":"sh/98rehwve","slide":8,"text":"切分 4 s / 8 s 窗","textPreview":"切分 4 s / 8 s 窗","textChars":14,"textLines":1,"bbox":[549,260,180,58]}
+{"kind":"textbox","id":"sh/m5gvmhwn","slide":8,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[744,263,35,45]}
+{"kind":"shape","id":"sh/n6pwfmd8","slide":8,"bbox":[781,250,200,78]}
+{"kind":"textbox","id":"sh/0jydkreh","slide":8,"text":"通道对齐与标准化","textPreview":"通道对齐与标准化","textChars":8,"textLines":1,"bbox":[791,260,180,58]}
+{"kind":"textbox","id":"sh/1k7edwv2","slide":8,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[986,263,35,45]}
+{"kind":"shape","id":"sh/ehgvihwr","slide":8,"bbox":[1023,250,200,78]}
+{"kind":"textbox","id":"sh/zipwbmdc","slide":8,"text":"输入 LEADv2","textPreview":"输入 LEADv2","textChars":9,"textLines":1,"bbox":[1033,260,180,58]}
+{"kind":"textbox","id":"sh/kfixwbe1","slide":8,"text":"•  EO 和 EC 分开报告\n•  任务态不与静息态直接混合\n•  低频 delta 优先使用 8 s 窗\n•  同一比较保持被试划分不变","textPreview":"•  EO 和 EC 分开报告 | •  任务态不与静息态直接混合 | •  低频 delta 优先使用 8 s 窗 | •  同一比较保持被试划分不变","textChars":70,"textLines":4,"bbox":[160,420,960,160]}
+{"kind":"textbox","id":"sh/lgbepgvm","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":""}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"频段定义","textShapes":14}
+{"kind":"textbox","id":"sh/va103ep4","slide":9,"text":"频段定义","textPreview":"频段定义","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"text":"五个主频段","textPreview":"五个主频段","textChars":5,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/0b65obm9","slide":9,"bbox":[72,142,92,5]}
+{"kind":"shape","id":"sh/nex4jq5k","slide":9,"bbox":[75,215,190,210]}
+{"kind":"shape","id":"sh/mdonql4z","slide":9,"bbox":[75,215,190,18]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"text":"δ","textPreview":"δ","textChars":1,"textLines":1,"bbox":[75,247,190,72]}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"text":"0.5–4 Hz","textPreview":"0.5–4 Hz","textChars":8,"textLines":1,"bbox":[75,330,190,40]}
+{"kind":"shape","id":"sh/bih4na5w","slide":9,"bbox":[313,215,190,210]}
+{"kind":"shape","id":"sh/ah8nu54b","slide":9,"bbox":[313,215,190,18]}
+{"kind":"textbox","id":"sh/oza1gfyh","slide":9,"text":"θ","textPreview":"θ","textChars":1,"textLines":1,"bbox":[313,247,190,72]}
+{"kind":"textbox","id":"sh/p0ji9kf2","slide":9,"text":"4–8 Hz","textPreview":"4–8 Hz","textChars":6,"textLines":1,"bbox":[313,330,190,40]}
+{"kind":"shape","id":"sh/2xsjepgb","slide":9,"bbox":[551,215,190,210]}
+{"kind":"shape","id":"sh/3y107axw","slide":9,"bbox":[551,215,190,18]}
+{"kind":"textbox","id":"sh/cnu1kzyd","slide":9,"text":"α","textPreview":"α","textChars":1,"textLines":1,"bbox":[551,247,190,72]}
+{"kind":"textbox","id":"sh/do3id4fy","slide":9,"text":"8–13 Hz","textPreview":"8–13 Hz","textChars":7,"textLines":1,"bbox":[551,330,190,40]}
+{"kind":"shape","id":"sh/qlcjipgn","slide":9,"bbox":[789,215,190,210]}
+{"kind":"shape","id":"sh/bml0buxs","slide":9,"bbox":[789,215,190,18]}
+{"kind":"textbox","id":"sh/0ru1ozyp","slide":9,"text":"β","textPreview":"β","textChars":1,"textLines":1,"bbox":[789,247,190,72]}
+{"kind":"textbox","id":"sh/lsn2h4fa","slide":9,"text":"13–30 Hz","textPreview":"13–30 Hz","textChars":8,"textLines":1,"bbox":[789,330,190,40]}
+{"kind":"shape","id":"sh/98ji147e","slide":9,"bbox":[1027,215,190,210]}
+{"kind":"shape","id":"sh/87a18zqt","slide":9,"bbox":[1027,215,190,18]}
+{"kind":"textbox","id":"sh/76h0zup8","slide":9,"text":"γ","textPreview":"γ","textChars":1,"textLines":1,"bbox":[1027,247,190,72]}
+{"kind":"textbox","id":"sh/ml8j6p8n","slide":9,"text":"30–45 Hz","textPreview":"30–45 Hz","textChars":8,"textLines":1,"bbox":[1027,330,190,40]}
+{"kind":"textbox","id":"sh/hcji5o7a","slide":9,"text":"频段边界固定，比较时只更改输入频段。完成主实验后再细分 α1/α2 和 β1/β2。","textPreview":"频段边界固定，比较时只更改输入频段。完成主实验后再细分 α1/α2 和 β1/β2。","textChars":42,"textLines":1,"bbox":[125,515,1030,64]}
+{"kind":"textbox","id":"sh/wba1cjqp","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":""}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"文献引导","textShapes":8}
+{"kind":"textbox","id":"sh/d87uxg3m","slide":10,"text":"文献引导","textPreview":"文献引导","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"text":"电极与特征候选","textPreview":"电极与特征候选","textChars":7,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/cbu58j2h","slide":10,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"text":"电极 / 脑区","textPreview":"电极 / 脑区","textChars":7,"textLines":1,"bbox":[95,190,450,40]}
+{"kind":"textbox","id":"sh/ydcnatkn","slide":10,"text":"特征族","textPreview":"特征族","textChars":3,"textLines":1,"bbox":[690,190,450,40]}
+{"kind":"textbox","id":"sh/l036l83y","slide":10,"text":"•  MDD：全脑 19 导联为起点\n•  验证 Fp1/Fp2 与额叶不对称\n•  SZ：额叶—顶叶网络\n•  遮挡层级：单电极、电极对、脑区","textPreview":"•  MDD：全脑 19 导联为起点 | •  验证 Fp1/Fp2 与额叶不对称 | •  SZ：额叶—顶叶网络 | •  遮挡层级：单电极、电极对、脑区","textChars":72,"textLines":4,"bbox":[95,250,500,230]}
+{"kind":"textbox","id":"sh/kzu5c32t","slide":10,"text":"•  LEADv2 embedding\n•  Welch PSD 与相对功率\n•  PLV 与 CSD 后 PSI\n•  LZC 与样本熵","textPreview":"•  LEADv2 embedding | •  Welch PSD 与相对功率 | •  PLV 与 CSD 后 PSI | •  LZC 与样本熵","textChars":69,"textLines":4,"bbox":[690,250,500,230]}
+{"kind":"shape","id":"sh/725onyl4","slide":10,"bbox":[100,535,1080,2]}
+{"kind":"textbox","id":"sh/m1cnetkj","slide":10,"text":"文献只用来生成候选，不预先指定“决定性电极”。","textPreview":"文献只用来生成候选，不预先指定“决定性电极”。","textChars":23,"textLines":1,"bbox":[150,565,980,45]}
+{"kind":"textbox","id":"sh/s7yt4b21","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"来源：EEG文章筛选.xlsx，“识别区域”和“特定疾病内容”。"}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"实验设计","textShapes":16}
+{"kind":"textbox","id":"sh/l43ilgn2","slide":11,"text":"实验设计","textPreview":"实验设计","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/xcryxg7y","slide":11,"text":"阶段 A：单频段的独立判别力","textPreview":"阶段 A：单频段的独立判别力","textChars":14,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/wbih4b6d","slide":11,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/n69grmpw","slide":11,"text":"Broadband","textPreview":"Broadband","textChars":9,"textLines":1,"bbox":[100,205,200,40]}
+{"kind":"shape","id":"sh/250zy18b","slide":11,"bbox":[340,198,120,56]}
+{"kind":"textbox","id":"sh/98rytw72","slide":11,"text":"δ","textPreview":"δ","textChars":1,"textLines":1,"bbox":[340,202,120,46]}
+{"kind":"shape","id":"sh/o7ih0r6h","slide":11,"bbox":[505,198,120,56]}
+{"kind":"textbox","id":"sh/72t03qp0","slide":11,"text":"θ","textPreview":"θ","textChars":1,"textLines":1,"bbox":[505,202,120,46]}
+{"kind":"shape","id":"sh/61kzalof","slide":11,"bbox":[670,198,120,56]}
+{"kind":"textbox","id":"sh/ofqtgnyt","slide":11,"text":"α","textPreview":"α","textChars":1,"textLines":1,"bbox":[670,202,120,46]}
+{"kind":"shape","id":"sh/9gza9sze","slide":11,"bbox":[835,198,120,56]}
+{"kind":"textbox","id":"sh/mdobedg3","slide":11,"text":"β","textPreview":"β","textChars":1,"textLines":1,"bbox":[835,202,120,46]}
+{"kind":"shape","id":"sh/nehs7iho","slide":11,"bbox":[1000,198,120,56]}
+{"kind":"textbox","id":"sh/0b6tc3yx","slide":11,"text":"γ","textPreview":"γ","textChars":1,"textLines":1,"bbox":[1000,202,120,46]}
+{"kind":"shape","id":"sh/1cfa58zi","slide":11,"bbox":[95,295,1090,2]}
+{"kind":"textbox","id":"sh/epobatgr","slide":11,"text":"同一被试划分","textPreview":"同一被试划分","textChars":6,"textLines":1,"bbox":[100,330,260,44]}
+{"kind":"textbox","id":"sh/zaxs3yhc","slide":11,"text":"•  相同 fold\n•  相同随机种子","textPreview":"•  相同 fold | •  相同随机种子","textChars":20,"textLines":2,"bbox":[100,385,260,100]}
+{"kind":"textbox","id":"sh/cn6t83y1","slide":11,"text":"同一模型设定","textPreview":"同一模型设定","textChars":6,"textLines":1,"bbox":[430,330,260,44]}
+{"kind":"textbox","id":"sh/dofa18z6","slide":11,"text":"•  相同 P-Base 权重\n•  相同优化器","textPreview":"•  相同 P-Base 权重 | •  相同优化器","textChars":24,"textLines":2,"bbox":[430,385,260,100]}
+{"kind":"textbox","id":"sh/tsnip0ny","slide":11,"text":"两步微调","textPreview":"两步微调","textChars":4,"textLines":1,"bbox":[760,330,260,44]}
+{"kind":"textbox","id":"sh/87ehgv6d","slide":11,"text":"•  冻结线性探测\n•  小学习率微调","textPreview":"•  冻结线性探测 | •  小学习率微调","textChars":19,"textLines":2,"bbox":[760,385,300,100]}
+{"kind":"textbox","id":"sh/7650nq5s","slide":11,"text":"输出：每个疾病的 band-only 性能排名","textPreview":"输出：每个疾病的 band-only 性能排名","textChars":23,"textLines":1,"bbox":[175,565,930,46]}
+{"kind":"textbox","id":"sh/65wzelo7","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/jetc3ut0","slide":11,"text":""}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"实验设计","textShapes":12}
+{"kind":"textbox","id":"sh/hkbm5wzu","slide":12,"text":"实验设计","textPreview":"实验设计","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/1gbm9s3a","slide":12,"text":"阶段 B：删除消融衡量不可替代性","textPreview":"阶段 B：删除消融衡量不可替代性","textChars":16,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/0f2lgnmp","slide":12,"bbox":[72,142,92,5]}
+{"kind":"shape","id":"sh/ra943il8","slide":12,"bbox":[90,215,145,54]}
+{"kind":"textbox","id":"sh/q903ad4n","slide":12,"text":"Full","textPreview":"Full","textChars":4,"textLines":1,"bbox":[90,215,145,54]}
+{"kind":"shape","id":"sh/dcbm583y","slide":12,"bbox":[285,215,140,54]}
+{"kind":"textbox","id":"sh/sb2lcnmd","slide":12,"text":"No-δ","textPreview":"No-δ","textChars":4,"textLines":1,"bbox":[285,219,140,44]}
+{"kind":"shape","id":"sh/b6d4f2lc","slide":12,"bbox":[465,215,140,54]}
+{"kind":"textbox","id":"sh/a543mx4r","slide":12,"text":"No-θ","textPreview":"No-θ","textChars":4,"textLines":1,"bbox":[465,219,140,44]}
+{"kind":"shape","id":"sh/wvupgz6t","slide":12,"bbox":[645,215,140,54]}
+{"kind":"textbox","id":"sh/xw3q94ne","slide":12,"text":"No-α","textPreview":"No-α","textChars":4,"textLines":1,"bbox":[645,219,140,44]}
+{"kind":"shape","id":"sh/atc7epon","slide":12,"bbox":[825,215,140,54]}
+{"kind":"textbox","id":"sh/bulo7u58","slide":12,"text":"No-β","textPreview":"No-β","textChars":4,"textLines":1,"bbox":[825,219,140,44]}
+{"kind":"shape","id":"sh/orapcf6h","slide":12,"bbox":[1005,215,140,54]}
+{"kind":"textbox","id":"sh/9sj65kn2","slide":12,"text":"No-γ","textPreview":"No-γ","textChars":4,"textLines":1,"bbox":[1005,219,140,44]}
+{"kind":"textbox","id":"sh/mps7a5or","slide":12,"text":"频段贡献 = Full 的 subject-level score − 删除后 score","textPreview":"频段贡献 = Full 的 subject-level score − 删除后 score","textChars":45,"textLines":1,"bbox":[170,330,940,64]}
+{"kind":"textbox","id":"sh/nq1o3a5w","slide":12,"text":"同样方法用于单电极、电极对、脑区和特征族。","textPreview":"同样方法用于单电极、电极对、脑区和特征族。","textChars":21,"textLines":1,"bbox":[180,435,920,42]}
+{"kind":"textbox","id":"sh/0nap8f6l","slide":12,"text":"消融为主证据，Integrated Gradients / SHAP 为辅，attention 和 gate 权重只作描述。","textPreview":"消融为主证据，Integrated Gradients / SHAP 为辅，attention 和 gate 权重只作描述。","textChars":62,"textLines":1,"bbox":[135,535,1010,62]}
+{"kind":"textbox","id":"sh/1oj61kn6","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/8f2psfyx","slide":12,"text":""}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"模型扩展","textShapes":14}
+{"kind":"textbox","id":"sh/4re1o3ed","slide":13,"text":"模型扩展","textPreview":"模型扩展","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/q50nydsj","slide":13,"text":"MultiBand-LEADv2 架构","textPreview":"MultiBand-LEADv2 架构","textChars":19,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/bq9orito","slide":13,"bbox":[72,142,92,5]}
+{"kind":"shape","id":"sh/o3i5w3ad","slide":13,"bbox":[75,175,100,46]}
+{"kind":"textbox","id":"sh/p4r6p8by","slide":13,"text":"δ","textPreview":"δ","textChars":1,"textLines":1,"bbox":[75,175,100,46]}
+{"kind":"shape","id":"sh/21gnuts7","slide":13,"bbox":[175,196,100,4]}
+{"kind":"shape","id":"sh/32ponyts","slide":13,"bbox":[75,248,100,46]}
+{"kind":"textbox","id":"sh/gzy5s3a1","slide":13,"text":"θ","textPreview":"θ","textChars":1,"textLines":1,"bbox":[75,248,100,46]}
+{"kind":"shape","id":"sh/1076lobm","slide":13,"bbox":[175,269,100,4]}
+{"kind":"shape","id":"sh/hcfy9k3u","slide":13,"bbox":[75,321,100,46]}
+{"kind":"textbox","id":"sh/gb6x0zm9","slide":13,"text":"α","textPreview":"α","textChars":1,"textLines":1,"bbox":[75,321,100,46]}
+{"kind":"shape","id":"sh/vaxg7ulo","slide":13,"bbox":[175,342,100,4]}
+{"kind":"shape","id":"sh/u9ofyp43","slide":13,"bbox":[75,394,100,46]}
+{"kind":"textbox","id":"sh/t8fy5k3i","slide":13,"text":"β","textPreview":"β","textChars":1,"textLines":1,"bbox":[75,394,100,46]}
+{"kind":"shape","id":"sh/876xwfmx","slide":13,"bbox":[175,415,100,4]}
+{"kind":"shape","id":"sh/7mdg3als","slide":13,"bbox":[75,467,100,46]}
+{"kind":"textbox","id":"sh/6l4fu547","slide":13,"text":"γ","textPreview":"γ","textChars":1,"textLines":1,"bbox":[75,467,100,46]}
+{"kind":"shape","id":"sh/lkvy103m","slide":13,"bbox":[175,488,100,4]}
+{"kind":"shape","id":"sh/kjmxsfm1","slide":13,"bbox":[275,205,230,300]}
+{"kind":"textbox","id":"sh/cnqh8fux","slide":13,"text":"共享\nLEADv2 encoder","textPreview":"共享 | LEADv2 encoder","textChars":17,"textLines":2,"bbox":[300,280,180,110]}
+{"kind":"shape","id":"sh/xozyhkbi","slide":13,"bbox":[505,350,110,4]}
+{"kind":"shape","id":"sh/q18f65cr","slide":13,"bbox":[615,270,215,165]}
+{"kind":"textbox","id":"sh/bmhgfatc","slide":13,"text":"band embedding\n+\n稀疏频段门控","textPreview":"band embedding | + | 稀疏频段门控","textChars":23,"textLines":3,"bbox":[635,295,175,110]}
+{"kind":"shape","id":"sh/oz6x4vul","slide":13,"bbox":[830,350,100,4]}
+{"kind":"shape","id":"sh/p0zyd0b6","slide":13,"bbox":[930,238,210,62]}
+{"kind":"textbox","id":"sh/2xof2lcv","slide":13,"text":"AD head","textPreview":"AD head","textChars":7,"textLines":1,"bbox":[940,246,190,46]}
+{"kind":"shape","id":"sh/3yxgbqdg","slide":13,"bbox":[930,343,210,62]}
+{"kind":"textbox","id":"sh/8vahgzu5","slide":13,"text":"MDD head","textPreview":"MDD head","textChars":8,"textLines":1,"bbox":[940,351,190,46]}
+{"kind":"shape","id":"sh/9wjyp4bq","slide":13,"bbox":[930,448,210,62]}
+{"kind":"textbox","id":"sh/jqlkfyds","slide":13,"text":"SZ head","textPreview":"SZ head","textChars":7,"textLines":1,"bbox":[940,456,190,46]}
+{"kind":"textbox","id":"sh/ipcjmtw7","slide":13,"text":"五个频段共享 encoder，避免参数量扩大五倍。","textPreview":"五个频段共享 encoder，避免参数量扩大五倍。","textChars":25,"textLines":1,"bbox":[280,585,720,36]}
+{"kind":"textbox","id":"sh/5cn2h8vy","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/hgzapcr6","slide":13,"text":""}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"评估","textShapes":4}
+{"kind":"textbox","id":"sh/kfidonqx","slide":14,"text":"评估","textPreview":"评估","textChars":2,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/xc7eds76","slide":14,"text":"稳定关键因素的判定标准","textPreview":"稳定关键因素的判定标准","textChars":11,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/wbydknq1","slide":14,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/idgvmx8r","slide":14,"text":"同时具有单频段高性能和删除后大幅下降，才支持“关键频段”结论。","textPreview":"同时具有单频段高性能和删除后大幅下降，才支持“关键频段”结论。","textChars":31,"textLines":1,"bbox":[135,555,1010,54]}
+{"kind":"textbox","id":"sh/5grehs7i","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"table","id":"tb/m90neh8v","slide":14,"name":"","rows":6,"cols":2,"preview":"证据 | 报告内容","bbox":[135,180,1010,330]}
+{"kind":"notes","id":"nt/6lsnupw7","slide":14,"text":""}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"已完成实验","textShapes":4}
+{"kind":"textbox","id":"sh/s7y5sv2x","slide":15,"text":"已完成实验","textPreview":"已完成实验","textChars":5,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/547mhg3m","slide":15,"text":"LEADv2 基线复现配置","textPreview":"LEADv2 基线复现配置","textChars":13,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/k3y5ov21","slide":15,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/65gnqlk7","slide":15,"text":"正式实验已生成 seed 41–45 的五个 checkpoint 和汇总结果。","textPreview":"正式实验已生成 seed 41–45 的五个 checkpoint 和汇总结果。","textChars":40,"textLines":1,"bbox":[130,555,1020,48]}
+{"kind":"textbox","id":"sh/t87ml0ji","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"table","id":"tb/u9cjyd8n","slide":15,"name":"","rows":6,"cols":2,"preview":"项目 | 本次设置","bbox":[105,170,1070,335]}
+{"kind":"notes","id":"nt/vaxsvy10","slide":15,"text":"来源：C:/Users/ROG/Desktop/LEAD/results/LEADv2/finetune/LEADv2/P-Base-F-APAVA-Multi/results.txt；本地运行环境记录。"}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"已完成实验","textShapes":19}
+{"kind":"textbox","id":"sh/kne14jqd","slide":16,"text":"已完成实验","textPreview":"已完成实验","textChars":5,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/8z2h8bq1","slide":16,"text":"基线复现的数据流","textPreview":"基线复现的数据流","textChars":8,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/9kby1g7m","slide":16,"bbox":[72,142,92,5]}
+{"kind":"shape","id":"sh/ytkf2h8j","slide":16,"bbox":[45,220,205,142]}
+{"kind":"textbox","id":"sh/zutgvm94","slide":16,"text":"数据","textPreview":"数据","textChars":2,"textLines":1,"bbox":[57,235,181,34]}
+{"kind":"textbox","id":"sh/kv2h4rqp","slide":16,"text":"APAVA\n16 通道","textPreview":"APAVA | 16 通道","textChars":11,"textLines":2,"bbox":[57,278,181,66]}
+{"kind":"textbox","id":"sh/lwbyxwra","slide":16,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[252,260,38,50]}
+{"kind":"shape","id":"sh/ip4zel83","slide":16,"bbox":[291,220,205,142]}
+{"kind":"textbox","id":"sh/3qdg7qpo","slide":16,"text":"划分","textPreview":"划分","textChars":2,"textLines":1,"bbox":[303,235,181,34]}
+{"kind":"textbox","id":"sh/fm1gzq5o","slide":16,"text":"15 训练\n4 验证 / 4 测试","textPreview":"15 训练 | 4 验证 / 4 测试","textChars":17,"textLines":2,"bbox":[303,278,181,66]}
+{"kind":"textbox","id":"sh/e1sf65o3","slide":16,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[498,260,38,50]}
+{"kind":"shape","id":"sh/1ojy10ne","slide":16,"bbox":[537,220,205,142]}
+{"kind":"textbox","id":"sh/gnax8v6t","slide":16,"text":"迁移","textPreview":"迁移","textChars":2,"textLines":1,"bbox":[549,235,181,34]}
+{"kind":"textbox","id":"sh/nqlg3a5k","slide":16,"text":"载入 P-Base\n替换分类头","textPreview":"载入 P-Base | 替换分类头","textChars":15,"textLines":2,"bbox":[549,278,181,66]}
+{"kind":"textbox","id":"sh/2pcfa5oz","slide":16,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[744,260,38,50]}
+{"kind":"shape","id":"sh/ps3y5knq","slide":16,"bbox":[783,220,205,142]}
+{"kind":"textbox","id":"sh/oruhcf65","slide":16,"text":"微调","textPreview":"微调","textChars":2,"textLines":1,"bbox":[795,235,181,34]}
+{"kind":"textbox","id":"sh/bulg7u5g","slide":16,"text":"受试者损失\nSWA","textPreview":"受试者损失 | SWA","textChars":9,"textLines":2,"bbox":[795,278,181,66]}
+{"kind":"textbox","id":"sh/atczepob","slide":16,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[990,260,38,50]}
+{"kind":"shape","id":"sh/mpgj6t8j","slide":16,"bbox":[1029,220,205,142]}
+{"kind":"textbox","id":"sh/7qp0zepo","slide":16,"text":"评估","textPreview":"评估","textChars":2,"textLines":1,"bbox":[1041,235,181,34]}
+{"kind":"textbox","id":"sh/8by18jq9","slide":16,"text":"片段指标\n受试者投票","textPreview":"片段指标 | 受试者投票","textChars":10,"textLines":2,"bbox":[1041,278,181,66]}
+{"kind":"textbox","id":"sh/9c7i1o7u","slide":16,"text":"训练集 4,858 个片段，验证集 2,198 个片段，测试集 2,226 个片段","textPreview":"训练集 4,858 个片段，验证集 2,198 个片段，测试集 2,226 个片段","textChars":41,"textLines":1,"bbox":[100,430,1080,46]}
+{"kind":"textbox","id":"sh/ylwj2987","slide":16,"text":"受试者先划分，片段不会跨越训练、验证和测试集合。","textPreview":"受试者先划分，片段不会跨越训练、验证和测试集合。","textChars":24,"textLines":1,"bbox":[135,525,1010,52]}
+{"kind":"textbox","id":"sh/zm50veps","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/gny5sjyp","slide":16,"text":"来源：正式 APAVA 运行日志与 results.txt。"}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"复现结果","textShapes":4}
+{"kind":"textbox","id":"sh/snedsvml","slide":17,"text":"复现结果","textPreview":"复现结果","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/1c7e50ni","slide":17,"text":"五次运行的测试准确率","textPreview":"五次运行的测试准确率","textChars":10,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/gbedwfmx","slide":17,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/6lwvql4v","slide":17,"text":"片段级结果较稳定；受试者级结果受 4 人测试集影响，只会以 25 个百分点变化。","textPreview":"片段级结果较稳定；受试者级结果受 4 人测试集影响，只会以 25 个百分点变化。","textChars":40,"textLines":1,"bbox":[125,575,1030,44]}
+{"kind":"textbox","id":"sh/t8ne10n6","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"table","id":"tb/mxcva1wj","slide":17,"name":"","rows":3,"cols":6,"preview":"指标 | Seed 41 | Seed 42 | Seed 43 | Seed 44 | Seed 45","bbox":[55,220,1170,205]}
+{"kind":"notes","id":"nt/14bup87q","slide":17,"text":"数据来源：C:/Users/ROG/Desktop/LEAD/results/LEADv2/finetune/LEADv2/P-Base-F-APAVA-Multi/results.txt。单位：%。"}
+{"kind":"slide","id":"sl/y5wne50z","slide":18,"title":"复现结果","textShapes":5}
+{"kind":"textbox","id":"sh/6hw3y9sb","slide":18,"text":"复现结果","textPreview":"复现结果","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/wrelszu9","slide":18,"text":"APAVA 正式复现结果","textPreview":"APAVA 正式复现结果","textChars":12,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/hsn2l4bu","slide":18,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/je5knut0","slide":18,"text":"片段级 AUROC 91.90% 表明模型具有较强区分能力。","textPreview":"片段级 AUROC 91.90% 表明模型具有较强区分能力。","textChars":30,"textLines":1,"bbox":[150,465,980,48]}
+{"kind":"textbox","id":"sh/4felwzu5","slide":18,"text":"正式报告使用 5 次均值 ± 标准差，不选取单次最佳结果。","textPreview":"正式报告使用 5 次均值 ± 标准差，不选取单次最佳结果。","textChars":29,"textLines":1,"bbox":[160,550,960,42]}
+{"kind":"textbox","id":"sh/5gnmp4bq","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"table","id":"tb/uhc7yhsb","slide":18,"name":"","rows":3,"cols":5,"preview":"测试层级 | Accuracy | F1 | AUROC | AUPRC","bbox":[55,205,1170,190]}
+{"kind":"notes","id":"nt/y5wne50z","slide":18,"text":"来源：本地正式复现 results.txt。五次随机种子为 41–45。"}
+{"kind":"slide","id":"sl/nid43ytk","slide":19,"title":"复现结果","textShapes":8}
+{"kind":"textbox","id":"sh/dsri9sr6","slide":19,"text":"复现结果","textPreview":"复现结果","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/9gb6xgbi","slide":19,"text":"基线结果的解释边界","textPreview":"基线结果的解释边界","textChars":9,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/8v2pobax","slide":19,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/vitozqt8","slide":19,"text":"可以支持","textPreview":"可以支持","textChars":4,"textLines":1,"bbox":[95,190,430,42]}
+{"kind":"textbox","id":"sh/ahk7qls3","slide":19,"text":"•  代码、权重、数据与训练链路已跑通\n•  P-Base 能迁移到 APAVA 二分类\n•  全频段基线可用于后续配对消融","textPreview":"•  代码、权重、数据与训练链路已跑通 | •  P-Base 能迁移到 APAVA 二分类 | •  全频段基线可用于后续配对消融","textChars":62,"textLines":3,"bbox":[95,245,485,210]}
+{"kind":"textbox","id":"sh/xkbq10be","slide":19,"text":"仍需谨慎","textPreview":"仍需谨慎","textChars":4,"textLines":1,"bbox":[690,190,430,42]}
+{"kind":"textbox","id":"sh/wj2psvat","slide":19,"text":"•  测试集每次只有 4 名受试者\n•  受试者准确率 75% 或 100% 呈离散跳变\n•  单一 AD 数据集不能支持跨疾病结论","textPreview":"•  测试集每次只有 4 名受试者 | •  受试者准确率 75% 或 100% 呈离散跳变 | •  单一 AD 数据集不能支持跨疾病结论","textChars":66,"textLines":3,"bbox":[690,245,500,210]}
+{"kind":"shape","id":"sh/jmd83atk","slide":19,"bbox":[95,500,1090,2]}
+{"kind":"textbox","id":"sh/il47u5sz","slide":19,"text":"后续频段实验以片段级 AUROC 91.90% 和受试者级 Accuracy 90.00% 为全频基线。","textPreview":"后续频段实验以片段级 AUROC 91.90% 和受试者级 Accuracy 90.00% 为全频基线。","textChars":52,"textLines":1,"bbox":[115,540,1050,60]}
+{"kind":"textbox","id":"sh/cri1gnql","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/nid43ytk","slide":19,"text":"解释基于 APAVA 固定划分：训练 15 人、验证 4 人、测试 4 人。受试者指标由多数投票得到。"}
+{"kind":"slide","id":"sl/zyxsni5k","slide":20,"title":"执行路线","textShapes":19}
+{"kind":"textbox","id":"sh/za50r2ds","slide":20,"text":"执行路线","textPreview":"执行路线","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/qpwjmh8n","slide":20,"text":"研究阶段：前期准备与核心筛选","textPreview":"研究阶段：前期准备与核心筛选","textChars":14,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/rq50vmp8","slide":20,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/4nu1krqh","slide":20,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[45,185,90,45]}
+{"kind":"shape","id":"sh/po3itc72","slide":20,"bbox":[70,242,40,4]}
+{"kind":"textbox","id":"sh/2lczih8r","slide":20,"text":"研究范围","textPreview":"研究范围","textChars":4,"textLines":1,"bbox":[45,275,215,48]}
+{"kind":"textbox","id":"sh/3ml0rmpw","slide":20,"text":"固定 LEADv2\n确定 AD、MDD、SZ","textPreview":"固定 LEADv2 | 确定 AD、MDD、SZ","textChars":22,"textLines":2,"bbox":[45,345,215,82]}
+{"kind":"shape","id":"sh/gjuhg7ql","slide":20,"bbox":[250,218,65,2]}
+{"kind":"textbox","id":"sh/hk3ipcr6","slide":20,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[291,185,90,45]}
+{"kind":"shape","id":"sh/dkfmp4zy","slide":20,"bbox":[316,242,40,4]}
+{"kind":"textbox","id":"sh/cj65wzyd","slide":20,"text":"数据标准化","textPreview":"数据标准化","textChars":5,"textLines":1,"bbox":[291,275,215,48]}
+{"kind":"textbox","id":"sh/rid4nuhs","slide":20,"text":"统一导联与采样率\n按受试者划分","textPreview":"统一导联与采样率 | 按受试者划分","textChars":15,"textLines":2,"bbox":[291,345,215,82]}
+{"kind":"shape","id":"sh/qh4nupg7","slide":20,"bbox":[496,218,65,2]}
+{"kind":"textbox","id":"sh/pwvmlkzm","slide":20,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[537,185,90,45]}
+{"kind":"shape","id":"sh/4vm5sfy1","slide":20,"bbox":[562,242,40,4]}
+{"kind":"textbox","id":"sh/3ud4juhg","slide":20,"text":"基线建立","textPreview":"基线建立","textChars":4,"textLines":1,"bbox":[537,275,215,48]}
+{"kind":"textbox","id":"sh/2t4nqpgb","slide":20,"text":"冻结线性探测\n再微调 LEADv2","textPreview":"冻结线性探测 | 再微调 LEADv2","textChars":17,"textLines":2,"bbox":[537,345,215,82]}
+{"kind":"shape","id":"sh/hsvmhkzq","slide":20,"bbox":[742,218,65,2]}
+{"kind":"textbox","id":"sh/grm5ofy5","slide":20,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[783,185,90,45]}
+{"kind":"shape","id":"sh/8b654f61","slide":20,"bbox":[808,242,40,4]}
+{"kind":"textbox","id":"sh/tcz6dk7m","slide":20,"text":"频段筛选","textPreview":"频段筛选","textChars":4,"textLines":1,"bbox":[783,275,215,48]}
+{"kind":"textbox","id":"sh/69on25ov","slide":20,"text":"单频段分类\n逐一删除频段","textPreview":"单频段分类 | 逐一删除频段","textChars":12,"textLines":2,"bbox":[783,345,215,82]}
+{"kind":"shape","id":"sh/7ax4bapg","slide":20,"bbox":[988,218,65,2]}
+{"kind":"textbox","id":"sh/k7650f6p","slide":20,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1029,185,90,45]}
+{"kind":"shape","id":"sh/l8fm907a","slide":20,"bbox":[1054,242,40,4]}
+{"kind":"textbox","id":"sh/y5ony58z","slide":20,"text":"电极筛选","textPreview":"电极筛选","textChars":4,"textLines":1,"bbox":[1029,275,215,48]}
+{"kind":"textbox","id":"sh/j6x47ap4","slide":20,"text":"单电极、电极对\n与脑区遮挡","textPreview":"单电极、电极对 | 与脑区遮挡","textChars":13,"textLines":2,"bbox":[1029,345,215,82]}
+{"kind":"textbox","id":"sh/43q5cz69","slide":20,"text":"前五个阶段先建立可信基线，再判断频段和电极的不可替代贡献。","textPreview":"前五个阶段先建立可信基线，再判断频段和电极的不可替代贡献。","textChars":29,"textLines":1,"bbox":[150,545,980,55]}
+{"kind":"textbox","id":"sh/54j6l47e","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/zyxsni5k","slide":20,"text":""}
+{"kind":"slide","id":"sl/m1wvqtk3","slide":21,"title":"执行路线","textShapes":19}
+{"kind":"textbox","id":"sh/ipcjmhw7","slide":21,"text":"执行路线","textPreview":"执行路线","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/1gbmxs7a","slide":21,"text":"研究阶段：联合分析与结果验证","textPreview":"研究阶段：联合分析与结果验证","textChars":14,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/0f2lon6p","slide":21,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/ra9kryp8","slide":21,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[45,185,90,45]}
+{"kind":"shape","id":"sh/qp03yt8n","slide":21,"bbox":[70,242,40,4]}
+{"kind":"textbox","id":"sh/dcb2t87y","slide":21,"text":"特征对比","textPreview":"特征对比","textChars":4,"textLines":1,"bbox":[45,275,215,48]}
+{"kind":"textbox","id":"sh/sb2lk36t","slide":21,"text":"LEADv2 embedding\n与传统特征","textPreview":"LEADv2 embedding | 与传统特征","textChars":22,"textLines":2,"bbox":[45,345,215,90]}
+{"kind":"shape","id":"sh/b6d432pc","slide":21,"bbox":[250,218,65,2]}
+{"kind":"textbox","id":"sh/al43uxor","slide":21,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[291,185,90,45]}
+{"kind":"shape","id":"sh/4jax4nqd","slide":21,"bbox":[316,242,40,4]}
+{"kind":"textbox","id":"sh/5kjydsri","slide":21,"text":"联合分析","textPreview":"联合分析","textChars":4,"textLines":1,"bbox":[291,275,215,48]}
+{"kind":"textbox","id":"sh/ixsf2d87","slide":21,"text":"高排名电极 × 频段\n形成重要性热图","textPreview":"高排名电极 × 频段 | 形成重要性热图","textChars":18,"textLines":2,"bbox":[291,345,215,90]}
+{"kind":"shape","id":"sh/jy1gbi9s","slide":21,"bbox":[496,218,65,2]}
+{"kind":"textbox","id":"sh/wvax03q1","slide":21,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[537,185,90,45]}
+{"kind":"shape","id":"sh/hwjy98rm","slide":21,"bbox":[562,242,40,4]}
+{"kind":"textbox","id":"sh/utsfyt8v","slide":21,"text":"模型扩展","textPreview":"模型扩展","textChars":4,"textLines":1,"bbox":[537,275,215,48]}
+{"kind":"textbox","id":"sh/vu1w7y9g","slide":21,"text":"MultiBand-LEADv2\n共享编码器与频段门控","textPreview":"MultiBand-LEADv2 | 共享编码器与频段门控","textChars":27,"textLines":2,"bbox":[537,345,215,90]}
+{"kind":"shape","id":"sh/8rqxw3q5","slide":21,"bbox":[742,218,65,2]}
+{"kind":"textbox","id":"sh/9sze58rq","slide":21,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[783,185,90,45]}
+{"kind":"shape","id":"sh/porutkje","slide":21,"bbox":[808,242,40,4]}
+{"kind":"textbox","id":"sh/onid0f2t","slide":21,"text":"稳定性验证","textPreview":"稳定性验证","textChars":5,"textLines":1,"bbox":[783,275,215,48]}
+{"kind":"textbox","id":"sh/nm9cru18","slide":21,"text":"跨折、跨种子\n与独立数据集","textPreview":"跨折、跨种子 | 与独立数据集","textChars":13,"textLines":2,"bbox":[783,345,215,90]}
+{"kind":"shape","id":"sh/2l0vypkn","slide":21,"bbox":[988,218,65,2]}
+{"kind":"textbox","id":"sh/1kru5kj2","slide":21,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1029,185,90,45]}
+{"kind":"shape","id":"sh/0jidwf2x","slide":21,"bbox":[1054,242,40,4]}
+{"kind":"textbox","id":"sh/fi9c3a1c","slide":21,"text":"结果整理","textPreview":"结果整理","textChars":4,"textLines":1,"bbox":[1029,275,215,48]}
+{"kind":"textbox","id":"sh/ehgvu5kr","slide":21,"text":"疾病×频段×电极\n稳定性矩阵","textPreview":"疾病×频段×电极 | 稳定性矩阵","textChars":14,"textLines":2,"bbox":[1029,345,215,90]}
+{"kind":"textbox","id":"sh/lgbe14jm","slide":21,"text":"只有在多次受试者级实验中稳定重现，才将某个因素列为关键因素。","textPreview":"只有在多次受试者级实验中稳定重现，才将某个因素列为关键因素。","textChars":30,"textLines":1,"bbox":[150,545,980,55]}
+{"kind":"textbox","id":"sh/kf2d8zi1","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/m1wvqtk3","slide":21,"text":""}
+{"kind":"slide","id":"sl/5onypobq","slide":22,"title":"执行路线","textShapes":19}
+{"kind":"textbox","id":"sh/rup0va5s","slide":22,"text":"执行路线","textPreview":"执行路线","textChars":4,"textLines":1,"bbox":[72,38,420,26]}
+{"kind":"textbox","id":"sh/6987itcr","slide":22,"text":"最小可行实验","textPreview":"最小可行实验","textChars":6,"textLines":1,"bbox":[72,68,1136,66]}
+{"kind":"shape","id":"sh/7a18rydc","slide":22,"bbox":[72,142,92,5]}
+{"kind":"textbox","id":"sh/k7qpgjul","slide":22,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[46,185,90,45]}
+{"kind":"shape","id":"sh/58zqpov6","slide":22,"bbox":[71,242,40,4]}
+{"kind":"textbox","id":"sh/il87etcv","slide":22,"text":"打通 LEADv2","textPreview":"打通 LEADv2","textChars":9,"textLines":1,"bbox":[46,275,210,48]}
+{"kind":"textbox","id":"sh/jmh8nyd0","slide":22,"text":"ADSZ 或 ADFTD\n冻结线性探测","textPreview":"ADSZ 或 ADFTD | 冻结线性探测","textChars":19,"textLines":2,"bbox":[46,340,210,80]}
+{"kind":"shape","id":"sh/43u9snu5","slide":22,"bbox":[251,218,65,2]}
+{"kind":"textbox","id":"sh/p43q1sva","slide":22,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[291,185,90,45]}
+{"kind":"shape","id":"sh/p4z6tcri","slide":22,"bbox":[316,242,40,4]}
+{"kind":"textbox","id":"sh/436507qx","slide":22,"text":"验证频段输入","textPreview":"验证频段输入","textChars":6,"textLines":1,"bbox":[291,275,210,48]}
+{"kind":"textbox","id":"sh/3ixor29c","slide":22,"text":"broadband / theta\nalpha / beta","textPreview":"broadband / theta | alpha / beta","textChars":30,"textLines":2,"bbox":[291,340,210,80]}
+{"kind":"shape","id":"sh/2honyx8r","slide":22,"bbox":[496,218,65,2]}
+{"kind":"textbox","id":"sh/hgf6pcr6","slide":22,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[536,185,90,45]}
+{"kind":"shape","id":"sh/gf65w7ql","slide":22,"bbox":[561,242,40,4]}
+{"kind":"textbox","id":"sh/fexon290","slide":22,"text":"三疾病主实验","textPreview":"三疾病主实验","textChars":6,"textLines":1,"bbox":[536,275,210,48]}
+{"kind":"textbox","id":"sh/udonux8v","slide":22,"text":"AD / MDD / SZ\n五频段 + Full","textPreview":"AD / MDD / SZ | 五频段 + Full","textChars":24,"textLines":2,"bbox":[536,340,210,80]}
+{"kind":"shape","id":"sh/1cj61w7q","slide":22,"bbox":[741,218,65,2]}
+{"kind":"textbox","id":"sh/0bap8rq5","slide":22,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[781,185,90,45]}
+{"kind":"shape","id":"sh/krihkz2d","slide":22,"bbox":[806,242,40,4]}
+{"kind":"textbox","id":"sh/lsrit4jy","slide":22,"text":"系统消融","textPreview":"系统消融","textChars":4,"textLines":1,"bbox":[781,275,210,48]}
+{"kind":"textbox","id":"sh/yp0zipk7","slide":22,"text":"频段 / 电极 /\n特征族","textPreview":"频段 / 电极 / | 特征族","textChars":13,"textLines":2,"bbox":[781,340,210,80]}
+{"kind":"shape","id":"sh/jq90ru1s","slide":22,"bbox":[986,218,65,2]}
+{"kind":"textbox","id":"sh/wnihgf2h","slide":22,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1026,185,90,45]}
+{"kind":"shape","id":"sh/xoripkj2","slide":22,"bbox":[1051,242,40,4]}
+{"kind":"textbox","id":"sh/al0zepkb","slide":22,"text":"MultiBand-LEADv2","textPreview":"MultiBand-LEADv2","textChars":16,"textLines":1,"bbox":[1026,275,210,48]}
+{"kind":"textbox","id":"sh/bm9gnu1w","slide":22,"text":"与原 LEADv2 和\n传统基线比较","textPreview":"与原 LEADv2 和 | 传统基线比较","textChars":18,"textLines":2,"bbox":[1026,340,210,80]}
+{"kind":"textbox","id":"sh/ozyhcf25","slide":22,"text":"对照：PSD+SVM、EEGNet/Conformer、原始 LEADv2、MultiBand-LEADv2","textPreview":"对照：PSD+SVM、EEGNet/Conformer、原始 LEADv2、MultiBand-LEADv2","textChars":54,"textLines":1,"bbox":[170,535,940,55]}
+{"kind":"textbox","id":"sh/907ylkjq","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1170,674,38,20]}
+{"kind":"notes","id":"nt/5onypobq","slide":22,"text":""}
+{"kind":"slide","id":"sl/c7uhcr6t","slide":23,"title":"预期产出","textShapes":7}
+{"kind":"textbox","id":"sh/sby90zm1","slide":23,"text":"预期产出","textPreview":"预期产出","textChars":4,"textLines":1,"bbox":[78,72,520,58]}
+{"kind":"shape","id":"sh/90vqdczq","slide":23,"bbox":[78,145,92,5]}
+{"kind":"textbox","id":"sh/8zm9k7y5","slide":23,"text":"一个可复现的 LEADv2 多疾病微调框架","textPreview":"一个可复现的 LEADv2 多疾病微调框架","textChars":21,"textLines":1,"bbox":[90,200,720,55]}
+{"kind":"textbox","id":"sh/v2d8fmhw","slide":23,"text":"•  疾病 × 电极 × 频段 × 特征稳定性矩阵\n•  单频段判别力和删除后性能下降\n•  跨被试、跨种子和跨数据集证据","textPreview":"•  疾病 × 电极 × 频段 × 特征稳定性矩阵 | •  单频段判别力和删除后性能下降 | •  跨被试、跨种子和跨数据集证据","textChars":61,"textLines":3,"bbox":[90,280,720,175]}
+{"kind":"shape","id":"sh/a14rmhgb","slide":23,"bbox":[870,125,5,420]}
+{"kind":"textbox","id":"sh/xovqhcz2","slide":23,"text":"表述边界","textPreview":"表述边界","textChars":4,"textLines":1,"bbox":[915,165,250,36]}
+{"kind":"textbox","id":"sh/w3m9o7yh","slide":23,"text":"结果说明对疾病识别的稳定判别贡献。\n\n模型不能单独证明某个 EEG 因素导致疾病。","textPreview":"结果说明对疾病识别的稳定判别贡献。 |  | 模型不能单独证明某个 EEG 因素导致疾病。","textChars":41,"textLines":3,"bbox":[915,225,275,210]}
+{"kind":"textbox","id":"sh/jqd8jmhs","slide":23,"text":"主模型：LEADv2","textPreview":"主模型：LEADv2","textChars":10,"textLines":1,"bbox":[90,590,360,35]}
+{"kind":"textbox","id":"sh/ip4rqhgn","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1160,674,38,20]}
+{"kind":"notes","id":"nt/c7uhcr6t","slide":23,"text":"来源：本项目方法学综合。"}
