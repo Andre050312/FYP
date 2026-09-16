@@ -6,7 +6,7 @@ import { Presentation, PresentationFile } from "@oai/artifact-tool";
 const workspaceDir = "C:/Users/ROG/Desktop/FYP";
 const SKILL_DIR = "C:/Users/ROG/.codex/plugins/cache/openai-primary-runtime/presentations/26.909.12148/skills/presentations";
 const TMP_DIR = path.join(workspaceDir, ".ppt_build", "v2_work");
-const FINAL_PPTX = path.join(workspaceDir, "outputs", "FYP版本2.pptx");
+const FINAL_PPTX = path.join(workspaceDir, "outputs", "FYP版本2_第四页易懂版.pptx");
 const templatePath = path.join(workspaceDir, "调研汇报模版.pptx");
 const leadImagePath = "C:/Users/ROG/Desktop/LEAD/figs/lead_pipeline.png";
 const RUNTIME_PYTHON = "C:/Users/ROG/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe";
@@ -207,12 +207,12 @@ toc(deck.slides.items[1], 0);
 {
   const slide = deck.slides.items[3];
   cleanBody(slide);
-  setTitle(slide, "公开数据集上的三项核心挑战");
+  setTitle(slide, "公开数据集上的三个实际问题");
   const xs = [52, 349, 646];
   const blocks = [
-    ["数据异构", "通道、采样率、参考方式和记录状态不同，模型容易学习数据集来源。"],
-    ["评价偏差", "片段随机划分会造成被试泄漏，片段准确率也不能代替患者级性能。"],
-    ["解释不稳定", "单次注意力或高准确率不足以证明某个频段、电极具有稳定贡献。"],
+    ["模型可能认错目标", "各数据集的电极、采样率和睁闭眼条件不同。模型可能在识别数据来自哪里，而不是识别疾病。"],
+    ["同一个人可能被看两次", "如果同一人的部分片段用于训练，其他片段用于测试，模型可能记住这个人，成绩会虚高。"],
+    ["片段分对不等于患者分对", "模型能分对很多短片段，不代表它能正确判断一名从未见过的新患者。"],
   ];
   blocks.forEach(([head, body], i) => {
     textbox(slide, `0${i + 1}`, xs[i], 128, 60, 38, { typeface: LATIN, fontSize: 20, bold: true, color: BLUE });
@@ -220,12 +220,12 @@ toc(deck.slides.items[1], 0);
     textbox(slide, body, xs[i], 226, 240, 125, { fontSize: 18, color: MID, verticalAlignment: "top" });
   });
   rect(slide, 52, 388, 856, 1, GRID);
-  textbox(slide, "主评测场：公开数据集", 62, 410, 270, 34, { fontSize: 20, bold: true, color: GREEN });
-  textbox(slide, "医院数据放在模型定型之后，仅用于外部验证，不参与模型选择和超参数调优。", 315, 405, 570, 48, {
+  textbox(slide, "主实验：按被试划分公开数据", 62, 410, 300, 34, { fontSize: 19, bold: true, color: GREEN });
+  textbox(slide, "医院数据等模型完成后再测试，只检查模型能否迁移，不用来选择模型或调整参数。", 345, 405, 540, 48, {
     fontSize: 18, bold: true, color: RED,
   });
   pageNo(slide, 4);
-  note(slide, "研究范围由用户确认：医院数据仅作后续实验验证，项目重点是公开数据集上的性能提升。 ");
+  note(slide, "通俗解释：第一，模型可能利用采集条件判断数据集来源。第二，同一被试的片段不能同时进入训练集和测试集。第三，临床评价单位是患者，因此主要报告患者级指标。医院数据仅作后续实验验证。 ");
 }
 
 toc(deck.slides.items[4], 1);
@@ -465,7 +465,7 @@ const result = await finalizePresentation({
   requiredNativeChartOwnerSlides: [10],
   fontPolicy,
   verifyArtifactToolImport: true,
-  receiptPath: path.join(stagingDir, "FYP版本2.pptx.validation.json"),
+  receiptPath: path.join(stagingDir, "FYP版本2_第四页易懂版.pptx.validation.json"),
 });
 
 console.log(JSON.stringify(result, null, 2));

@@ -1,252 +1,252 @@
-{"kind":"deck","id":"pr/cxzz19","name":"Deck"}
-{"kind":"layout","layoutId":"6dd2aa7a-46fd-4391-b578-369e1ea326fc","name":"Master","type":"master"}
-{"kind":"layout","layoutId":"9e7bb042-c560-400b-b4d7-007c7067c0cd","name":"Title Slide","type":"title"}
-{"kind":"slide","id":"sl/pim1nq","slide":1,"title":"基于 LEAD 的多疾病 EEG","textShapes":5}
-{"kind":"shape","id":"sh/u1wzadwr","slide":1,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/honil8vi","slide":1,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/gnehc3ex","slide":1,"bbox":[0,0,960,504]}
-{"kind":"shape","id":"sh/7yl0fyxg","slide":1,"bbox":[55,128,7,168]}
-{"kind":"textbox","id":"sh/6xcz6twv","slide":1,"text":"基于 LEAD 的多疾病 EEG\n关键因素筛选","textPreview":"基于 LEAD 的多疾病 EEG | 关键因素筛选","textChars":23,"textLines":2,"bbox":[88,115,760,125]}
-{"kind":"textbox","id":"sh/t0nih8f6","slide":1,"text":"公开数据集性能提升与电极、频段、特征的稳定贡献","textPreview":"公开数据集性能提升与电极、频段、特征的稳定贡献","textChars":23,"textLines":1,"bbox":[90,252,760,48]}
-{"kind":"textbox","id":"sh/8zeh83el","slide":1,"text":"FYP 调研汇报","textPreview":"FYP 调研汇报","textChars":8,"textLines":1,"bbox":[620,374,250,32]}
-{"kind":"textbox","id":"sh/julgbex4","slide":1,"text":"2026-09-13","textPreview":"2026-09-13","textChars":10,"textLines":1,"bbox":[620,410,250,26]}
-{"kind":"shape","id":"sh/ytcz2twj","slide":1,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/oj2lk7ml","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"notes","id":"nt/pim1nq","slide":1,"text":"本页使用用户提供的调研汇报模板。研究主线：公开数据集上的可复现性能提升；医院数据仅作后续外部验证。主模型为LEAD。 "}
-{"kind":"slide","id":"sl/mngn24","slide":2,"title":"CONTENTS","textShapes":14}
-{"kind":"shape","id":"sh/694ra14f","slide":2,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/tcfa5gnq","slide":2,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/sbm9cbm5","slide":2,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/fexs7q5w","slide":2,"text":"CONTENTS","textPreview":"CONTENTS","textChars":8,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"shape","id":"sh/udorel4b","slide":2,"bbox":[43,124,6,52]}
-{"kind":"textbox","id":"sh/hgfa9gn2","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,120,52,58]}
-{"kind":"textbox","id":"sh/gf69gbmh","slide":2,"text":"研究背景","textPreview":"研究背景","textChars":4,"textLines":1,"bbox":[118,120,180,32]}
-{"kind":"textbox","id":"sh/3ixsbq5s","slide":2,"text":"公开数据上的问题与挑战","textPreview":"公开数据上的问题与挑战","textChars":11,"textLines":1,"bbox":[300,120,560,32]}
-{"kind":"textbox","id":"sh/2horil47","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[62,202,52,58]}
-{"kind":"textbox","id":"sh/w7e9c7y1","slide":2,"text":"研究现状","textPreview":"研究现状","textChars":4,"textLines":1,"bbox":[118,202,180,32]}
-{"kind":"textbox","id":"sh/x8nalcfm","slide":2,"text":"分类范式与证据缺口","textPreview":"分类范式与证据缺口","textChars":9,"textLines":1,"bbox":[300,202,560,32]}
-{"kind":"textbox","id":"sh/a5wrahgv","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[62,284,52,58]}
-{"kind":"textbox","id":"sh/v65sjmxg","slide":2,"text":"代表方法","textPreview":"代表方法","textChars":4,"textLines":1,"bbox":[118,284,180,32]}
-{"kind":"textbox","id":"sh/kby9gryx","slide":2,"text":"LEAD与本项目框架","textPreview":"LEAD与本项目框架","textChars":10,"textLines":1,"bbox":[300,284,560,32]}
-{"kind":"textbox","id":"sh/5w7apwfi","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[62,366,52,58]}
-{"kind":"textbox","id":"sh/i9wrehgr","slide":2,"text":"后续工作","textPreview":"后续工作","textChars":4,"textLines":1,"bbox":[118,366,180,32]}
-{"kind":"textbox","id":"sh/ja5snmxc","slide":2,"text":"公开数据提升与外部验证","textPreview":"公开数据提升与外部验证","textChars":11,"textLines":1,"bbox":[300,366,560,32]}
-{"kind":"shape","id":"sh/szy9kby9","slide":2,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/t07atwfe","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"notes","id":"nt/mngn24","slide":2,"text":""}
-{"kind":"slide","id":"sl/oae3ua","slide":3,"title":"EEG疾病识别中的共同输入","textShapes":13}
-{"kind":"shape","id":"sh/0za98jqp","slide":3,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/zy18fe94","slide":3,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/yxsr698j","slide":3,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/dwjqd4re","slide":3,"text":"EEG疾病识别中的共同输入","textPreview":"EEG疾病识别中的共同输入","textChars":13,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"textbox","id":"sh/cva94zqt","slide":3,"text":"多篇研究反复使用静息态EO/EC、相似导联和固定切窗","textPreview":"多篇研究反复使用静息态EO/EC、相似导联和固定切窗","textChars":26,"textLines":1,"bbox":[48,94,864,45]}
-{"kind":"textbox","id":"sh/buh8bu98","slide":3,"text":"记录条件","textPreview":"记录条件","textChars":4,"textLines":1,"bbox":[55,182,180,32]}
-{"kind":"textbox","id":"sh/qt8r2p8n","slide":3,"text":"静息态 EO / EC","textPreview":"静息态 EO / EC","textChars":11,"textLines":1,"bbox":[55,225,180,58]}
-{"kind":"textbox","id":"sh/pszq9kr2","slide":3,"text":"导联设置","textPreview":"导联设置","textChars":4,"textLines":1,"bbox":[277,182,180,32]}
-{"kind":"textbox","id":"sh/o7qp0zqh","slide":3,"text":"19 / 31 / 32 / 64","textPreview":"19 / 31 / 32 / 64","textChars":17,"textLines":1,"bbox":[277,225,180,58]}
-{"kind":"textbox","id":"sh/ehgvqdcj","slide":3,"text":"切窗长度","textPreview":"切窗长度","textChars":4,"textLines":1,"bbox":[499,182,180,32]}
-{"kind":"textbox","id":"sh/fipwjit4","slide":3,"text":"2–12 s","textPreview":"2–12 s","textChars":6,"textLines":1,"bbox":[499,225,180,58]}
-{"kind":"textbox","id":"sh/0jidsnu9","slide":3,"text":"常用特征","textPreview":"常用特征","textChars":4,"textLines":1,"bbox":[721,182,180,32]}
-{"kind":"textbox","id":"sh/14relsbu","slide":3,"text":"PSD、连接、复杂度","textPreview":"PSD、连接、复杂度","textChars":10,"textLines":1,"bbox":[721,225,180,58]}
-{"kind":"shape","id":"sh/qdgvmdc7","slide":3,"bbox":[70,334,820,1]}
-{"kind":"textbox","id":"sh/repwfits","slide":3,"text":"这些选择提供了可比较的输入条件，但不能回答哪些因素真正支撑分类。","textPreview":"这些选择提供了可比较的输入条件，但不能回答哪些因素真正支撑分类。","textChars":32,"textLines":1,"bbox":[85,355,790,48]}
-{"kind":"textbox","id":"sh/sfydo3ud","slide":3,"text":"研究问题：哪些频段、电极和特征在不同被试划分及公开数据集上保持不可替代贡献？","textPreview":"研究问题：哪些频段、电极和特征在不同被试划分及公开数据集上保持不可替代贡献？","textChars":38,"textLines":1,"bbox":[90,421,780,50]}
-{"kind":"shape","id":"sh/dg7eh8by","slide":3,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/i9wvitcb","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"notes","id":"nt/oae3ua","slide":3,"text":"来源：用户提供的EEG文章筛选.xlsx与现有FYP版本1。共同输入条件属于文献观察，不代表因果或决定性证据。 "}
-{"kind":"slide","id":"sl/2rsusb","slide":4,"title":"公开数据集上的三项核心挑战","textShapes":13}
-{"kind":"shape","id":"sh/t8bepsni","slide":4,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/6lkvux4r","slide":4,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/76twn25c","slide":4,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/kjidsnml","slide":4,"text":"公开数据集上的三项核心挑战","textPreview":"公开数据集上的三项核心挑战","textChars":13,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"textbox","id":"sh/5krelsn6","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[52,128,60,38]}
-{"kind":"textbox","id":"sh/ih0vqd4v","slide":4,"text":"数据异构","textPreview":"数据异构","textChars":4,"textLines":1,"bbox":[52,170,245,40]}
-{"kind":"textbox","id":"sh/ji9wji50","slide":4,"text":"通道、采样率、参考方式和记录状态不同，模型容易学习数据集来源。","textPreview":"通道、采样率、参考方式和记录状态不同，模型容易学习数据集来源。","textChars":31,"textLines":1,"bbox":[52,226,240,125]}
-{"kind":"textbox","id":"sh/ofmx47m5","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[349,128,60,38]}
-{"kind":"textbox","id":"sh/pgvexcna","slide":4,"text":"评价偏差","textPreview":"评价偏差","textChars":4,"textLines":1,"bbox":[349,170,245,40]}
-{"kind":"textbox","id":"sh/x8rilk7a","slide":4,"text":"片段随机划分会造成被试泄漏，片段准确率也不能代替患者级性能。","textPreview":"片段随机划分会造成被试泄漏，片段准确率也不能代替患者级性能。","textChars":30,"textLines":1,"bbox":[349,226,240,125]}
-{"kind":"textbox","id":"sh/w7ihcf6p","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[646,128,60,38]}
-{"kind":"textbox","id":"sh/bmp0jup4","slide":4,"text":"解释不稳定","textPreview":"解释不稳定","textChars":5,"textLines":1,"bbox":[646,170,245,40]}
-{"kind":"textbox","id":"sh/algzapoj","slide":4,"text":"单次注意力或高准确率不足以证明某个频段、电极具有稳定贡献。","textPreview":"单次注意力或高准确率不足以证明某个频段、电极具有稳定贡献。","textChars":29,"textLines":1,"bbox":[646,226,240,125]}
-{"kind":"shape","id":"sh/9k7ihk7y","slide":4,"bbox":[52,388,856,1]}
-{"kind":"textbox","id":"sh/ojyh8f6t","slide":4,"text":"主评测场：公开数据集","textPreview":"主评测场：公开数据集","textChars":10,"textLines":1,"bbox":[62,410,270,34]}
-{"kind":"textbox","id":"sh/nip0fap8","slide":4,"text":"医院数据放在模型定型之后，仅用于外部验证，不参与模型选择和超参数调优。","textPreview":"医院数据放在模型定型之后，仅用于外部验证，不参与模型选择和超参数调优。","textChars":35,"textLines":1,"bbox":[315,405,570,48]}
-{"kind":"shape","id":"sh/mhgz65on","slide":4,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/tgbit47i","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"notes","id":"nt/2rsusb","slide":4,"text":"研究范围由用户确认：医院数据仅作后续实验验证，项目重点是公开数据集上的性能提升。 "}
-{"kind":"slide","id":"sl/0cdv0i","slide":5,"title":"CONTENTS","textShapes":14}
-{"kind":"shape","id":"sh/u543ud03","slide":5,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/hsvmpsju","slide":5,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/wrmlwni9","slide":5,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/jux4r210","slide":5,"text":"CONTENTS","textPreview":"CONTENTS","textChars":8,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"textbox","id":"sh/itonyx0f","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,120,52,58]}
-{"kind":"textbox","id":"sh/5wfmtcjq","slide":5,"text":"研究背景","textPreview":"研究背景","textChars":4,"textLines":1,"bbox":[118,120,180,32]}
-{"kind":"textbox","id":"sh/4v6507il","slide":5,"text":"公开数据上的问题与挑战","textPreview":"公开数据上的问题与挑战","textChars":11,"textLines":1,"bbox":[300,120,560,32]}
-{"kind":"shape","id":"sh/zyt4fy1g","slide":5,"bbox":[43,206,6,52]}
-{"kind":"textbox","id":"sh/yxk3mt0b","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[62,202,52,58]}
-{"kind":"textbox","id":"sh/c3ihwzmp","slide":5,"text":"研究现状","textPreview":"研究现状","textChars":4,"textLines":1,"bbox":[118,202,180,32]}
-{"kind":"textbox","id":"sh/dori54na","slide":5,"text":"分类范式与证据缺口","textPreview":"分类范式与证据缺口","textChars":9,"textLines":1,"bbox":[300,202,560,32]}
-{"kind":"textbox","id":"sh/q1gzup4j","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[62,284,52,58]}
-{"kind":"textbox","id":"sh/b29g3u54","slide":5,"text":"代表方法","textPreview":"代表方法","textChars":4,"textLines":1,"bbox":[118,284,180,32]}
-{"kind":"textbox","id":"sh/0rih0zml","slide":5,"text":"LEAD与本项目框架","textPreview":"LEAD与本项目框架","textChars":10,"textLines":1,"bbox":[300,284,560,32]}
-{"kind":"textbox","id":"sh/lsri94n6","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[62,366,52,58]}
-{"kind":"textbox","id":"sh/yp0zyp4v","slide":5,"text":"后续工作","textPreview":"后续工作","textChars":4,"textLines":1,"bbox":[118,366,180,32]}
-{"kind":"textbox","id":"sh/zq907u50","slide":5,"text":"公开数据提升与外部验证","textPreview":"公开数据提升与外部验证","textChars":11,"textLines":1,"bbox":[300,366,560,32]}
-{"kind":"shape","id":"sh/gvyhof6h","slide":5,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/1w7yx0n2","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"notes","id":"nt/0cdv0i","slide":5,"text":""}
-{"kind":"slide","id":"sl/y1829e","slide":6,"title":"现有EEG疾病识别方法与证据缺口","textShapes":3}
-{"kind":"shape","id":"sh/4vud8n6h","slide":6,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/3ulwfipw","slide":6,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/2tcv6dob","slide":6,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/hsjeds7q","slide":6,"text":"现有EEG疾病识别方法与证据缺口","textPreview":"现有EEG疾病识别方法与证据缺口","textChars":16,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"textbox","id":"sh/fq1wbip0","slide":6,"text":"现有方法关注“能否分类”；本项目进一步检验“哪些信息稳定贡献，并带来公开数据集上的提升”。","textPreview":"现有方法关注“能否分类”；本项目进一步检验“哪些信息稳定贡献，并带来公开数据集上的提升”。","textChars":45,"textLines":1,"bbox":[65,408,830,54]}
-{"kind":"shape","id":"sh/upsvidof","slide":6,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/toje987u","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"table","id":"tb/lobq5gb6","slide":6,"name":"","rows":4,"cols":4,"preview":"方法范式 | 主要表示 | 优势 | 与本项目的缺口","bbox":[45,115,870,260]}
-{"kind":"notes","id":"nt/y1829e","slide":6,"text":"来源：EEG文章筛选.xlsx、LEAD论文与FYP版本1中的方法综述。LaBraM仅在此作为预训练模型类别示例。 "}
-{"kind":"slide","id":"sl/o7w3f2","slide":7,"title":"CONTENTS","textShapes":14}
-{"kind":"shape","id":"sh/qdczq1on","slide":7,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/dg3ilg7y","slide":7,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/cfu1sb6d","slide":7,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/zil0nq54","slide":7,"text":"CONTENTS","textPreview":"CONTENTS","textChars":8,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"textbox","id":"sh/ehcjuloj","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,120,52,58]}
-{"kind":"textbox","id":"sh/1knip0na","slide":7,"text":"研究背景","textPreview":"研究背景","textChars":4,"textLines":1,"bbox":[118,120,180,32]}
-{"kind":"textbox","id":"sh/0ju1wv6p","slide":7,"text":"公开数据上的问题与挑战","textPreview":"公开数据上的问题与挑战","textChars":11,"textLines":1,"bbox":[300,120,560,32]}
-{"kind":"textbox","id":"sh/n650rq50","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[62,202,52,58]}
-{"kind":"textbox","id":"sh/m5wjylof","slide":7,"text":"研究现状","textPreview":"研究现状","textChars":4,"textLines":1,"bbox":[118,202,180,32]}
-{"kind":"textbox","id":"sh/8729sjqd","slide":7,"text":"分类范式与证据缺口","textPreview":"分类范式与证据缺口","textChars":9,"textLines":1,"bbox":[300,202,560,32]}
-{"kind":"shape","id":"sh/98balory","slide":7,"bbox":[43,288,6,52]}
-{"kind":"textbox","id":"sh/m5krq987","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[62,284,52,58]}
-{"kind":"textbox","id":"sh/n6tsje9s","slide":7,"text":"代表方法","textPreview":"代表方法","textChars":4,"textLines":1,"bbox":[118,284,180,32]}
-{"kind":"textbox","id":"sh/wb29wjq9","slide":7,"text":"LEAD与本项目框架","textPreview":"LEAD与本项目框架","textChars":10,"textLines":1,"bbox":[300,284,560,32]}
-{"kind":"textbox","id":"sh/xcbaporu","slide":7,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[62,366,52,58]}
-{"kind":"textbox","id":"sh/a9krut8j","slide":7,"text":"后续工作","textPreview":"后续工作","textChars":4,"textLines":1,"bbox":[118,366,180,32]}
-{"kind":"textbox","id":"sh/vatsne9o","slide":7,"text":"公开数据提升与外部验证","textPreview":"公开数据提升与外部验证","textChars":11,"textLines":1,"bbox":[300,366,560,32]}
-{"kind":"shape","id":"sh/kzmt03ql","slide":7,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/50vat8r6","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"notes","id":"nt/o7w3f2","slide":7,"text":""}
-{"kind":"slide","id":"sl/euihd8","slide":8,"title":"框架动机：从异构输入到稳定贡献","textShapes":17}
-{"kind":"shape","id":"sh/7up8jy5w","slide":8,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/sfypc3m1","slide":8,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/tg7ql8nm","slide":8,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/ipw76t4z","slide":8,"text":"框架动机：从异构输入到稳定贡献","textPreview":"框架动机：从异构输入到稳定贡献","textChars":15,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"textbox","id":"sh/jqpofy5k","slide":8,"text":"研究缺口","textPreview":"研究缺口","textChars":4,"textLines":1,"bbox":[65,103,330,34]}
-{"kind":"textbox","id":"sh/kryp83m5","slide":8,"text":"框架响应","textPreview":"框架响应","textChars":4,"textLines":1,"bbox":[545,103,330,34]}
-{"kind":"textbox","id":"sh/5s7qh8nq","slide":8,"text":"问题一","textPreview":"问题一","textChars":3,"textLines":1,"bbox":[65,150,82,50]}
-{"kind":"textbox","id":"sh/2l07id4j","slide":8,"text":"公开EEG数据的通道与采样率不同","textPreview":"公开EEG数据的通道与采样率不同","textChars":16,"textLines":1,"bbox":[155,150,325,50]}
-{"kind":"textbox","id":"sh/3m98ri5o","slide":8,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[490,150,40,50]}
-{"kind":"textbox","id":"sh/bixobu5k","slide":8,"text":"LEAD的通道位置与采样率嵌入","textPreview":"LEAD的通道位置与采样率嵌入","textChars":15,"textLines":1,"bbox":[545,150,330,50]}
-{"kind":"shape","id":"sh/qhonipoz","slide":8,"bbox":[65,222,810,1]}
-{"kind":"textbox","id":"sh/dkf6d4na","slide":8,"text":"问题二","textPreview":"问题二","textChars":3,"textLines":1,"bbox":[65,242,82,50]}
-{"kind":"textbox","id":"sh/cj65kz65","slide":8,"text":"疾病标签属于被试，而非单个短片段","textPreview":"疾病标签属于被试，而非单个短片段","textChars":16,"textLines":1,"bbox":[155,242,325,50]}
-{"kind":"textbox","id":"sh/zmxofe5g","slide":8,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[490,242,40,50]}
-{"kind":"textbox","id":"sh/ylonm9ov","slide":8,"text":"样本级与被试级联合学习和评价","textPreview":"样本级与被试级联合学习和评价","textChars":14,"textLines":1,"bbox":[545,242,330,50]}
-{"kind":"shape","id":"sh/loz6h4nm","slide":8,"bbox":[65,314,810,1]}
-{"kind":"textbox","id":"sh/0nq5oz61","slide":8,"text":"问题三","textPreview":"问题三","textChars":3,"textLines":1,"bbox":[65,334,82,50]}
-{"kind":"textbox","id":"sh/nqhoje5s","slide":8,"text":"高性能仍不能说明关键频段与电极","textPreview":"高性能仍不能说明关键频段与电极","textChars":15,"textLines":1,"bbox":[155,334,325,50]}
-{"kind":"textbox","id":"sh/mp8nq9o7","slide":8,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[490,334,40,50]}
-{"kind":"textbox","id":"sh/ilsrid8f","slide":8,"text":"加入配对消融、频段门控和稳定性统计","textPreview":"加入配对消融、频段门控和稳定性统计","textChars":17,"textLines":1,"bbox":[545,334,330,50]}
-{"kind":"textbox","id":"sh/jml8bip0","slide":8,"text":"设计原则：先建立可复现的LEAD基线，再用受控变量实验定位贡献，最后验证改进是否跨公开数据集成立。","textPreview":"设计原则：先建立可复现的LEAD基线，再用受控变量实验定位贡献，最后验证改进是否跨公开数据集成立。","textChars":49,"textLines":1,"bbox":[70,437,820,46]}
-{"kind":"shape","id":"sh/k7u9knql","slide":8,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/583qds7q","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"notes","id":"nt/euihd8","slide":8,"text":"LEAD技术依据来自本地论文2502.01678v4.pdf和C:/Users/ROG/Desktop/LEAD代码。第三项为本项目在LEAD基础上的研究扩展。 "}
-{"kind":"slide","id":"sl/q0xmvw","slide":9,"title":"LEAD主干与本项目扩展","textShapes":6}
-{"kind":"shape","id":"sh/54nut8jm","slide":9,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/i1wbyt0v","slide":9,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/j25sry1g","slide":9,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/wfutwji5","slide":9,"text":"LEAD主干与本项目扩展","textPreview":"LEAD主干与本项目扩展","textChars":12,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"shape","id":"sh/adcbut0z","slide":9,"bbox":[625,118,4,280]}
-{"kind":"textbox","id":"sh/velsny1k","slide":9,"text":"保留的LEAD能力","textPreview":"保留的LEAD能力","textChars":9,"textLines":1,"bbox":[655,118,250,36]}
-{"kind":"textbox","id":"sh/gbyt8ni9","slide":9,"text":"时间与空间联合编码\n异构通道和采样率适配\n被试级损失与预测聚合","textPreview":"时间与空间联合编码 | 异构通道和采样率适配 | 被试级损失与预测聚合","textChars":31,"textLines":3,"bbox":[650,165,260,125]}
-{"kind":"textbox","id":"sh/hc7u1szu","slide":9,"text":"新增实验层","textPreview":"新增实验层","textChars":5,"textLines":1,"bbox":[655,304,250,36]}
-{"kind":"textbox","id":"sh/1sju143i","slide":9,"text":"五频段输入与band embedding\n频段、电极和特征配对消融\n公开数据集上的跨折稳定性","textPreview":"五频段输入与band embedding | 频段、电极和特征配对消融 | 公开数据集上的跨折稳定性","textChars":46,"textLines":3,"bbox":[650,350,270,125]}
-{"kind":"shape","id":"sh/grqdszmx","slide":9,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/fqhczulc","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"image","id":"im/cvqp0vy5","slide":9,"name":"","alt":"LEAD预训练、微调与被试级检测流程","bbox":[35,110,565,300]}
-{"kind":"notes","id":"nt/q0xmvw","slide":9,"text":"图片来源：C:/Users/ROG/Desktop/LEAD/figs/lead_pipeline.png，来自LEAD项目。模型主体固定为LEAD。 "}
-{"kind":"slide","id":"sl/2za5cr","slide":10,"title":"公开数据集是模型提升的主评测场","textShapes":7}
-{"kind":"shape","id":"sh/nql0zydo","slide":10,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/8buhs3e9","slide":10,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/9c3i1ovu","slide":10,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/adczutwf","slide":10,"text":"公开数据集是模型提升的主评测场","textPreview":"公开数据集是模型提升的主评测场","textChars":15,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"textbox","id":"sh/wfehw3el","slide":10,"text":"当前进展","textPreview":"当前进展","textChars":4,"textLines":1,"bbox":[565,112,320,36]}
-{"kind":"textbox","id":"sh/xgni58vq","slide":10,"text":"APAVA完成5次复现，被试级AUROC 90.00%\nRepOD完成5次MCCV，被试级AUROC 56.67%\nRepOD结果提示跨疾病迁移仍需优化","textPreview":"APAVA完成5次复现，被试级AUROC 90.00% | RepOD完成5次MCCV，被试级AUROC 56.67% | RepOD结果提示跨疾病迁移仍需优化","textChars":76,"textLines":3,"bbox":[560,155,350,130]}
-{"kind":"textbox","id":"sh/qhszi9wv","slide":10,"text":"后续比较","textPreview":"后续比较","textChars":4,"textLines":1,"bbox":[565,300,320,36]}
-{"kind":"textbox","id":"sh/bi1gredg","slide":10,"text":"原始LEAD、随机初始化与传统基线\n单频段、删频段及MultiBand-LEAD\n同一被试折上比较AUROC与macro-F1","textPreview":"原始LEAD、随机初始化与传统基线 | 单频段、删频段及MultiBand-LEAD | 同一被试折上比较AUROC与macro-F1","textChars":63,"textLines":3,"bbox":[560,343,350,125]}
-{"kind":"textbox","id":"sh/v2l8bapo","slide":10,"text":"两组数据疾病和规模不同，图中结果只表示阶段进展，不作数据集间优劣比较。","textPreview":"两组数据疾病和规模不同，图中结果只表示阶段进展，不作数据集间优劣比较。","textChars":35,"textLines":1,"bbox":[55,443,850,35]}
-{"kind":"shape","id":"sh/a1cr2583","slide":10,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/x4nqd07u","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"chart","id":"ch/nq90ryx8","slide":10,"name":"","chartType":"bar","bbox":[45,115,475,300]}
-{"kind":"notes","id":"nt/2za5cr","slide":10,"text":"数据来源：C:/Users/ROG/Desktop/LEAD/results/LEADv2/finetune/LEADv2/P-Base-F-APAVA-Multi/results.txt；C:/Users/ROG/Desktop/LEAD/results/LEADv2/finetune/LEADv2/P-Base-F-RepOD-MCCV/results.txt。APAVA：片段级AUROC 91.90%，被试级AUROC 90.00%。RepOD：片段级AUROC 64.89%，被试级AUROC 56.67%。 "}
-{"kind":"slide","id":"sl/96bs7o","slide":11,"title":"CONTENTS","textShapes":14}
-{"kind":"shape","id":"sh/wjmlg7ed","slide":11,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/vidkn2xs","slide":11,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/ah43ehw7","slide":11,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/9gv2lcfm","slide":11,"text":"CONTENTS","textPreview":"CONTENTS","textChars":8,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"textbox","id":"sh/8fmlc7e1","slide":11,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,120,52,58]}
-{"kind":"textbox","id":"sh/nedkj2xg","slide":11,"text":"研究背景","textPreview":"研究背景","textChars":4,"textLines":1,"bbox":[118,120,180,32]}
-{"kind":"textbox","id":"sh/mdk3axwb","slide":11,"text":"公开数据上的问题与挑战","textPreview":"公开数据上的问题与挑战","textChars":11,"textLines":1,"bbox":[300,120,560,32]}
-{"kind":"textbox","id":"sh/tcfmxwf6","slide":11,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[62,202,52,58]}
-{"kind":"textbox","id":"sh/sb6lorel","slide":11,"text":"研究现状","textPreview":"研究现状","textChars":4,"textLines":1,"bbox":[118,202,180,32]}
-{"kind":"textbox","id":"sh/mhsre1kz","slide":11,"text":"分类范式与证据缺口","textPreview":"分类范式与证据缺口","textChars":9,"textLines":1,"bbox":[300,202,560,32]}
-{"kind":"textbox","id":"sh/ni1s7ml4","slide":11,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[62,284,52,58]}
-{"kind":"textbox","id":"sh/8ja9gr2p","slide":11,"text":"代表方法","textPreview":"代表方法","textChars":4,"textLines":1,"bbox":[118,284,180,32]}
-{"kind":"textbox","id":"sh/9k3a9w3a","slide":11,"text":"LEAD与本项目框架","textPreview":"LEAD与本项目框架","textChars":10,"textLines":1,"bbox":[300,284,560,32]}
-{"kind":"shape","id":"sh/ytsrahkn","slide":11,"bbox":[43,370,6,52]}
-{"kind":"textbox","id":"sh/zu1s3ml8","slide":11,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[62,366,52,58]}
-{"kind":"textbox","id":"sh/0va9cr2t","slide":11,"text":"后续工作","textPreview":"后续工作","textChars":4,"textLines":1,"bbox":[118,366,180,32]}
-{"kind":"textbox","id":"sh/lgja5w3e","slide":11,"text":"公开数据提升与外部验证","textPreview":"公开数据提升与外部验证","textChars":11,"textLines":1,"bbox":[300,366,560,32]}
-{"kind":"shape","id":"sh/ipcrmlkr","slide":11,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/jqlsfqlc","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"notes","id":"nt/96bs7o","slide":11,"text":""}
-{"kind":"slide","id":"sl/vt08w4","slide":12,"title":"后续实验路线与验证层级","textShapes":23}
-{"kind":"shape","id":"sh/pwf6dcvu","slide":12,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/2ton2xw3","slide":12,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/3uxob2xo","slide":12,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/grm50ned","slide":12,"text":"后续实验路线与验证层级","textPreview":"后续实验路线与验证层级","textChars":11,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"textbox","id":"sh/hsv69sfy","slide":12,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[37,130,45,34]}
-{"kind":"shape","id":"sh/up4nyxw7","slide":12,"bbox":[37,174,145,4]}
-{"kind":"textbox","id":"sh/fqdo72xs","slide":12,"text":"公开数据基线","textPreview":"公开数据基线","textChars":6,"textLines":1,"bbox":[37,193,150,44]}
-{"kind":"textbox","id":"sh/snm5wne1","slide":12,"text":"固定被试划分\n复现LEAD与传统基线","textPreview":"固定被试划分 | 复现LEAD与传统基线","textChars":18,"textLines":2,"bbox":[37,246,150,86]}
-{"kind":"textbox","id":"sh/tov65sfm","slide":12,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[184,178,28,42]}
-{"kind":"textbox","id":"sh/pofex4by","slide":12,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[218,130,45,34]}
-{"kind":"shape","id":"sh/4n6d4zad","slide":12,"bbox":[218,174,145,4]}
-{"kind":"textbox","id":"sh/3mdwvut8","slide":12,"text":"因素筛选","textPreview":"因素筛选","textChars":4,"textLines":1,"bbox":[218,193,150,44]}
-{"kind":"textbox","id":"sh/il4v2psn","slide":12,"text":"单频段与删频段\n电极和特征消融","textPreview":"单频段与删频段 | 电极和特征消融","textChars":15,"textLines":2,"bbox":[218,246,150,86]}
-{"kind":"textbox","id":"sh/hkvetkb2","slide":12,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[365,178,28,42]}
-{"kind":"textbox","id":"sh/gzmd0fuh","slide":12,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[399,130,45,34]}
-{"kind":"shape","id":"sh/vydcratw","slide":12,"bbox":[399,174,145,4]}
-{"kind":"textbox","id":"sh/ux4vy5cb","slide":12,"text":"模型提升","textPreview":"模型提升","textChars":4,"textLines":1,"bbox":[399,193,150,44]}
-{"kind":"textbox","id":"sh/twvupkbq","slide":12,"text":"频段门控融合\nMultiBand-LEAD","textPreview":"频段门控融合 | MultiBand-LEAD","textChars":21,"textLines":2,"bbox":[399,246,150,86]}
-{"kind":"textbox","id":"sh/8v2dwful","slide":12,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[546,178,28,42]}
-{"kind":"textbox","id":"sh/kbq58z6d","slide":12,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[580,130,45,34]}
-{"kind":"shape","id":"sh/lczm14ny","slide":12,"bbox":[580,174,145,4]}
-{"kind":"textbox","id":"sh/yp8n69o7","slide":12,"text":"公开集验证","textPreview":"公开集验证","textChars":5,"textLines":1,"bbox":[580,193,150,44]}
-{"kind":"textbox","id":"sh/jqh4ze5s","slide":12,"text":"跨数据集与多种子\n确认提升和排名稳定","textPreview":"跨数据集与多种子 | 确认提升和排名稳定","textChars":18,"textLines":2,"bbox":[580,246,150,86]}
-{"kind":"textbox","id":"sh/wnq54z6h","slide":12,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[727,178,28,42]}
-{"kind":"textbox","id":"sh/xozmx4n2","slide":12,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[761,130,45,34]}
-{"kind":"shape","id":"sh/alo32pob","slide":12,"bbox":[761,174,145,4]}
-{"kind":"textbox","id":"sh/bmh4vu5w","slide":12,"text":"医院外部验证","textPreview":"医院外部验证","textChars":6,"textLines":1,"bbox":[761,193,150,44]}
-{"kind":"textbox","id":"sh/gja50j6l","slide":12,"text":"模型定型后一次验证\n不参与调参","textPreview":"模型定型后一次验证 | 不参与调参","textChars":15,"textLines":2,"bbox":[761,246,150,86]}
-{"kind":"shape","id":"sh/hkjm9on6","slide":12,"bbox":[48,375,850,1]}
-{"kind":"textbox","id":"sh/re58z2p8","slide":12,"text":"关键验收：相同公开数据、相同被试折和相同评价指标下，MultiBand-LEAD稳定优于原始LEAD。","textPreview":"关键验收：相同公开数据、相同被试折和相同评价指标下，MultiBand-LEAD稳定优于原始LEAD。","textChars":51,"textLines":1,"bbox":[65,392,820,44]}
-{"kind":"textbox","id":"sh/qdw76x8n","slide":12,"text":"补充说明：资源允许时，仅在最终阶段用LaBraM复核关键频段与电极排名是否依赖LEAD架构。","textPreview":"补充说明：资源允许时，仅在最终阶段用LaBraM复核关键频段与电极排名是否依赖LEAD架构。","textChars":46,"textLines":1,"bbox":[75,447,800,35]}
-{"kind":"shape","id":"sh/d0nq1s7e","slide":12,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/cfep8nqt","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"notes","id":"nt/vt08w4","slide":12,"text":"医院数据仅作为模型定型后的外部实验验证。LaBraM不进入主线开发，仅作为末期可选的模型独立性复核。 "}
-{"kind":"slide","id":"sl/sfoejp","slide":13,"title":"总结","textShapes":9}
-{"kind":"shape","id":"sh/nq5grex4","slide":13,"bbox":[0,74,960,2]}
-{"kind":"shape","id":"sh/orehkjyp","slide":13,"bbox":[0,504,960,36]}
-{"kind":"shape","id":"sh/9snytofa","slide":13,"bbox":[0,76,960,428]}
-{"kind":"textbox","id":"sh/elcfe9gn","slide":13,"text":"总结","textPreview":"总结","textChars":2,"textLines":1,"bbox":[20,12,725,48]}
-{"kind":"textbox","id":"sh/zmlgnex8","slide":13,"text":"研究主线","textPreview":"研究主线","textChars":4,"textLines":1,"bbox":[90,130,170,40]}
-{"kind":"textbox","id":"sh/0nuxgjyt","slide":13,"text":"在公开数据集上提升LEAD，并定位稳定贡献分类的频段、电极和特征。","textPreview":"在公开数据集上提升LEAD，并定位稳定贡献分类的频段、电极和特征。","textChars":33,"textLines":1,"bbox":[245,128,620,48]}
-{"kind":"textbox","id":"sh/1o3ypofe","slide":13,"text":"验证边界","textPreview":"验证边界","textChars":4,"textLines":1,"bbox":[90,220,170,40]}
-{"kind":"textbox","id":"sh/qxsfapgr","slide":13,"text":"医院数据用于最终外部验证，不驱动框架设计和模型选择。","textPreview":"医院数据用于最终外部验证，不驱动框架设计和模型选择。","textChars":26,"textLines":1,"bbox":[245,218,620,48]}
-{"kind":"textbox","id":"sh/rylgjuxc","slide":13,"text":"核心模型","textPreview":"核心模型","textChars":4,"textLines":1,"bbox":[90,310,170,40]}
-{"kind":"textbox","id":"sh/r25872hk","slide":13,"text":"LEAD承担全部主实验；LaBraM仅作为末期补充对照。","textPreview":"LEAD承担全部主实验；LaBraM仅作为末期补充对照。","textChars":28,"textLines":1,"bbox":[245,308,620,48]}
-{"kind":"textbox","id":"sh/q1w7yx0z","slide":13,"text":"Thank you","textPreview":"Thank you","textChars":9,"textLines":1,"bbox":[330,414,300,44]}
-{"kind":"shape","id":"sh/do7q9sza","slide":13,"bbox":[850,504,85,36]}
-{"kind":"textbox","id":"sh/cnep0ni5","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
-{"kind":"notes","id":"nt/sfoejp","slide":13,"text":"汇报结束。 "}
+{"kind":"deck","id":"pr/bmdaq5","name":"Deck"}
+{"kind":"layout","layoutId":"63019906-669e-494a-8979-a983abeafc99","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"eae529af-0db4-4d07-8759-f8cf5f5f93d0","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/3wha5v","slide":1,"title":"基于 LEAD 的多疾病 EEG","textShapes":5}
+{"kind":"shape","id":"sh/s7ah4na5","slide":1,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/r61gbitk","slide":1,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/65sz2dsf","slide":1,"bbox":[0,0,960,504]}
+{"kind":"shape","id":"sh/54jy98bu","slide":1,"bbox":[55,128,7,168]}
+{"kind":"textbox","id":"sh/43ax03a9","slide":1,"text":"基于 LEAD 的多疾病 EEG\n关键因素筛选","textPreview":"基于 LEAD 的多疾病 EEG | 关键因素筛选","textChars":23,"textLines":2,"bbox":[88,115,760,125]}
+{"kind":"textbox","id":"sh/j2hg7yto","slide":1,"text":"公开数据集性能提升与电极、频段、特征的稳定贡献","textPreview":"公开数据集性能提升与电极、频段、特征的稳定贡献","textChars":23,"textLines":1,"bbox":[90,252,760,48]}
+{"kind":"textbox","id":"sh/i18fyds3","slide":1,"text":"FYP 调研汇报","textPreview":"FYP 调研汇报","textChars":8,"textLines":1,"bbox":[620,374,250,32]}
+{"kind":"textbox","id":"sh/p03ylcby","slide":1,"text":"2026-09-13","textPreview":"2026-09-13","textChars":10,"textLines":1,"bbox":[620,410,250,26]}
+{"kind":"shape","id":"sh/ozuhc7ad","slide":1,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/qh0nedgj","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"notes","id":"nt/3wha5v","slide":1,"text":"本页使用用户提供的调研汇报模板。研究主线：公开数据集上的可复现性能提升；医院数据仅作后续外部验证。主模型为LEAD。 "}
+{"kind":"slide","id":"sl/nk8hpx","slide":2,"title":"CONTENTS","textShapes":14}
+{"kind":"shape","id":"sh/jel83290","slide":2,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/4fepc7ql","slide":2,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/5gnq5cr6","slide":2,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/u9c76x8j","slide":2,"text":"CONTENTS","textPreview":"CONTENTS","textChars":8,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"shape","id":"sh/val8zi94","slide":2,"bbox":[43,124,6,52]}
+{"kind":"textbox","id":"sh/wbup8nqp","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,120,52,58]}
+{"kind":"textbox","id":"sh/hc3q1sra","slide":2,"text":"研究背景","textPreview":"研究背景","textChars":4,"textLines":1,"bbox":[118,120,180,32]}
+{"kind":"textbox","id":"sh/mls72dsn","slide":2,"text":"公开数据上的问题与挑战","textPreview":"公开数据上的问题与挑战","textChars":11,"textLines":1,"bbox":[300,120,560,32]}
+{"kind":"textbox","id":"sh/761ovi9s","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[62,202,52,58]}
+{"kind":"textbox","id":"sh/fuxovql4","slide":2,"text":"研究现状","textPreview":"研究现状","textChars":4,"textLines":1,"bbox":[118,202,180,32]}
+{"kind":"textbox","id":"sh/uto7ml4z","slide":2,"text":"分类范式与证据缺口","textPreview":"分类范式与证据缺口","textChars":9,"textLines":1,"bbox":[300,202,560,32]}
+{"kind":"textbox","id":"sh/hwzqx03a","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[62,284,52,58]}
+{"kind":"textbox","id":"sh/gvqpovmp","slide":2,"text":"代表方法","textPreview":"代表方法","textChars":4,"textLines":1,"bbox":[118,284,180,32]}
+{"kind":"textbox","id":"sh/3yh8zalg","slide":2,"text":"LEAD与本项目框架","textPreview":"LEAD与本项目框架","textChars":10,"textLines":1,"bbox":[300,284,560,32]}
+{"kind":"textbox","id":"sh/2x87q54v","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[62,366,52,58]}
+{"kind":"textbox","id":"sh/pkzq103m","slide":2,"text":"后续工作","textPreview":"后续工作","textChars":4,"textLines":1,"bbox":[118,366,180,32]}
+{"kind":"textbox","id":"sh/4zqpsfm1","slide":2,"text":"公开数据提升与外部验证","textPreview":"公开数据提升与外部验证","textChars":11,"textLines":1,"bbox":[300,366,560,32]}
+{"kind":"shape","id":"sh/j2don6lc","slide":2,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/y147e14r","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"notes","id":"nt/nk8hpx","slide":2,"text":""}
+{"kind":"slide","id":"sl/42ljkd","slide":3,"title":"EEG疾病识别中的共同输入","textShapes":13}
+{"kind":"shape","id":"sh/n6l03ep4","slide":3,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/o7uhcj69","slide":3,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/983i5o7u","slide":3,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/a9wzetof","slide":3,"text":"EEG疾病识别中的共同输入","textPreview":"EEG疾病识别中的共同输入","textChars":13,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"textbox","id":"sh/ba507yp0","slide":3,"text":"多篇研究反复使用静息态EO/EC、相似导联和固定切窗","textPreview":"多篇研究反复使用静息态EO/EC、相似导联和固定切窗","textChars":26,"textLines":1,"bbox":[48,94,864,45]}
+{"kind":"textbox","id":"sh/wbehgj6l","slide":3,"text":"记录条件","textPreview":"记录条件","textChars":4,"textLines":1,"bbox":[55,182,180,32]}
+{"kind":"textbox","id":"sh/xcni9o76","slide":3,"text":"静息态 EO / EC","textPreview":"静息态 EO / EC","textChars":11,"textLines":1,"bbox":[55,225,180,58]}
+{"kind":"textbox","id":"sh/ydwjitor","slide":3,"text":"导联设置","textPreview":"导联设置","textChars":4,"textLines":1,"bbox":[277,182,180,32]}
+{"kind":"textbox","id":"sh/je50bypc","slide":3,"text":"19 / 31 / 32 / 64","textPreview":"19 / 31 / 32 / 64","textChars":17,"textLines":1,"bbox":[277,225,180,58]}
+{"kind":"textbox","id":"sh/nilwvm94","slide":3,"text":"切窗长度","textPreview":"切窗长度","textChars":4,"textLines":1,"bbox":[499,182,180,32]}
+{"kind":"textbox","id":"sh/mhcf21sj","slide":3,"text":"2–12 s","textPreview":"2–12 s","textChars":6,"textLines":1,"bbox":[499,225,180,58]}
+{"kind":"textbox","id":"sh/9k3exwra","slide":3,"text":"常用特征","textPreview":"常用特征","textChars":4,"textLines":1,"bbox":[721,182,180,32]}
+{"kind":"textbox","id":"sh/ojux4rap","slide":3,"text":"PSD、连接、复杂度","textPreview":"PSD、连接、复杂度","textChars":10,"textLines":1,"bbox":[721,225,180,58]}
+{"kind":"shape","id":"sh/felwrm98","slide":3,"bbox":[70,334,820,1]}
+{"kind":"textbox","id":"sh/edcfyhsn","slide":3,"text":"这些选择提供了可比较的输入条件，但不能回答哪些因素真正支撑分类。","textPreview":"这些选择提供了可比较的输入条件，但不能回答哪些因素真正支撑分类。","textChars":32,"textLines":1,"bbox":[85,355,790,48]}
+{"kind":"textbox","id":"sh/1g3etwre","slide":3,"text":"研究问题：哪些频段、电极和特征在不同被试划分及公开数据集上保持不可替代贡献？","textPreview":"研究问题：哪些频段、电极和特征在不同被试划分及公开数据集上保持不可替代贡献？","textChars":38,"textLines":1,"bbox":[90,421,780,50]}
+{"kind":"shape","id":"sh/0fux0rat","slide":3,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/ja5g369c","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"notes","id":"nt/42ljkd","slide":3,"text":"来源：用户提供的EEG文章筛选.xlsx与现有FYP版本1。共同输入条件属于文献观察，不代表因果或决定性证据。 "}
+{"kind":"slide","id":"sl/fmldek","slide":4,"title":"公开数据集上的三个实际问题","textShapes":13}
+{"kind":"shape","id":"sh/dgv654re","slide":4,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/qd47aps3","slide":4,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/bedo3u98","slide":4,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/obmp8zax","slide":4,"text":"公开数据集上的三个实际问题","textPreview":"公开数据集上的三个实际问题","textChars":13,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"textbox","id":"sh/pcv614ri","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[52,128,60,38]}
+{"kind":"textbox","id":"sh/29k76psr","slide":4,"text":"模型可能认错目标","textPreview":"模型可能认错目标","textChars":8,"textLines":1,"bbox":[52,170,245,40]}
+{"kind":"textbox","id":"sh/3adozu9c","slide":4,"text":"各数据集的电极、采样率和睁闭眼条件不同。模型可能在识别数据来自哪里，而不是识别疾病。","textPreview":"各数据集的电极、采样率和睁闭眼条件不同。模型可能在识别数据来自哪里，而不是识别疾病。","textChars":42,"textLines":1,"bbox":[52,226,240,125]}
+{"kind":"textbox","id":"sh/gn254fal","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[349,128,60,38]}
+{"kind":"textbox","id":"sh/18b6xkr6","slide":4,"text":"同一个人可能被看两次","textPreview":"同一个人可能被看两次","textChars":10,"textLines":1,"bbox":[349,170,245,40]}
+{"kind":"textbox","id":"sh/1wb65kfa","slide":4,"text":"如果同一人的部分片段用于训练，其他片段用于测试，模型可能记住这个人，成绩会虚高。","textPreview":"如果同一人的部分片段用于训练，其他片段用于测试，模型可能记住这个人，成绩会虚高。","textChars":40,"textLines":1,"bbox":[349,226,240,125]}
+{"kind":"textbox","id":"sh/0v2pcfyp","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[646,128,60,38]}
+{"kind":"textbox","id":"sh/zuto3ax4","slide":4,"text":"片段分对不等于患者分对","textPreview":"片段分对不等于患者分对","textChars":11,"textLines":1,"bbox":[646,170,245,40]}
+{"kind":"textbox","id":"sh/et0na5gj","slide":4,"text":"模型能分对很多短片段，不代表它能正确判断一名从未见过的新患者。","textPreview":"模型能分对很多短片段，不代表它能正确判断一名从未见过的新患者。","textChars":31,"textLines":1,"bbox":[646,226,240,125]}
+{"kind":"shape","id":"sh/dsr610fe","slide":4,"bbox":[52,388,856,1]}
+{"kind":"textbox","id":"sh/cri58fyt","slide":4,"text":"主实验：按被试划分公开数据","textPreview":"主实验：按被试划分公开数据","textChars":13,"textLines":1,"bbox":[62,410,300,34]}
+{"kind":"textbox","id":"sh/rq9ozax8","slide":4,"text":"医院数据等模型完成后再测试，只检查模型能否迁移，不用来选择模型或调整参数。","textPreview":"医院数据等模型完成后再测试，只检查模型能否迁移，不用来选择模型或调整参数。","textChars":37,"textLines":1,"bbox":[345,405,540,48]}
+{"kind":"shape","id":"sh/qp0n65gn","slide":4,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/por6x0f2","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"notes","id":"nt/fmldek","slide":4,"text":"通俗解释：第一，模型可能利用采集条件判断数据集来源。第二，同一被试的片段不能同时进入训练集和测试集。第三，临床评价单位是患者，因此主要报告患者级指标。医院数据仅作后续实验验证。 "}
+{"kind":"slide","id":"sl/k0royk","slide":5,"title":"CONTENTS","textShapes":14}
+{"kind":"shape","id":"sh/uxk7a58n","slide":5,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/hkb6lkre","slide":5,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/wj2pcfqt","slide":5,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/7u9ofa9c","slide":5,"text":"CONTENTS","textPreview":"CONTENTS","textChars":8,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"textbox","id":"sh/mt07658r","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,120,52,58]}
+{"kind":"textbox","id":"sh/9wr6h0r2","slide":5,"text":"研究背景","textPreview":"研究背景","textChars":4,"textLines":1,"bbox":[118,120,180,32]}
+{"kind":"textbox","id":"sh/8vip8fqx","slide":5,"text":"公开数据上的问题与挑战","textPreview":"公开数据上的问题与挑战","textChars":11,"textLines":1,"bbox":[300,120,560,32]}
+{"kind":"shape","id":"sh/zq9obq90","slide":5,"bbox":[43,206,6,52]}
+{"kind":"textbox","id":"sh/ypg72l8f","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[62,202,52,58]}
+{"kind":"textbox","id":"sh/8v6h0zmt","slide":5,"text":"研究现状","textPreview":"研究现状","textChars":4,"textLines":1,"bbox":[118,202,180,32]}
+{"kind":"textbox","id":"sh/9wfi943e","slide":5,"text":"分类范式与证据缺口","textPreview":"分类范式与证据缺口","textChars":9,"textLines":1,"bbox":[300,202,560,32]}
+{"kind":"textbox","id":"sh/mtozyp4n","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[62,284,52,58]}
+{"kind":"textbox","id":"sh/7ux07ul8","slide":5,"text":"代表方法","textPreview":"代表方法","textChars":4,"textLines":1,"bbox":[118,284,180,32]}
+{"kind":"textbox","id":"sh/krmhwzmx","slide":5,"text":"LEAD与本项目框架","textPreview":"LEAD与本项目框架","textChars":10,"textLines":1,"bbox":[300,284,560,32]}
+{"kind":"textbox","id":"sh/lsvi5k3i","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[62,366,52,58]}
+{"kind":"textbox","id":"sh/yp4zup4r","slide":5,"text":"后续工作","textPreview":"后续工作","textChars":4,"textLines":1,"bbox":[118,366,180,32]}
+{"kind":"textbox","id":"sh/zqd03ulc","slide":5,"text":"公开数据提升与外部验证","textPreview":"公开数据提升与外部验证","textChars":11,"textLines":1,"bbox":[300,366,560,32]}
+{"kind":"shape","id":"sh/4nq18j21","slide":5,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/5oziho3m","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"notes","id":"nt/k0royk","slide":5,"text":""}
+{"kind":"slide","id":"sl/4sllzo","slide":6,"title":"现有EEG疾病识别方法与证据缺口","textShapes":3}
+{"kind":"shape","id":"sh/k3ylc3y5","slide":6,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/z2p4jyhk","slide":6,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/y1w3atgz","slide":6,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/987m98zm","slide":6,"text":"现有EEG疾病识别方法与证据缺口","textPreview":"现有EEG疾病识别方法与证据缺口","textChars":16,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"textbox","id":"sh/76p4nihg","slide":6,"text":"现有方法关注“能否分类”；本项目进一步检验“哪些信息稳定贡献，并带来公开数据集上的提升”。","textPreview":"现有方法关注“能否分类”；本项目进一步检验“哪些信息稳定贡献，并带来公开数据集上的提升”。","textChars":45,"textLines":1,"bbox":[65,408,830,54]}
+{"kind":"shape","id":"sh/m5g3edgv","slide":6,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/hwrmdszi","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"table","id":"tb/9s3axcny","slide":6,"name":"","rows":4,"cols":4,"preview":"方法范式 | 主要表示 | 优势 | 与本项目的缺口","bbox":[45,115,870,260]}
+{"kind":"notes","id":"nt/4sllzo","slide":6,"text":"来源：EEG文章筛选.xlsx、LEAD论文与FYP版本1中的方法综述。LaBraM仅在此作为预训练模型类别示例。 "}
+{"kind":"slide","id":"sl/rmgyui","slide":7,"title":"CONTENTS","textShapes":14}
+{"kind":"shape","id":"sh/7ap0bqp0","slide":7,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/8byhkvq5","slide":7,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/tcrid07q","slide":7,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/ud0jm58b","slide":7,"text":"CONTENTS","textPreview":"CONTENTS","textChars":8,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"textbox","id":"sh/ve90fapw","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,120,52,58]}
+{"kind":"textbox","id":"sh/gfi1ovqh","slide":7,"text":"研究背景","textPreview":"研究背景","textChars":4,"textLines":1,"bbox":[118,120,180,32]}
+{"kind":"textbox","id":"sh/hgrih072","slide":7,"text":"公开数据上的问题与挑战","textPreview":"公开数据上的问题与挑战","textChars":11,"textLines":1,"bbox":[300,120,560,32]}
+{"kind":"textbox","id":"sh/ahwza187","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[62,202,52,58]}
+{"kind":"textbox","id":"sh/bi5036ps","slide":7,"text":"研究现状","textPreview":"研究现状","textChars":4,"textLines":1,"bbox":[118,202,180,32]}
+{"kind":"textbox","id":"sh/jitsrmtg","slide":7,"text":"分类范式与证据缺口","textPreview":"分类范式与证据缺口","textChars":9,"textLines":1,"bbox":[300,202,560,32]}
+{"kind":"shape","id":"sh/ihkryhsv","slide":7,"bbox":[43,288,6,52]}
+{"kind":"textbox","id":"sh/5kbatwr6","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[62,284,52,58]}
+{"kind":"textbox","id":"sh/4j2t0ral","slide":7,"text":"代表方法","textPreview":"代表方法","textChars":4,"textLines":1,"bbox":[118,284,180,32]}
+{"kind":"textbox","id":"sh/vu9snmt4","slide":7,"text":"LEAD与本项目框架","textPreview":"LEAD与本项目框架","textChars":10,"textLines":1,"bbox":[300,284,560,32]}
+{"kind":"textbox","id":"sh/at0ruhsj","slide":7,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[62,366,52,58]}
+{"kind":"textbox","id":"sh/hgbapcba","slide":7,"text":"后续工作","textPreview":"后续工作","textChars":4,"textLines":1,"bbox":[118,366,180,32]}
+{"kind":"textbox","id":"sh/wf29wrap","slide":7,"text":"公开数据提升与外部验证","textPreview":"公开数据提升与外部验证","textChars":11,"textLines":1,"bbox":[300,366,560,32]}
+{"kind":"shape","id":"sh/nq9sj2t8","slide":7,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/mp0rqxsn","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"notes","id":"nt/rmgyui","slide":7,"text":""}
+{"kind":"slide","id":"sl/2j8ml0","slide":8,"title":"框架动机：从异构输入到稳定贡献","textShapes":17}
+{"kind":"shape","id":"sh/vq9gr6x8","slide":8,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/wrih0byt","slide":8,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/hcrytwfe","slide":8,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/id0z21gz","slide":8,"text":"框架动机：从异构输入到稳定贡献","textPreview":"框架动机：从异构输入到稳定贡献","textChars":15,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"textbox","id":"sh/je9gv6x4","slide":8,"text":"研究缺口","textPreview":"研究缺口","textChars":4,"textLines":1,"bbox":[65,103,330,34]}
+{"kind":"textbox","id":"sh/4f2h4byp","slide":8,"text":"框架响应","textPreview":"框架响应","textChars":4,"textLines":1,"bbox":[545,103,330,34]}
+{"kind":"textbox","id":"sh/5gbyxgfa","slide":8,"text":"问题一","textPreview":"问题一","textChars":3,"textLines":1,"bbox":[65,150,82,50]}
+{"kind":"textbox","id":"sh/qhkz6lgv","slide":8,"text":"公开EEG数据的通道与采样率不同","textPreview":"公开EEG数据的通道与采样率不同","textChars":16,"textLines":1,"bbox":[155,150,325,50]}
+{"kind":"textbox","id":"sh/ritgzqxg","slide":8,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[490,150,40,50]}
+{"kind":"textbox","id":"sh/rat0bu5w","slide":8,"text":"LEAD的通道位置与采样率嵌入","textPreview":"LEAD的通道位置与采样率嵌入","textChars":15,"textLines":1,"bbox":[545,150,330,50]}
+{"kind":"shape","id":"sh/69kj2p4b","slide":8,"bbox":[65,222,810,1]}
+{"kind":"textbox","id":"sh/dwb2d4n2","slide":8,"text":"问题二","textPreview":"问题二","textChars":3,"textLines":1,"bbox":[65,242,82,50]}
+{"kind":"textbox","id":"sh/sb214zmh","slide":8,"text":"疾病标签属于被试，而非单个短片段","textPreview":"疾病标签属于被试，而非单个短片段","textChars":16,"textLines":1,"bbox":[155,242,325,50]}
+{"kind":"textbox","id":"sh/j6t07u50","slide":8,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[490,242,40,50]}
+{"kind":"textbox","id":"sh/i50jyp4f","slide":8,"text":"样本级与被试级联合学习和评价","textPreview":"样本级与被试级联合学习和评价","textChars":14,"textLines":1,"bbox":[545,242,330,50]}
+{"kind":"shape","id":"sh/58bi9knq","slide":8,"bbox":[65,314,810,1]}
+{"kind":"textbox","id":"sh/47210fml","slide":8,"text":"问题三","textPreview":"问题三","textChars":3,"textLines":1,"bbox":[65,334,82,50]}
+{"kind":"textbox","id":"sh/n2dkje54","slide":8,"text":"高性能仍不能说明关键频段与电极","textPreview":"高性能仍不能说明关键频段与电极","textChars":15,"textLines":1,"bbox":[155,334,325,50]}
+{"kind":"textbox","id":"sh/214ja94j","slide":8,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[490,334,40,50]}
+{"kind":"textbox","id":"sh/yx832dor","slide":8,"text":"加入配对消融、频段门控和稳定性统计","textPreview":"加入配对消融、频段门控和稳定性统计","textChars":17,"textLines":1,"bbox":[545,334,330,50]}
+{"kind":"textbox","id":"sh/zyh4bipc","slide":8,"text":"设计原则：先建立可复现的LEAD基线，再用受控变量实验定位贡献，最后验证改进是否跨公开数据集成立。","textPreview":"设计原则：先建立可复现的LEAD基线，再用受控变量实验定位贡献，最后验证改进是否跨公开数据集成立。","textChars":49,"textLines":1,"bbox":[70,437,820,46]}
+{"kind":"shape","id":"sh/kzq54n6x","slide":8,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/l0zmds7i","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"notes","id":"nt/2j8ml0","slide":8,"text":"LEAD技术依据来自本地论文2502.01678v4.pdf和C:/Users/ROG/Desktop/LEAD代码。第三项为本项目在LEAD基础上的研究扩展。 "}
+{"kind":"slide","id":"sl/k5igpm","slide":9,"title":"LEAD主干与本项目扩展","textShapes":6}
+{"kind":"shape","id":"sh/rel4re5w","slide":9,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/sfelkj6h","slide":9,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/dgnmton2","slide":9,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/ehw3mton","slide":9,"text":"LEAD主干与本项目扩展","textPreview":"LEAD主干与本项目扩展","textChars":12,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"shape","id":"sh/0je5o36t","slide":9,"bbox":[625,118,4,280]}
+{"kind":"textbox","id":"sh/1knmxone","slide":9,"text":"保留的LEAD能力","textPreview":"保留的LEAD能力","textChars":9,"textLines":1,"bbox":[655,118,250,36]}
+{"kind":"textbox","id":"sh/uls3apoj","slide":9,"text":"时间与空间联合编码\n异构通道和采样率适配\n被试级损失与预测聚合","textPreview":"时间与空间联合编码 | 异构通道和采样率适配 | 被试级损失与预测聚合","textChars":31,"textLines":3,"bbox":[650,165,260,125]}
+{"kind":"textbox","id":"sh/vm14jup4","slide":9,"text":"新增实验层","textPreview":"新增实验层","textChars":5,"textLines":1,"bbox":[655,304,250,36]}
+{"kind":"textbox","id":"sh/nmlofex8","slide":9,"text":"五频段输入与band embedding\n频段、电极和特征配对消融\n公开数据集上的跨折稳定性","textPreview":"五频段输入与band embedding | 频段、电极和特征配对消融 | 公开数据集上的跨折稳定性","textChars":46,"textLines":3,"bbox":[650,350,270,125]}
+{"kind":"shape","id":"sh/2lcn69gn","slide":9,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/po36hofe","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"image","id":"im/6lobqtgj","slide":9,"name":"","alt":"LEAD预训练、微调与被试级检测流程","bbox":[35,110,565,300]}
+{"kind":"notes","id":"nt/k5igpm","slide":9,"text":"图片来源：C:/Users/ROG/Desktop/LEAD/figs/lead_pipeline.png，来自LEAD项目。模型主体固定为LEAD。 "}
+{"kind":"slide","id":"sl/21kmyc","slide":10,"title":"公开数据集是模型提升的主评测场","textShapes":7}
+{"kind":"shape","id":"sh/psfut0ve","slide":10,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/2pobilw3","slide":10,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/3qxsrqdo","slide":10,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/cfqtofe5","slide":10,"text":"公开数据集是模型提升的主评测场","textPreview":"公开数据集是模型提升的主评测场","textChars":15,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"textbox","id":"sh/qtobm5wz","slide":10,"text":"当前进展","textPreview":"当前进展","textChars":4,"textLines":1,"bbox":[565,112,320,36]}
+{"kind":"textbox","id":"sh/ruxcvadk","slide":10,"text":"APAVA完成5次复现，被试级AUROC 90.00%\nRepOD完成5次MCCV，被试级AUROC 56.67%\nRepOD结果提示跨疾病迁移仍需优化","textPreview":"APAVA完成5次复现，被试级AUROC 90.00% | RepOD完成5次MCCV，被试级AUROC 56.67% | RepOD结果提示跨疾病迁移仍需优化","textChars":76,"textLines":3,"bbox":[560,155,350,130]}
+{"kind":"textbox","id":"sh/sjmtcbe1","slide":10,"text":"后续比较","textPreview":"后续比较","textChars":4,"textLines":1,"bbox":[565,300,320,36]}
+{"kind":"textbox","id":"sh/tkvalgfm","slide":10,"text":"原始LEAD、随机初始化与传统基线\n单频段、删频段及MultiBand-LEAD\n同一被试折上比较AUROC与macro-F1","textPreview":"原始LEAD、随机初始化与传统基线 | 单频段、删频段及MultiBand-LEAD | 同一被试折上比较AUROC与macro-F1","textChars":63,"textLines":3,"bbox":[560,343,350,125]}
+{"kind":"textbox","id":"sh/p0ve5g3a","slide":10,"text":"两组数据疾病和规模不同，图中结果只表示阶段进展，不作数据集间优劣比较。","textPreview":"两组数据疾病和规模不同，图中结果只表示阶段进展，不作数据集间优劣比较。","textChars":35,"textLines":1,"bbox":[55,443,850,35]}
+{"kind":"shape","id":"sh/4zmdcbmp","slide":10,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/3edw36l4","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"chart","id":"ch/dcz2lkja","slide":10,"name":"","chartType":"bar","bbox":[45,115,475,300]}
+{"kind":"notes","id":"nt/21kmyc","slide":10,"text":"数据来源：C:/Users/ROG/Desktop/LEAD/results/LEADv2/finetune/LEADv2/P-Base-F-APAVA-Multi/results.txt；C:/Users/ROG/Desktop/LEAD/results/LEADv2/finetune/LEADv2/P-Base-F-RepOD-MCCV/results.txt。APAVA：片段级AUROC 91.90%，被试级AUROC 90.00%。RepOD：片段级AUROC 64.89%，被试级AUROC 56.67%。 "}
+{"kind":"slide","id":"sl/cgp7w4","slide":11,"title":"CONTENTS","textShapes":14}
+{"kind":"shape","id":"sh/ilkbu94z","slide":11,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/5obuponq","slide":11,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/4n2twjm5","slide":11,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/radcre5w","slide":11,"text":"CONTENTS","textPreview":"CONTENTS","textChars":8,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"textbox","id":"sh/qp4byt4b","slide":11,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[62,120,52,58]}
+{"kind":"textbox","id":"sh/dcvutonm","slide":11,"text":"研究背景","textPreview":"研究背景","textChars":4,"textLines":1,"bbox":[118,120,180,32]}
+{"kind":"textbox","id":"sh/sbmt0jmh","slide":11,"text":"公开数据上的问题与挑战","textPreview":"公开数据上的问题与挑战","textChars":11,"textLines":1,"bbox":[300,120,560,32]}
+{"kind":"textbox","id":"sh/7e9sfu5c","slide":11,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[62,202,52,58]}
+{"kind":"textbox","id":"sh/6t0bmp4r","slide":11,"text":"研究现状","textPreview":"研究现状","textChars":4,"textLines":1,"bbox":[118,202,180,32]}
+{"kind":"textbox","id":"sh/czuh8ni5","slide":11,"text":"分类范式与证据缺口","textPreview":"分类范式与证据缺口","textChars":9,"textLines":1,"bbox":[300,202,560,32]}
+{"kind":"textbox","id":"sh/d03i18zq","slide":11,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[62,284,52,58]}
+{"kind":"textbox","id":"sh/qxsz6d0z","slide":11,"text":"代表方法","textPreview":"代表方法","textChars":4,"textLines":1,"bbox":[118,284,180,32]}
+{"kind":"textbox","id":"sh/ry10zihk","slide":11,"text":"LEAD与本项目框架","textPreview":"LEAD与本项目框架","textChars":10,"textLines":1,"bbox":[300,284,560,32]}
+{"kind":"shape","id":"sh/03uhcni1","slide":11,"bbox":[43,370,6,52]}
+{"kind":"textbox","id":"sh/143i5szm","slide":11,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[62,366,52,58]}
+{"kind":"textbox","id":"sh/e1czad0v","slide":11,"text":"后续工作","textPreview":"后续工作","textChars":4,"textLines":1,"bbox":[118,366,180,32]}
+{"kind":"textbox","id":"sh/z2l03ihg","slide":11,"text":"公开数据提升与外部验证","textPreview":"公开数据提升与外部验证","textChars":11,"textLines":1,"bbox":[300,366,560,32]}
+{"kind":"shape","id":"sh/g7qh03ix","slide":11,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/h8jytoji","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"notes","id":"nt/cgp7w4","slide":11,"text":""}
+{"kind":"slide","id":"sl/aks31e","slide":12,"title":"后续实验路线与验证层级","textShapes":23}
+{"kind":"shape","id":"sh/id8zed47","slide":12,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/5gjy98ny","slide":12,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/kfqhgnmd","slide":12,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/ri1gbi54","slide":12,"text":"后续实验路线与验证层级","textPreview":"后续实验路线与验证层级","textChars":11,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"textbox","id":"sh/6hszid4j","slide":12,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[37,130,45,34]}
+{"kind":"shape","id":"sh/tkjydsnu","slide":12,"bbox":[37,174,145,4]}
+{"kind":"textbox","id":"sh/sjahknm9","slide":12,"text":"公开数据基线","textPreview":"公开数据基线","textChars":6,"textLines":1,"bbox":[37,193,150,44]}
+{"kind":"textbox","id":"sh/f61gf250","slide":12,"text":"固定被试划分\n复现LEAD与传统基线","textPreview":"固定被试划分 | 复现LEAD与传统基线","textChars":18,"textLines":2,"bbox":[37,246,150,86]}
+{"kind":"textbox","id":"sh/elszmx4f","slide":12,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[184,178,28,42]}
+{"kind":"textbox","id":"sh/4vmtsbmd","slide":12,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[218,130,45,34]}
+{"kind":"shape","id":"sh/5wvalg3i","slide":12,"bbox":[218,174,145,4]}
+{"kind":"textbox","id":"sh/it4bql47","slide":12,"text":"因素筛选","textPreview":"因素筛选","textChars":4,"textLines":1,"bbox":[218,193,150,44]}
+{"kind":"textbox","id":"sh/judsjqls","slide":12,"text":"单频段与删频段\n电极和特征消融","textPreview":"单频段与删频段 | 电极和特征消融","textChars":15,"textLines":2,"bbox":[218,246,150,86]}
+{"kind":"textbox","id":"sh/sz6twvm9","slide":12,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[365,178,28,42]}
+{"kind":"textbox","id":"sh/t0fap03u","slide":12,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[399,130,45,34]}
+{"kind":"shape","id":"sh/6x4bul43","slide":12,"bbox":[399,174,145,4]}
+{"kind":"textbox","id":"sh/ryxsnqlo","slide":12,"text":"模型提升","textPreview":"模型提升","textChars":4,"textLines":1,"bbox":[399,193,150,44]}
+{"kind":"textbox","id":"sh/gn6t0vml","slide":12,"text":"频段门控融合\nMultiBand-LEAD","textPreview":"频段门控融合 | MultiBand-LEAD","textChars":21,"textLines":2,"bbox":[399,246,150,86]}
+{"kind":"textbox","id":"sh/1ofut03q","slide":12,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[546,178,28,42]}
+{"kind":"textbox","id":"sh/pkvad0vu","slide":12,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[580,130,45,34]}
+{"kind":"shape","id":"sh/oj2tkvep","slide":12,"bbox":[580,174,145,4]}
+{"kind":"textbox","id":"sh/nitsbqd4","slide":12,"text":"公开集验证","textPreview":"公开集验证","textChars":5,"textLines":1,"bbox":[580,193,150,44]}
+{"kind":"textbox","id":"sh/2hkbi5wj","slide":12,"text":"跨数据集与多种子\n确认提升和排名稳定","textPreview":"跨数据集与多种子 | 确认提升和排名稳定","textChars":18,"textLines":2,"bbox":[580,246,150,86]}
+{"kind":"textbox","id":"sh/x8vahkv6","slide":12,"text":"›","textPreview":"›","textChars":1,"textLines":1,"bbox":[727,178,28,42]}
+{"kind":"textbox","id":"sh/c7mt8fel","slide":12,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[761,130,45,34]}
+{"kind":"shape","id":"sh/bmdsfad0","slide":12,"bbox":[761,174,145,4]}
+{"kind":"textbox","id":"sh/al4b65wf","slide":12,"text":"医院外部验证","textPreview":"医院外部验证","textChars":6,"textLines":1,"bbox":[761,193,150,44]}
+{"kind":"textbox","id":"sh/dcba5gv2","slide":12,"text":"模型定型后一次验证\n不参与调参","textPreview":"模型定型后一次验证 | 不参与调参","textChars":15,"textLines":2,"bbox":[761,246,150,86]}
+{"kind":"shape","id":"sh/sbi9cbeh","slide":12,"bbox":[48,375,850,1]}
+{"kind":"textbox","id":"sh/ihg76hcz","slide":12,"text":"关键验收：相同公开数据、相同被试折和相同评价指标下，MultiBand-LEAD稳定优于原始LEAD。","textPreview":"关键验收：相同公开数据、相同被试折和相同评价指标下，MultiBand-LEAD稳定优于原始LEAD。","textChars":51,"textLines":1,"bbox":[65,392,820,44]}
+{"kind":"textbox","id":"sh/3ip8fmtk","slide":12,"text":"补充说明：资源允许时，仅在最终阶段用LaBraM复核关键频段与电极排名是否依赖LEAD架构。","textPreview":"补充说明：资源允许时，仅在最终阶段用LaBraM复核关键频段与电极排名是否依赖LEAD架构。","textChars":46,"textLines":1,"bbox":[75,447,800,35]}
+{"kind":"shape","id":"sh/4jyp8ru5","slide":12,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/5k7qhwbq","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"notes","id":"nt/aks31e","slide":12,"text":"医院数据仅作为模型定型后的外部实验验证。LaBraM不进入主线开发，仅作为末期可选的模型独立性复核。 "}
+{"kind":"slide","id":"sl/hn81uc","slide":13,"title":"总结","textShapes":9}
+{"kind":"shape","id":"sh/tgfux8r6","slide":13,"bbox":[0,74,960,2]}
+{"kind":"shape","id":"sh/6d4v2t8v","slide":13,"bbox":[0,504,960,36]}
+{"kind":"shape","id":"sh/7edcvy9g","slide":13,"bbox":[0,76,960,428]}
+{"kind":"textbox","id":"sh/kbmd0jap","slide":13,"text":"总结","textPreview":"总结","textChars":2,"textLines":1,"bbox":[20,12,725,48]}
+{"kind":"textbox","id":"sh/lcvutora","slide":13,"text":"研究主线","textPreview":"研究主线","textChars":4,"textLines":1,"bbox":[90,130,170,40]}
+{"kind":"textbox","id":"sh/y94vytsj","slide":13,"text":"在公开数据集上提升LEAD，并定位稳定贡献分类的频段、电极和特征。","textPreview":"在公开数据集上提升LEAD，并定位稳定贡献分类的频段、电极和特征。","textChars":33,"textLines":1,"bbox":[245,128,620,48]}
+{"kind":"textbox","id":"sh/jadcre94","slide":13,"text":"验证边界","textPreview":"验证边界","textChars":4,"textLines":1,"bbox":[90,220,170,40]}
+{"kind":"textbox","id":"sh/47qdcnqt","slide":13,"text":"医院数据用于最终外部验证，不驱动框架设计和模型选择。","textPreview":"医院数据用于最终外部验证，不驱动框架设计和模型选择。","textChars":26,"textLines":1,"bbox":[245,218,620,48]}
+{"kind":"textbox","id":"sh/58ze5sre","slide":13,"text":"核心模型","textPreview":"核心模型","textChars":4,"textLines":1,"bbox":[90,310,170,40]}
+{"kind":"textbox","id":"sh/18b6pkfe","slide":13,"text":"LEAD承担全部主实验；LaBraM仅作为末期补充对照。","textPreview":"LEAD承担全部主实验；LaBraM仅作为末期补充对照。","textChars":28,"textLines":1,"bbox":[245,308,620,48]}
+{"kind":"textbox","id":"sh/g725gfyt","slide":13,"text":"Thank you","textPreview":"Thank you","textChars":9,"textLines":1,"bbox":[330,414,300,44]}
+{"kind":"shape","id":"sh/f6tonax8","slide":13,"bbox":[850,504,85,36]}
+{"kind":"textbox","id":"sh/e50ne5gn","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[870,507,48,25]}
+{"kind":"notes","id":"nt/hn81uc","slide":13,"text":"汇报结束。 "}
