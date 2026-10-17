@@ -1,0 +1,3 @@
+﻿seed,mask,windows,subjects,window_accuracy,window_auroc,subject_accuracy,delta_window_accuracy,delta_window_auroc,delta_subject_accuracy
+41,none,1749,6,0.8484848484848485,0.9260240043729911,1.0,0.0,0.0,0.0
+41,Fp1,1749,6,0.888507718696398,0.945662578756993,1.0,-0.04002287021154949,-0.01963857438400185,0.0

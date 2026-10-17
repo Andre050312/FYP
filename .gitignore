@@ -1,0 +1,9 @@
+# Locally generated EEG arrays; regenerate with scripts in working/.
+/working/frequency_data/
+
+# Model weights stay local; keep the small metrics and prediction files.
+/output_Test/**/checkpoint.pth
+
+# Temporary presentation-build files.
+/.build_*/
+/.chart-data-*/
