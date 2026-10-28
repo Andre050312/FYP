@@ -31,7 +31,9 @@ def main() -> None:
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--learning-rate", type=float, default=1e-4)
     parser.add_argument("--loss", choices=("subject", "sample"), default="subject")
-    parser.add_argument("--lead-root", type=Path, default=Path(r"C:\Users\ROG\Desktop\LEAD"))
+    parser.add_argument("--lead-root", type=Path,
+                        default=Path(__file__).resolve().parent.parent / "LEAD-Model",
+                        help="Directory containing the copied LEADv2 code")
     parser.add_argument("--frequency-root", type=Path,
                         help="Defaults to FYP/working/frequency_data")
     args = parser.parse_args()

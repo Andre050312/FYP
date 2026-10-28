@@ -4,6 +4,14 @@
 # Model weights stay local; keep the small metrics and prediction files.
 /output_Test/**/checkpoint.pth
 
+# LEAD-Model is a code-only copy; keep local data, weights and results out of Git.
+/LEAD-Model/dataset/
+/LEAD-Model/raw_data/
+/LEAD-Model/checkpoints/
+/LEAD-Model/downloads/
+/LEAD-Model/results/
+/LEAD-Model/**/__pycache__/
+
 # Temporary presentation-build files.
 /.build_*/
 /.chart-data-*/

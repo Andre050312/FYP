@@ -36,7 +36,8 @@ CHANNELS = (
     "Fp1", "Fp2", "F7", "F3", "Fz", "F4", "F8", "T7", "C3", "Cz",
     "C4", "T8", "P7", "P3", "Pz", "P4", "P8", "O1", "O2",
 )
-DEFAULT_LEAD_ROOT = Path(r"C:\Users\ROG\Desktop\LEAD")
+DEFAULT_LEAD_ROOT = Path(__file__).resolve().parent.parent / "LEAD-Model"
+DEFAULT_DATA_ROOT = Path(r"C:\Users\ROG\Desktop\LEAD\dataset\L400")
 
 
 def parse_seeds(value: str) -> list[int]:
@@ -59,7 +60,7 @@ def arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--lead-root", type=Path, default=DEFAULT_LEAD_ROOT)
     parser.add_argument("--data-root", type=Path,
-                        help="Parent directory containing MDD-Mumtaz; defaults to LEAD/dataset/L400")
+                        help="Parent directory containing MDD-Mumtaz; defaults to original LEAD/dataset/L400")
     parser.add_argument("--output-root", type=Path,
                         help="Run directory parent; defaults to FYP/output_Test/from_scratch")
     parser.add_argument("--seeds", type=parse_seeds, default=[41], help="E.g. 41:55 or 41,43,45")
@@ -297,7 +298,9 @@ def main() -> None:
     if args.epochs < 1 or args.patience < 1 or args.batch_size < 1 or args.learning_rate <= 0:
         raise ValueError("Epochs, patience, batch size, and learning rate must be positive")
     lead_root = args.lead_root.resolve()
-    data_root = (args.data_root or (lead_root / "dataset" / "L400")).resolve()
+    if not (lead_root / "models" / "LEADv2.py").is_file():
+        raise FileNotFoundError(f"LEADv2 code not found in {lead_root}")
+    data_root = (args.data_root or DEFAULT_DATA_ROOT).resolve()
     meta_path = data_root / "MDD-Mumtaz" / "meta.json"
     with meta_path.open(encoding="utf-8") as stream:
         meta = json.load(stream)

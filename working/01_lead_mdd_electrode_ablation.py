@@ -30,7 +30,8 @@ from sklearn.metrics import accuracy_score, roc_auc_score
 from torch.utils.data import DataLoader
 
 
-DEFAULT_LEAD_ROOT = Path(r"C:\Users\ROG\Desktop\LEAD")
+DEFAULT_LEAD_ROOT = Path(__file__).resolve().parent.parent / "LEAD-Model"
+DEFAULT_ASSETS_ROOT = Path(r"C:\Users\ROG\Desktop\LEAD")
 DEFAULT_CHANNELS = (
     "Fp1", "Fp2", "F7", "F3", "Fz", "F4", "F8", "T7", "C3", "Cz",
     "C4", "T8", "P7", "P3", "Pz", "P4", "P8", "O1", "O2",
@@ -40,6 +41,12 @@ DEFAULT_CHANNELS = (
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--lead-root", type=Path, default=DEFAULT_LEAD_ROOT)
+    parser.add_argument("--data-root", type=Path, default=DEFAULT_ASSETS_ROOT / "dataset" / "L400",
+                        help="Directory containing MDD-Mumtaz; defaults to the original LEAD data")
+    parser.add_argument("--checkpoint-root", type=Path, default=DEFAULT_ASSETS_ROOT / "checkpoints",
+                        help="Original LEAD checkpoint directory")
+    parser.add_argument("--results-root", type=Path, default=DEFAULT_ASSETS_ROOT / "results",
+                        help="Original LEAD results directory for baseline verification")
     parser.add_argument("--seed", type=int, default=41, choices=range(41, 46))
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument(
@@ -68,11 +75,11 @@ def model_config(meta: dict) -> SimpleNamespace:
     )
 
 
-def load_model(lead_root: Path, seed: int, meta: dict, device: torch.device):
+def load_model(checkpoint_root: Path, seed: int, meta: dict, device: torch.device):
     from models.LEADv2 import Model
 
     checkpoint = (
-        lead_root / "checkpoints" / "LEADv2" / "finetune" / "LEADv2"
+        checkpoint_root / "LEADv2" / "finetune" / "LEADv2"
         / "P-Base-F-MDD-Mumtaz-200Hz-MCCV5"
         / f"nh8_el12_dm128_df256_seed{seed}" / "checkpoint.pth"
     )
@@ -94,11 +101,11 @@ def load_model(lead_root: Path, seed: int, meta: dict, device: torch.device):
     return model, checkpoint
 
 
-def load_validation_data(lead_root: Path, seed: int):
+def load_validation_data(data_root: Path, seed: int):
     from data_provider.data_loader import MultiDatasetsLoader
     from data_provider.uea import collate_fn
 
-    data_root = str(lead_root / "dataset" / "L400")
+    data_root = str(data_root)
     args = SimpleNamespace(
         root_path=data_root,
         no_normalize=False, pretraining_datasets="TDBRAIN",
@@ -154,10 +161,10 @@ def score(model, data, collate_fn, batch_size: int, device, channel_index):
     }
 
 
-def check_baseline(lead_root: Path, seed: int, observed: dict) -> None:
+def check_baseline(results_root: Path, seed: int, observed: dict) -> None:
     """Stop if our unmasked inference disagrees with LEAD's recorded validation."""
     results_path = (
-        lead_root / "results" / "LEADv2" / "finetune" / "LEADv2"
+        results_root / "LEADv2" / "finetune" / "LEADv2"
         / "P-Base-F-MDD-Mumtaz-200Hz-MCCV5" / "results.txt"
     )
     contents = results_path.read_text(encoding="utf-8")
@@ -188,8 +195,13 @@ def main() -> None:
         raise ValueError("--batch-size must be positive")
     output_dir = Path(__file__).resolve().parent.parent / "output_Test"
     lead_root = args.lead_root.resolve()
+    data_root = args.data_root.resolve()
+    checkpoint_root = args.checkpoint_root.resolve()
+    results_root = args.results_root.resolve()
+    if not (lead_root / "models" / "LEADv2.py").is_file():
+        raise FileNotFoundError(f"LEADv2 code not found in {lead_root}")
     sys.path.insert(0, str(lead_root))
-    meta_path = lead_root / "dataset" / "L400" / "MDD-Mumtaz" / "meta.json"
+    meta_path = data_root / "MDD-Mumtaz" / "meta.json"
     import json
     with meta_path.open(encoding="utf-8") as stream:
         meta = json.load(stream)
@@ -216,13 +228,13 @@ def main() -> None:
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    data, collate_fn = load_validation_data(lead_root, args.seed)
-    model, checkpoint = load_model(lead_root, args.seed, meta, device)
+    data, collate_fn = load_validation_data(data_root, args.seed)
+    model, checkpoint = load_model(checkpoint_root, args.seed, meta, device)
     print(f"Checkpoint: {checkpoint}")
     print(f"Validation subject IDs: {data.datasets[0].val_ids}")
     print("Scoring unmasked baseline...")
     baseline = score(model, data, collate_fn, args.batch_size, device, None)
-    check_baseline(lead_root, args.seed, baseline)
+    check_baseline(results_root, args.seed, baseline)
     rows = [{"seed": args.seed, "mask": "none", **baseline,
              "delta_window_accuracy": 0.0, "delta_window_auroc": 0.0,
              "delta_subject_accuracy": 0.0}]

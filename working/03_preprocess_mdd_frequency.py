@@ -27,7 +27,8 @@ import numpy as np
 from scipy.signal import butter, sosfiltfilt
 
 
-LEAD_ROOT = Path(r"C:\Users\ROG\Desktop\LEAD")
+LEAD_ROOT = Path(__file__).resolve().parent.parent / "LEAD-Model"
+DEFAULT_ASSETS_ROOT = Path(r"C:\Users\ROG\Desktop\LEAD")
 BANDS = {
     "delta": (0.5, 4.0),
     "theta": (4.0, 8.0),
@@ -41,9 +42,9 @@ def arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--lead-root", type=Path, default=LEAD_ROOT)
     parser.add_argument("--input-root", type=Path,
-                        help="Original EC EDF folder; defaults to LEAD/raw_data/MDD-Mumtaz")
+                        help="Original EC EDF folder; defaults to the old LEAD/raw_data/MDD-Mumtaz")
     parser.add_argument("--baseline-root", type=Path,
-                        help="Original broadband folder; defaults to LEAD/dataset/L400/MDD-Mumtaz")
+                        help="Original broadband folder; defaults to the old LEAD/dataset/L400/MDD-Mumtaz")
     parser.add_argument("--output-root", type=Path,
                         help="Defaults to FYP/working/frequency_data")
     parser.add_argument("--bands", nargs="+", choices=tuple(BANDS), required=True)
@@ -124,8 +125,8 @@ def main() -> None:
     if args.filter_order < 1:
         raise ValueError("--filter-order must be positive")
     lead_root = args.lead_root.resolve(strict=True)
-    input_root = (args.input_root or lead_root / "raw_data" / "MDD-Mumtaz").resolve(strict=True)
-    baseline_root = (args.baseline_root or lead_root / "dataset" / "L400" / "MDD-Mumtaz").resolve(strict=True)
+    input_root = (args.input_root or DEFAULT_ASSETS_ROOT / "raw_data" / "MDD-Mumtaz").resolve(strict=True)
+    baseline_root = (args.baseline_root or DEFAULT_ASSETS_ROOT / "dataset" / "L400" / "MDD-Mumtaz").resolve(strict=True)
     output_root = (args.output_root or Path(__file__).resolve().parent / "frequency_data").resolve()
     target_dirs = {band: output_root / f"{args.mode}_{band}" / "MDD-Mumtaz" for band in args.bands}
     for target in target_dirs.values():
