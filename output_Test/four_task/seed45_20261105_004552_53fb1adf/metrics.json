@@ -1,0 +1,324 @@
+{
+  "model": "LEADv2 shared encoder and four binary heads, random initialization",
+  "seed": 45,
+  "cross_val": "mccv",
+  "tasks": {
+    "AD": {
+      "dataset": "ADFTD-RS",
+      "choice": "ad_vs_hc"
+    },
+    "FTD": {
+      "dataset": "ADFTD-RS",
+      "choice": "ftd_vs_hc"
+    },
+    "MDD": {
+      "dataset": "MDD-Mumtaz",
+      "choice": "mdd_vs_hc"
+    },
+    "SZ": {
+      "dataset": "RepOD",
+      "choice": "ad_vs_hc"
+    }
+  },
+  "metadata": {
+    "ADFTD-RS": {
+      "N": 121825,
+      "C": 19,
+      "T": 400,
+      "selected_rate": 200
+    },
+    "MDD-Mumtaz": {
+      "N": 16930,
+      "C": 19,
+      "T": 400,
+      "selected_rate": 200
+    },
+    "RepOD": {
+      "N": 49730,
+      "C": 19,
+      "T": 400,
+      "selected_rate": 200
+    }
+  },
+  "subject_ids": {
+    "AD": {
+      "TRAIN": [
+        1,
+        2,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        44,
+        47,
+        48,
+        49,
+        51,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "TEST": [
+        4,
+        5,
+        10,
+        27,
+        45,
+        50,
+        52
+      ],
+      "VAL": [
+        3,
+        6,
+        9,
+        11,
+        39,
+        46,
+        65
+      ]
+    },
+    "FTD": {
+      "TRAIN": [
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        44,
+        47,
+        48,
+        49,
+        51,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        66,
+        69,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        80,
+        81,
+        82,
+        83,
+        84,
+        86,
+        87,
+        88
+      ],
+      "TEST": [
+        45,
+        50,
+        52,
+        68,
+        79,
+        85
+      ],
+      "VAL": [
+        39,
+        46,
+        65,
+        67,
+        70
+      ]
+    },
+    "MDD": {
+      "TRAIN": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        13,
+        14,
+        16,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        101,
+        105,
+        107,
+        109,
+        110,
+        111,
+        113,
+        114,
+        115,
+        117,
+        119,
+        120,
+        121,
+        122,
+        123,
+        125,
+        126,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "TEST": [
+        9,
+        15,
+        17,
+        103,
+        118,
+        124
+      ],
+      "VAL": [
+        3,
+        10,
+        30,
+        102,
+        106,
+        127
+      ]
+    },
+    "SZ": {
+      "TRAIN": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28
+      ],
+      "TEST": [
+        5,
+        7,
+        16,
+        27
+      ],
+      "VAL": [
+        8,
+        19
+      ]
+    }
+  },
+  "best_epoch": 3,
+  "epochs_completed": 10,
+  "hyperparameters": {
+    "epochs": 30,
+    "patience": 7,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "max_steps": null
+  },
+  "validation": {
+    "AD": {
+      "windows": 4799,
+      "subjects": 7,
+      "window_macro_f1": 0.670884250884251,
+      "window_auroc": 0.7892158192561985,
+      "subject_accuracy_mean_probability": 0.8571428571428571,
+      "subject_auroc_mean_probability": 0.8333333333333334
+    },
+    "FTD": {
+      "windows": 3604,
+      "subjects": 5,
+      "window_macro_f1": 0.737100584145389,
+      "window_auroc": 0.8735057942259029,
+      "subject_accuracy_mean_probability": 0.8,
+      "subject_auroc_mean_probability": 1.0
+    },
+    "MDD": {
+      "windows": 1835,
+      "subjects": 6,
+      "window_macro_f1": 0.7748112020138451,
+      "window_auroc": 0.6870613674737386,
+      "subject_accuracy_mean_probability": 0.8333333333333334,
+      "subject_auroc_mean_probability": 0.6666666666666666
+    },
+    "SZ": {
+      "windows": 1787,
+      "subjects": 2,
+      "window_macro_f1": 0.6134709146676596,
+      "window_auroc": 0.7016957476022008,
+      "subject_accuracy_mean_probability": 0.5,
+      "subject_auroc_mean_probability": 1.0
+    }
+  },
+  "test": null
+}

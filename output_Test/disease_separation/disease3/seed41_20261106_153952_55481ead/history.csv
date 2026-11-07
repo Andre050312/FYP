@@ -1,0 +1,2 @@
+﻿epoch,train_loss,val_window_count,val_subject_count,val_window_accuracy,val_window_macro_f1,val_window_auroc_ovr,val_subject_accuracy,val_subject_macro_f1,val_subject_auroc_ovr
+1,1.095217227935791,7746,9,0.38781306480764266,0.28977998273322375,0.49587719057065627,0.4444444444444444,0.20512820512820515,0.3682539682539683
